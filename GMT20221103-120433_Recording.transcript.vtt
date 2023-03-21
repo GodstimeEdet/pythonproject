@@ -1,0 +1,4866 @@
+WEBVTT
+
+1
+00:00:06.850 --> 00:00:07.940
+Stanley Omeike: Oh,
+
+2
+00:00:09.040 --> 00:00:25.500
+Stanley Omeike: one of the basic assumptions we make once you get to this Academy is that you have the foundational understanding of fights. And So if you're given a task in Python, you will basically know how to go about the basic tasks that you may not be unexpected. And also don't worry
+
+3
+00:00:25.630 --> 00:00:44.129
+Stanley Omeike: if you feel that your python is not robust or strong enough yet nothing to worry about. But you should worry if you don't know the basic you simple by You can write variables, you can write expressions. You don't know what containers are. You can't even write it, function, and all of that. If you don't
+
+4
+00:00:44.150 --> 00:00:55.149
+Stanley Omeike: still understand the basic stuff. You might be challenging for you in this class because we're not teaching python in this class we are rather using python to get stuff done.
+
+5
+00:00:56.260 --> 00:01:08.590
+Stanley Omeike: So once again. Your welcome uh today I promise to be gentle, so i'm not going to do. We're going to do stuff for sure. But uh, it's not going to be any heavy lifting that will um for you.
+
+6
+00:01:13.500 --> 00:01:15.109
+Stanley Omeike: The school is still there.
+
+7
+00:01:16.780 --> 00:01:30.000
+Stanley Omeike: I expect that by the end of December getting into first of of January. You should be done with this academic, and you should be getting ready to uh again once again to have any projects
+
+8
+00:01:30.270 --> 00:01:34.080
+Stanley Omeike: complete the project. And then, you know, we want to be that in so
+
+9
+00:01:34.860 --> 00:01:39.149
+Stanley Omeike: as required. So let me just share my screen,
+
+10
+00:01:40.520 --> 00:01:43.059
+Stanley Omeike: and then we can see uh,
+
+11
+00:01:43.580 --> 00:01:46.100
+Stanley Omeike: okay, what this program will cover
+
+12
+00:01:49.540 --> 00:01:55.649
+Stanley Omeike: at this time. You don't, please. Uh, mute your the
+
+13
+00:01:56.110 --> 00:01:57.170
+Godstime Edet: Oh,
+
+14
+00:02:23.520 --> 00:02:26.399
+Stanley Omeike: so Can you guys see my screen?
+
+15
+00:02:26.940 --> 00:02:28.860
+Samson Ikuenayo: Yes, sir,
+
+16
+00:02:29.940 --> 00:02:35.039
+Stanley Omeike: All right. Um. Just
+
+17
+00:02:35.200 --> 00:02:37.400
+Stanley Omeike: one final check, to be sure.
+
+18
+00:02:38.260 --> 00:02:57.099
+Stanley Omeike: Um. So basically in this, in this uh data, we're going to be covering these topics. Okay, and they're very important topics. Um, regardless of which direction you're going. Data, analytics, data, science so much. And then these topics are very important. Um. We've been recovering
+
+19
+00:02:57.110 --> 00:02:59.760
+Stanley Omeike: data, acquisition and data cleaning
+
+20
+00:02:59.780 --> 00:03:14.959
+Stanley Omeike: uh, in this class uh, or during this academic and the two we're going to be using to do that is called Panda. We're going to be using Pandas for data.
+
+21
+00:03:15.060 --> 00:03:25.629
+Stanley Omeike: We also then how to uh transform data, how to clean the data and and transform the data to get features out of the data. Let me back up with a bit of explain a few things to you guys.
+
+22
+00:03:26.520 --> 00:03:29.520
+Stanley Omeike: Who is this that will not stay muted
+
+23
+00:03:33.820 --> 00:03:40.390
+Stanley Omeike: guys, Please just um check your device and be sure you unmute it. Okay, that way. It helps me stay focused.
+
+24
+00:03:45.530 --> 00:03:46.590
+Thanks.
+
+25
+00:03:47.760 --> 00:03:49.770
+Stanley Omeike: Okay. So uh
+
+26
+00:03:50.300 --> 00:04:08.590
+Stanley Omeike: you've spent about maybe a couple of months or week uh lending how to use python. But that's just the beginning of the journey. Part of what you do in detail now is you're good in data, analytics, data, science of machine learning is. You always start with the challenge of finding data or whatever what you need to do
+
+27
+00:04:39.150 --> 00:04:46.060
+Stanley Omeike: for those of you who have done it, there will be no statistics and probability. One of the rules in statistics is that.
+
+28
+00:05:05.570 --> 00:05:25.290
+Stanley Omeike: But sometimes, if you are not careful with the details, for, like you, Don't, randomize properly when drawing a sample from a data, you might end up with data that is skewed to the left or skew to the right, as the case. Maybe we'll discuss these concepts as we go, But i'm just giving you Guys basic foundation of why we need to clean our data out prep for mother.
+
+29
+00:05:25.300 --> 00:05:28.520
+Stanley Omeike: So data cleaning is a very important step.
+
+30
+00:05:28.640 --> 00:05:43.669
+Stanley Omeike: In fact, it is so important that I can tell you confidently that as a data analyst or a data scientist or a machine learning engineer, seventy percent of your time, at least seventy percent of your time will be spent doing data wrongly.
+
+31
+00:05:44.490 --> 00:05:56.940
+Stanley Omeike: It We spend trying to clean the data, trying to get the details we form that allows you to get the highly accurate model, and today is the third of November, some of your drawing block, as i'm saying this
+
+32
+00:05:56.950 --> 00:06:07.629
+Stanley Omeike: uh hopefully, by now we get to the third of January you'd be like, Oh, yeah, I get it. I get it so again. Don't worry. You don't understand what i'm saying right now. It will come to you as we work.
+
+33
+00:06:08.680 --> 00:06:12.509
+Stanley Omeike: Now, once we clean our data, we need to transform the data,
+
+34
+00:06:12.660 --> 00:06:17.889
+Stanley Omeike: and you're going to lend it that transformation and all the tools we use for that transformation. When we get there,
+
+35
+00:06:18.080 --> 00:06:32.189
+Stanley Omeike: then we have to lend feature selection, because it is not every feature in our days uh that is contribution value to our model. Some features are done with. Yeah, just they are not contributing to anything. Other features in the data are noisy.
+
+36
+00:06:32.500 --> 00:06:34.739
+Stanley Omeike: Okay, let me give you an example.
+
+37
+00:06:35.430 --> 00:06:54.650
+Stanley Omeike: Let's say you work in a particular company, and the Md. Or your manager comes out, say, Oh, you've been in one compost for some months learning data analytics. Can you give us a model that can help predict uh when employees are likely going to leave our employment? Okay, uh bill doesn't matter to you.
+
+38
+00:06:54.710 --> 00:07:12.949
+Stanley Omeike: The level of motivation in employees, I'm pretty sure is likely to be in the next two years. Also in the we can build such a model. It's not a problem. Now you guys start collecting data. What kind of features do you think might be required to do the model that predicts that employee would need your organization or not. I need you guys to implement.
+
+39
+00:07:12.960 --> 00:07:22.860
+Stanley Omeike: What kind of data should we be collecting if we want to figure out which employee is likely to be the company uh sometime in the future. Raise your hand if you have an answer,
+
+40
+00:07:25.660 --> 00:07:33.529
+Stanley Omeike: what kind of data? And I'm going to just write just so that you guys can understand what we need by the concept of noisy data. Okay,
+
+41
+00:07:40.960 --> 00:07:42.720
+Stanley Omeike: employee.
+
+42
+00:07:43.260 --> 00:07:44.230
+Okay.
+
+43
+00:07:45.050 --> 00:07:48.100
+Stanley Omeike: So let me go with.
+
+44
+00:07:51.140 --> 00:07:53.849
+Stanley Omeike: Okay, Govin: I'm: not hearing you. You are muted.
+
+45
+00:07:56.670 --> 00:07:57.880
+Godwin Ubogun: What are you for,
+
+46
+00:07:58.050 --> 00:07:59.739
+Stanley Omeike: Hey, Gordon? How are you doing?
+
+47
+00:07:59.930 --> 00:08:01.800
+Godwin Ubogun: Hi:
+
+48
+00:08:01.930 --> 00:08:03.489
+Godwin Ubogun: Yeah. Thank you.
+
+49
+00:08:12.910 --> 00:08:16.210
+Stanley Omeike: Okay. So
+
+50
+00:08:16.340 --> 00:08:17.280
+yes,
+
+51
+00:08:17.510 --> 00:08:18.920
+Godwin Ubogun: the Iv.
+
+52
+00:08:19.340 --> 00:08:20.560
+Stanley Omeike: Id
+
+53
+00:08:21.430 --> 00:08:23.390
+Godwin Ubogun: Yeah, you are an employment.
+
+54
+00:08:23.660 --> 00:08:26.420
+Stanley Omeike: Okay, yeah, open up.
+
+55
+00:08:27.530 --> 00:08:29.039
+Godwin Ubogun: Yes, sir.
+
+56
+00:08:29.550 --> 00:08:31.360
+Stanley Omeike: Okay,
+
+57
+00:08:32.840 --> 00:08:36.029
+Stanley Omeike: Yeah. Sorry.
+
+58
+00:08:36.470 --> 00:08:37.480
+Stanley Omeike: Yeah.
+
+59
+00:08:38.630 --> 00:08:39.940
+Godwin Ubogun: And uh
+
+60
+00:08:43.720 --> 00:08:54.429
+Stanley Omeike: It's: okay. So thanks for giving us a couple of items. Let's see if Uh:
+
+61
+00:08:55.510 --> 00:08:58.820
+Samson Ikuenayo: okay. Good afternoon, Pro.
+
+62
+00:09:04.470 --> 00:09:12.730
+Samson Ikuenayo: It's really about that. So what that we add to what a Godwin has given is last date of promotion
+
+63
+00:09:13.140 --> 00:09:14.760
+Stanley Omeike: of the last date.
+
+64
+00:09:15.060 --> 00:09:15.950
+Oh,
+
+65
+00:09:18.560 --> 00:09:20.010
+Stanley Omeike: oh, promotion,
+
+66
+00:09:34.900 --> 00:09:41.340
+Stanley Omeike: alright, thanks. Let's do we? The um uh Daniel Abbott,
+
+67
+00:09:49.570 --> 00:09:51.120
+Stanley Omeike: or ends
+
+68
+00:09:59.220 --> 00:10:00.550
+Stanley Omeike: correct. What
+
+69
+00:10:00.600 --> 00:10:01.970
+Daniel Ameh: salary
+
+70
+00:10:02.960 --> 00:10:06.109
+Daniel Ameh: for that level compared with other firms.
+
+71
+00:10:06.430 --> 00:10:08.820
+Stanley Omeike: Okay,
+
+72
+00:10:09.220 --> 00:10:10.950
+Stanley Omeike: uh benchmarks.
+
+73
+00:10:14.620 --> 00:10:15.900
+Stanley Omeike: Okay? Awesome.
+
+74
+00:10:16.090 --> 00:10:17.310
+Stanley Omeike: Um,
+
+75
+00:10:17.480 --> 00:10:22.600
+Stanley Omeike: thanks. Uh, Daniel. Let's go to in. My,
+
+76
+00:10:26.250 --> 00:10:29.109
+Stanley Omeike: how are you?
+
+77
+00:10:36.570 --> 00:10:50.190
+Imaikop Bassey: Oh, sorry. My video is is all because I the environment I have
+
+78
+00:10:52.920 --> 00:10:54.270
+Stanley Omeike: for the
+
+79
+00:10:56.110 --> 00:10:57.230
+Stanley Omeike: so well,
+
+80
+00:10:57.390 --> 00:10:58.430
+alright.
+
+81
+00:11:00.840 --> 00:11:03.109
+Imaikop Bassey: I then then um
+
+82
+00:11:12.250 --> 00:11:14.030
+Imaikop Bassey: level of functionality.
+
+83
+00:11:16.580 --> 00:11:21.520
+Stanley Omeike: All right, uh, maybe.
+
+84
+00:11:32.390 --> 00:11:33.939
+Stanley Omeike: Is that it? There
+
+85
+00:11:35.100 --> 00:11:36.860
+Stanley Omeike: i'm asking. That's your name.
+
+86
+00:11:38.520 --> 00:11:44.009
+Stanley Omeike: Kevin is not responding. So I move on to John or Barrow.
+
+87
+00:11:45.500 --> 00:11:49.549
+daveg: Yeah, sorry. I'll show you a mute myself. Um salary.
+
+88
+00:11:49.570 --> 00:11:50.740
+Stanley Omeike: Yeah, Okay,
+
+89
+00:12:00.670 --> 00:12:03.189
+daveg: yeah. So it's um salary.
+
+90
+00:12:03.700 --> 00:12:07.640
+Stanley Omeike: Okay. So I think we've got a salary. Somebody has already down there.
+
+91
+00:12:08.960 --> 00:12:21.779
+daveg: Okay, Um. So um A very disciplinary um um measures or issues things to do with the
+
+92
+00:12:25.590 --> 00:12:27.340
+daveg: and departments.
+
+93
+00:12:29.840 --> 00:12:32.550
+Uh, let's see.
+
+94
+00:12:43.660 --> 00:12:51.210
+Stanley Omeike: All right. Uh right now. I'm just gonna take from one more person. And then uh, we'll kind of uh rule on
+
+95
+00:12:51.350 --> 00:12:55.820
+Stanley Omeike: uh is this class full of males? I don't know females in this class.
+
+96
+00:12:56.520 --> 00:12:57.930
+Stanley Omeike: Um,
+
+97
+00:12:58.110 --> 00:13:00.210
+Stanley Omeike: hey, ladies, rise up to the task.
+
+98
+00:13:01.460 --> 00:13:03.780
+Stanley Omeike: Not let these guys join your course.
+
+99
+00:13:10.780 --> 00:13:20.340
+Busola Adedoyin: I think they've said it all, or you can. The partners include um when employee was um debate of employment.
+
+100
+00:13:20.420 --> 00:13:29.270
+Stanley Omeike: That's that's the that's what we have. Yeah, the of employment.
+
+101
+00:13:42.340 --> 00:13:45.200
+OMONEDO OGHENERO GIFT: Good afternoon for
+
+102
+00:13:52.090 --> 00:13:58.959
+Stanley Omeike: like that. Health is true, or something like that.
+
+103
+00:13:59.690 --> 00:14:17.749
+Stanley Omeike: All right. Uh John, Do you want it. Oh, please, there is a very important variable. We need to the H. Okay, sorry, edit. And then just let me take it on and on the documents that you see. No, no. I mean, I mean agenda. Yeah,
+
+104
+00:14:17.760 --> 00:14:24.010
+Stanley Omeike: All right. Okay, I I agree with you. But let me. Yet. I don't know.
+
+105
+00:14:24.840 --> 00:14:25.820
+John Obaro: Okay,
+
+106
+00:14:27.740 --> 00:14:30.719
+John Obaro: uh any record of conflict of interest
+
+107
+00:14:31.250 --> 00:14:32.300
+conflicts.
+
+108
+00:14:36.620 --> 00:14:40.670
+Stanley Omeike: Okay, like It's a mushroom business somewhere. Right?
+
+109
+00:14:43.490 --> 00:14:44.530
+Yeah,
+
+110
+00:14:44.830 --> 00:14:45.840
+alright,
+
+111
+00:14:45.970 --> 00:14:47.209
+Stanley Omeike: Is that all?
+
+112
+00:14:47.560 --> 00:14:48.919
+Tope Oluwadare: Hello, Prosa:
+
+113
+00:14:49.330 --> 00:14:52.910
+Stanley Omeike: Okay. So let me let me take Edits comment, which is gender.
+
+114
+00:14:53.230 --> 00:14:59.120
+Stanley Omeike: Yes, very good. Thanks. Uh. So I'm. I'm actually
+
+115
+00:15:08.440 --> 00:15:09.690
+Raji Azeez: hello, Fro:
+
+116
+00:15:09.820 --> 00:15:11.090
+Stanley Omeike: Yes,
+
+117
+00:15:13.040 --> 00:15:15.780
+Gavin Abiamuwe: Can I? Can. I ask something?
+
+118
+00:15:15.890 --> 00:15:18.779
+Stanley Omeike: Yeah, that's why it's up to you just right.
+
+119
+00:15:19.170 --> 00:15:24.560
+Gavin Abiamuwe: Okay, I I think the work, the working environment counts
+
+120
+00:15:24.700 --> 00:15:37.669
+Gavin Abiamuwe: the possibility for boot and development. Okay, uh, thank you very much. Uh prospect.
+
+121
+00:15:37.690 --> 00:15:42.159
+Stanley Omeike: And there Okay, uh, um, Someone said, experience.
+
+122
+00:15:42.540 --> 00:15:52.299
+Stanley Omeike: Okay. So so guys, let's let's. This is fine
+
+123
+00:15:55.040 --> 00:16:01.920
+Stanley Omeike: relevant skills. Okay, relevant skills. Okay, Which is part of experience.
+
+124
+00:16:02.780 --> 00:16:19.439
+Stanley Omeike: Okay. So now let's assume that all of us and I, I, you guys for contributing this. Let's assume that we have decided that these uh, all those that contribute or potentially contribute to an employees. Um,
+
+125
+00:16:28.280 --> 00:16:32.430
+Stanley Omeike: okay, stay with me, guys as I do. This is um.
+
+126
+00:16:39.720 --> 00:16:41.230
+Stanley Omeike: Alright, take this
+
+127
+00:16:41.660 --> 00:16:42.720
+Stanley Omeike: and
+
+128
+00:16:42.780 --> 00:16:44.409
+Stanley Omeike: I do that
+
+129
+00:16:44.770 --> 00:16:57.550
+Stanley Omeike: and get down if it's. And I, you know, put this on that here. I might have to reduce the sizes of distance a little bit. Okay, So you guys will be able to see after I do that.
+
+130
+00:17:00.790 --> 00:17:10.480
+Stanley Omeike: Okay. So these are all the we've identified that potentially contributes to our employees uh
+
+131
+00:17:11.130 --> 00:17:12.390
+Stanley Omeike: um
+
+132
+00:17:14.060 --> 00:17:20.099
+Stanley Omeike: tendency to leave the organization. So if I install something here and I call this uh
+
+133
+00:17:22.940 --> 00:17:24.380
+Stanley Omeike: employee
+
+134
+00:17:25.300 --> 00:17:27.560
+Stanley Omeike: Yeah, something like that,
+
+135
+00:17:28.850 --> 00:17:31.109
+Stanley Omeike: I I decided to put this in a box.
+
+136
+00:17:34.120 --> 00:17:35.889
+Stanley Omeike: Let's send our books back.
+
+137
+00:17:37.320 --> 00:17:39.819
+Stanley Omeike: Uh make sure it doesn't have a call up.
+
+138
+00:17:40.220 --> 00:17:42.300
+Stanley Omeike: Okay. So we have this box. Now,
+
+139
+00:17:43.090 --> 00:17:59.109
+Stanley Omeike: essentially what we are. See by virtue of this was all the data we collected that we uh intended to use it for more than it. What we're seeing is that all these factors that we identified here. Okay, and send this to the back
+
+140
+00:18:00.530 --> 00:18:02.899
+Stanley Omeike: uh. So
+
+141
+00:18:05.230 --> 00:18:21.000
+Stanley Omeike: okay, something like, we said that all these factors contribute to employee attrition, and when we start building a model, or when we start trying to do analysis. What we're testing for is the relationship, the strength of the relationship
+
+142
+00:18:21.010 --> 00:18:29.960
+Stanley Omeike: uh between each of these variables that we have here and observed reach of employee applications. We're going to take employee.
+
+143
+00:18:30.060 --> 00:18:31.080
+Stanley Omeike: Okay,
+
+144
+00:18:51.370 --> 00:18:53.860
+Stanley Omeike: Now you already have the
+
+145
+00:19:02.740 --> 00:19:12.850
+Stanley Omeike: we do. Yeah. But tell me, what do you think the name of an employee, and how long he will stay in an organization?
+
+146
+00:19:13.110 --> 00:19:14.560
+Dexter Emmanuel: No,
+
+147
+00:19:14.770 --> 00:19:31.060
+Stanley Omeike: no! So that feature called name of employee is a useless, variable right, because it is useless to the extent that a change in name of the employee does not result in any. You can change in the
+
+148
+00:19:32.970 --> 00:19:35.070
+Stanley Omeike: Oh, that's it for you
+
+149
+00:20:20.640 --> 00:20:26.170
+Stanley Omeike: Now we'll take employee Id and try to regress it against the employee.
+
+150
+00:20:26.330 --> 00:20:30.769
+Stanley Omeike: What we are trying to figure out is as the of employees.
+
+151
+00:20:44.200 --> 00:20:48.049
+Stanley Omeike: My answer will be, maybe. Do you know why? My,
+
+152
+00:20:48.220 --> 00:20:49.720
+Raji Azeez: No.
+
+153
+00:20:50.060 --> 00:20:56.130
+Stanley Omeike: The reason why my maybe, is that sometimes employee ids are not Toronto.
+
+154
+00:20:56.370 --> 00:21:12.990
+Stanley Omeike: Okay, In some organizations that have geographic uh distribution of their facilities, they might have ids, employee ids that associate employees is not in branches or something geographical locations, or something countries. Do you know that?
+
+155
+00:21:13.570 --> 00:21:28.070
+Stanley Omeike: Yeah, they? For if it in particular branch, let's see the bank and the bank has, you know, in one hundred branches across the world and the branch in C. N. Nigeria there, and
+
+156
+00:21:28.080 --> 00:21:45.579
+Stanley Omeike: the ids of employees that work in that branch are unique to that branch. Okay, the identifiers are. You need to that branch and the two for all the other branches across the world. If the branch manager in Nigeria operates a toxic environment.
+
+157
+00:21:55.380 --> 00:21:58.410
+Raji Azeez: Yes, that's true. Yeah, agree with me.
+
+158
+00:21:58.700 --> 00:22:08.309
+Stanley Omeike: Yes. So therefore I will not in a very free way employee. Id because you might tell me something. Okay on on this. I've been to that.
+
+159
+00:22:14.620 --> 00:22:32.790
+Stanley Omeike: There, we can hold that now. Sometimes Ids And and this is where i'm trying to clean you guys to be sensitive in terms of how you can see that information from data on features. Sometimes Ids can be tied to gender. Ids can be tied to position in the organization. Do you guys recognize that?
+
+160
+00:22:33.070 --> 00:22:44.439
+Stanley Omeike: Yes, in some organizations they have a senior staff. They have genuine stuff. They have uh executive level and the Ids uh have identified. As for that,
+
+161
+00:22:44.480 --> 00:22:51.280
+Stanley Omeike: if that habits, what you might find is that employee attrition might be influenced,
+
+162
+00:22:52.020 --> 00:23:13.399
+Stanley Omeike: not because of the Id really we call it Covariance. We call it Covariance. The what is happening is because the employees who leave the organization are mostly those in See the um middle management, for example, and the Ids for those senior level stuff are almost the same with identifiers. You find that those category of Ids have a higher tradition rate
+
+163
+00:23:40.970 --> 00:23:44.530
+Samson Ikuenayo: it's. It's also related to the dates of employment.
+
+164
+00:24:07.340 --> 00:24:24.580
+Stanley Omeike: That is what we call bandwidth. In fact, we are in particular a bunch of employees have a certain orientation of behavior as they move through this system, so I think they they remain cohesive as they go. So you then see the actually not in Ids or any other way that they can be identified as a cluster.
+
+165
+00:24:25.430 --> 00:24:37.930
+Stanley Omeike: Alright, So uh, I will not, really. Id or do I investigate it properly. So that's what Peter Rambling will help me figure out if Id is contributing to uh, okay employee.
+
+166
+00:24:37.940 --> 00:24:53.709
+Stanley Omeike: So let's take another one. Uh i'm gonna take you of employment. Now, if we take you of employment, we also see in the organization that it is possible that the year we employed our employees affect their attitude to what What do you guys think?
+
+167
+00:25:41.340 --> 00:25:48.380
+Stanley Omeike: If that is true, it is, You have what we call
+
+168
+00:25:54.290 --> 00:25:58.980
+Stanley Omeike: that is defined by groups of employees that came into the organization. At the same time,
+
+169
+00:25:59.050 --> 00:26:05.319
+Stanley Omeike: if that happens, you're going to likely see that you of employment is affecting employee at
+
+170
+00:26:10.140 --> 00:26:14.009
+Stanley Omeike: it is just that of employees that share a common identity.
+
+171
+00:26:14.600 --> 00:26:15.870
+Stanley Omeike: Are we together?
+
+172
+00:26:16.190 --> 00:26:27.720
+Stanley Omeike: We will teach you a concept, and I need you to write this down somewhere. So when we get there, you know we got there. We teach a concept called Multi-colinearity.
+
+173
+00:26:28.380 --> 00:26:36.229
+Stanley Omeike: He's right. I'm a wait wait for me for you to write it, because somebody wants me to
+
+174
+00:26:36.370 --> 00:26:49.609
+Stanley Omeike: multi cool linearity. So let me.
+
+175
+00:26:49.960 --> 00:26:53.800
+Stanley Omeike: You'll see multiple variables uh
+
+176
+00:27:02.150 --> 00:27:15.229
+Stanley Omeike: Colinia having the same, the same regressive relationship between themselves and an outcome. Variable. Alright, so. But just we're not discussing it today because it's It's a big work. We're going to complete when we're ready.
+
+177
+00:27:16.310 --> 00:27:31.420
+Stanley Omeike: Okay, so uh, I can continue But I don't want to spend all my time on this table hopefully. You are able to understand that as we go through each of these features, some of them contribute. Some of them will not contribute. Is that true?
+
+178
+00:27:31.730 --> 00:27:42.309
+Stanley Omeike: By the time we finish our data, rambling and data cleaning, it is possible that we might only end up with six or seven of these features, as it features that
+
+179
+00:27:49.400 --> 00:27:59.900
+Stanley Omeike: now the we used to do it. It's not hand in the mouth, in the to figure out if it particular variable is contributed or not.
+
+180
+00:27:59.910 --> 00:28:16.949
+Stanley Omeike: So what you and I have been doing for the past twenty minutes, he's not the way we go about doing this. Otherwise you don't need to be in this class. You can use your common sense to figure out what contributes and what does not we have tools that we use to do it, And one of those tools is called Pandas.
+
+181
+00:28:17.000 --> 00:28:29.300
+Stanley Omeike: So we're gonna go back now to our environment. I use Pandas to see how we can take data that is, not in we till it down to just those features, okay, or variables that contribute to an outcome.
+
+182
+00:28:29.340 --> 00:28:30.870
+Stanley Omeike: I want to get out so far
+
+183
+00:28:31.100 --> 00:28:50.699
+Stanley Omeike: just from now for the purpose of our uh jaguars in this class, because now you guys are in advance class. So you need to lend some jag on to show your colleagues that you are right. Right. So let's see if if you, jack on the board. Let's pick up a few dragons for this trade.
+
+184
+00:29:00.300 --> 00:29:19.010
+Stanley Omeike: Okay, right. So you said that you that will target variable. So keep that in mind because we're trying to predict employee attrition. We're going to call it target variable now, depending on the literature you read all right. Some will call it the dependence variable
+
+185
+00:29:28.220 --> 00:29:30.670
+Stanley Omeike: also depended on who you ask.
+
+186
+00:29:31.350 --> 00:29:34.520
+Stanley Omeike: Some will also call it the outcome variable,
+
+187
+00:29:37.530 --> 00:29:38.930
+Stanley Omeike: outcome, variable,
+
+188
+00:29:40.810 --> 00:29:43.640
+Stanley Omeike: and also depending on who you are.
+
+189
+00:29:50.060 --> 00:29:55.260
+Stanley Omeike: So whenever you read any literature, and you come across this down the target variable,
+
+190
+00:30:03.010 --> 00:30:12.699
+Stanley Omeike: Okay, or that we're trying to uh diagnose or figure out uh what it's it to be, or What is influenced in this behavior? Are we together so far
+
+191
+00:30:20.970 --> 00:30:36.929
+Stanley Omeike: for the input variables, this for the one on the left hand side that are the partos we are analyzing to determine their relationship to have been predicted. Um variable, sometimes depending on the digital you read, they might be called okay, They independently
+
+192
+00:30:37.200 --> 00:30:39.680
+David Kwenev: okay. It might be called
+
+193
+00:30:41.610 --> 00:30:42.500
+John Oglewu: the
+
+194
+00:30:45.290 --> 00:30:46.939
+Stanley Omeike: the input variable,
+
+195
+00:30:47.730 --> 00:30:48.760
+Stanley Omeike: All right.
+
+196
+00:30:50.010 --> 00:30:52.029
+Stanley Omeike: It might be
+
+197
+00:30:52.250 --> 00:30:54.309
+Odion Joel Okonofua: explanatory variables
+
+198
+00:31:11.600 --> 00:31:12.770
+Stanley Omeike: features,
+
+199
+00:31:14.420 --> 00:31:17.040
+Stanley Omeike: all right. They can be calling features,
+
+200
+00:31:21.140 --> 00:31:24.970
+Stanley Omeike: and also because
+
+201
+00:31:29.860 --> 00:31:30.880
+Stanley Omeike: alright,
+
+202
+00:31:32.010 --> 00:31:37.189
+Stanley Omeike: yeah, so they can be called independent variables.
+
+203
+00:31:43.370 --> 00:31:44.790
+Stanley Omeike: Huh! We
+
+204
+00:31:46.380 --> 00:31:49.270
+Stanley Omeike: No, no, no, we don't
+
+205
+00:31:49.870 --> 00:31:51.410
+Odion Joel Okonofua: also.
+
+206
+00:31:51.460 --> 00:31:52.420
+Stanley Omeike: Uh
+
+207
+00:31:52.890 --> 00:31:55.460
+Odion Joel Okonofua: we
+
+208
+00:31:55.970 --> 00:31:59.350
+Odion Joel Okonofua: we's
+
+209
+00:31:59.690 --> 00:32:11.890
+Stanley Omeike: Oh, no, no, no, I think I think you right ahead of the class. So wait, wait, wait! Are basically something that happens in the back end of the machine learning
+
+210
+00:32:11.900 --> 00:32:31.570
+Stanley Omeike: when it lends the relationship between this feature and the output variable. It will assign a week to the strength of that relationship. So There' be something like here. It will still be dispatched. Variable accounts for zero point, one, two okay of the change in of those out changes.
+
+211
+00:32:31.580 --> 00:32:42.790
+Stanley Omeike: And then it comes here. Checks exactly the relationship with this one, and It's okay. This one accounts for zero point, zero zero, which means it has no carry. So which I
+
+212
+00:32:43.080 --> 00:32:44.080
+Stanley Omeike: All right.
+
+213
+00:32:46.350 --> 00:32:48.290
+Stanley Omeike: Are you with me? So far,
+
+214
+00:32:48.760 --> 00:32:49.830
+Boniface Abutu: this Bro:
+
+215
+00:32:49.850 --> 00:32:59.220
+Stanley Omeike: Okay, which just represent the strength of the influence of the input variable on the target. Variable. Not. I. Use the jack on very comfortable. Nobody is. They worried right?
+
+216
+00:33:00.340 --> 00:33:10.810
+Stanley Omeike: Yes. So all right. So now you guys have learned, and it's important to remember this, because we'll be running into it when we get into class uh or what? Uh, when we get into our
+
+217
+00:33:11.110 --> 00:33:12.290
+Stanley Omeike: um, i'll work.
+
+218
+00:33:12.540 --> 00:33:20.650
+Stanley Omeike: Okay. So this whole class on data around is about helping you. And then the skills to take data that is thirty,
+
+219
+00:33:20.930 --> 00:33:31.870
+Stanley Omeike: and then transform it into features that can be used to model the class variable to predict the class variable. There was something I wanted to point out here. Um,
+
+220
+00:33:49.000 --> 00:33:53.440
+Stanley Omeike: all right. It's called it noisy variable. So let's do that. These are features and see
+
+221
+00:33:54.670 --> 00:33:57.110
+Stanley Omeike: if any
+
+222
+00:33:57.210 --> 00:33:58.559
+Stanley Omeike: be noisy.
+
+223
+00:34:02.310 --> 00:34:04.890
+Stanley Omeike: Okay, Okay,
+
+224
+00:34:13.969 --> 00:34:21.540
+Stanley Omeike: you guys a feature here that can influence employee attrition, but does not necessarily predict it,
+
+225
+00:34:21.730 --> 00:34:35.720
+Stanley Omeike: which is a definition of noise. Noise is any feature that that tops. Okay. Let me write that, because you know, you guys have to be picking these words. Now, you are no more in a uh data science in that gotten So
+
+226
+00:34:42.560 --> 00:34:44.409
+Stanley Omeike: uh next. What did you say?
+
+227
+00:35:15.530 --> 00:35:18.300
+Stanley Omeike: I can see very confidently.
+
+228
+00:35:18.320 --> 00:35:19.810
+That's
+
+229
+00:35:28.560 --> 00:35:31.400
+Stanley Omeike: you guys agree,
+
+230
+00:35:34.390 --> 00:35:36.170
+Joshua Abiodun: and you don't
+
+231
+00:35:36.510 --> 00:35:37.959
+Stanley Omeike: So
+
+232
+00:35:38.150 --> 00:35:41.619
+Stanley Omeike: an employee disciplinary record
+
+233
+00:35:42.080 --> 00:35:44.670
+daveg: can influence employee attrition,
+
+234
+00:35:44.740 --> 00:35:47.210
+but does not necessarily predict it.
+
+235
+00:35:49.880 --> 00:35:51.270
+Stanley Omeike: Yeah, I do with that.
+
+236
+00:35:58.330 --> 00:36:01.639
+Stanley Omeike: Let me tell you why. I think there are people
+
+237
+00:36:01.660 --> 00:36:17.420
+Stanley Omeike: who thrive on the edge. Okay, these are people who caught trouble, not because they like to. But you know, for some reason they have an opportunity for problems. Okay? Uh, if there is any trouble happening anywhere, they usually do in the eyes of that problem.
+
+238
+00:36:34.170 --> 00:36:40.899
+Stanley Omeike: Just a very long way from my Euroba friends in Nigeria. I think that's a language you usually call it for. Manila.
+
+239
+00:36:40.960 --> 00:36:42.009
+Boniface Abutu: Mhm
+
+240
+00:36:42.040 --> 00:36:49.470
+Stanley Omeike: Yeah,
+
+241
+00:37:04.530 --> 00:37:22.880
+Stanley Omeike: Okay, guys, Thanks. Let's just go. The employee is committed to the organization. He has the intention of going anywhere but that that's attitudes of into the organization. He has the intention of going anywhere but that that's attitude towards the organization and building him to cost and pay stroll.
+
+242
+00:37:23.210 --> 00:37:24.449
+Stanley Omeike: Are we together?
+
+243
+00:37:24.840 --> 00:37:41.389
+Stanley Omeike: So what that reason I might not want to add. You know, disciplinary records in employee if I was trying to predict when an employee is going to be promoted next they may be.
+
+244
+00:37:41.600 --> 00:37:42.779
+Rex Onwudinjo: Yes, sir.
+
+245
+00:37:42.800 --> 00:37:50.380
+Stanley Omeike: Okay. I hope you guys, between a noisy feature and a dead feature, a feature that contributes nothing.
+
+246
+00:37:50.410 --> 00:37:55.309
+Rebecca Oyetunji: So can you hear. Your voice is low compared to the voice of the
+
+247
+00:37:55.480 --> 00:37:56.549
+what?
+
+248
+00:37:56.880 --> 00:37:58.509
+Stanley Omeike: Well, my voice is low.
+
+249
+00:37:58.690 --> 00:38:02.230
+Rebecca Oyetunji: Yes, I do normally do one experience in this.
+
+250
+00:38:22.490 --> 00:38:33.530
+Stanley Omeike: It's okay, guys, Let me have the information. So, Rebecca, Why, don't you uh you that increase the volume, and let me see if I can change. Let me see what Mike, my system is. You
+
+251
+00:38:33.560 --> 00:38:35.730
+Rex Onwudinjo: my depend on the environment.
+
+252
+00:38:42.180 --> 00:38:45.779
+Stanley Omeike: I just changed my mind. Is that better, Rebecca?
+
+253
+00:38:50.390 --> 00:38:53.349
+Stanley Omeike: All right. So you see, Rebecca, I wasn't wrong after all.
+
+254
+00:38:53.860 --> 00:39:02.519
+Stanley Omeike: So let's Let's move on. Thanks for bringing that up. Okay, Now, before I move on, let me take a few hands that i'll uh tope, or your hand is up
+
+255
+00:39:16.680 --> 00:39:21.430
+Stanley Omeike: all right. No problem.
+
+256
+00:39:25.060 --> 00:39:34.540
+Emmanuel Adeitan: But that was when we actually all the features. Okay, all right,
+
+257
+00:39:38.540 --> 00:39:42.260
+Stanley Omeike: Hey, John, if you're speaking, I not hearing what you're saying.
+
+258
+00:39:43.610 --> 00:39:46.970
+Stanley Omeike: Yeah, I can hear you now.
+
+259
+00:39:47.010 --> 00:39:58.580
+John Oglewu: Okay, Then I was going to say that. Uh, we can also use a response variable for our outcomes, and I with my hand.
+
+260
+00:39:59.470 --> 00:40:18.350
+Stanley Omeike: Okay. So we we don't use. We don't use response variable. Then, uh, we don't use a response. Because here you're building a model. Uh, if you've done any research at graduate level, you might recognize. And I'm: speaking to everyone, not just on now. You might recognize the concept of structural equation models.
+
+261
+00:40:25.800 --> 00:40:30.200
+Stanley Omeike: Predict those and ask our variables. Okay,
+
+262
+00:40:31.270 --> 00:40:32.529
+Stanley Omeike: Sorry. Excuse me.
+
+263
+00:40:33.260 --> 00:40:34.139
+Alright,
+
+264
+00:40:45.040 --> 00:41:04.089
+Stanley Omeike: So we're gonna look at data opposition data transmission and feature selection. And you can see that I've spent over thirty minutes discussing this part, because this is the call of your data. Ugly Academy, if you lend nothing. In fact, if you don't lend any of these with, and i'm not giving you permission to run away on Dutch classes.
+
+265
+00:41:04.100 --> 00:41:11.430
+Stanley Omeike: If you, if you don't lend any of these three, any of all all these items you have here,
+
+266
+00:41:11.470 --> 00:41:17.140
+Stanley Omeike: just make sure that you must have this three, and it will be well with you.
+
+267
+00:41:25.590 --> 00:41:46.620
+Stanley Omeike: So we're going to learn how to in data as start working on that we're going to learn how to bring in videos types of data, excel, file, Csv. File the Json file the pickle file uh um dot k file the text file all kinds of darkness. We're also going to learn how to bring in Sql data.
+
+268
+00:41:46.740 --> 00:42:10.969
+Stanley Omeike: Okay, into our Jupiter, we can work So for that We're going to be then in introduction to Sql: So you will also be able to write simple select statements. Union statements, you know unconditional statements to bring in data from Sql: you'll learn how to connect to an Sql database, and I can't pull data onto your. So okay uh we have a lot of fun uh we have lined up for you guys as we go.
+
+269
+00:42:11.100 --> 00:42:17.810
+Stanley Omeike: Uh. Well, it's fun depending on who you ask It's fun for me what I know it might be. It will work for you guys to
+
+270
+00:42:18.110 --> 00:42:33.269
+Stanley Omeike: all right now, after we've learned all of this, then we are ready to apply it in an introductory session to using python spark and library to process data.
+
+271
+00:42:33.280 --> 00:42:48.089
+Stanley Omeike: Okay, So you guys are going to learn how to process it. They're going to train you to take data. That is date thirty, and work on it. Massage it, ruggle it, run clean it till it becomes data that is highly ready for model development. Right?
+
+272
+00:42:48.100 --> 00:42:57.759
+Stanley Omeike: And your capstone project will be exactly that. Your capstone project You will give in a very densey data, and you be asked to clean it in preparation for
+
+273
+00:43:10.130 --> 00:43:29.390
+Stanley Omeike: I mean data or Angla. If you have any data you need to clean or pre-process before modeling should it, that me and i'll take care of it. Okay, because that's an important skill in the data science, data, analytics and machine learning field. So this is uh a quick introduction to everything. We're going to be covering today.
+
+274
+00:43:30.140 --> 00:43:34.310
+Stanley Omeike: Sorry. Not today in this in this program over the next two months.
+
+275
+00:43:42.070 --> 00:43:44.709
+Stanley Omeike: Alright, uh, Rebecca, your hand is up,
+
+276
+00:43:49.240 --> 00:43:55.220
+Rebecca Oyetunji: and after this it's possible for once to then moving into.
+
+277
+00:44:01.040 --> 00:44:05.220
+Stanley Omeike: Okay, Rebecca, I didn't quite hear you. There was some kind of noise coming in between.
+
+278
+00:44:12.380 --> 00:44:20.510
+Stanley Omeike: Okay, Which truck are you in, Rebecca, Are you in Ml: data, science or data analytics?
+
+279
+00:44:20.820 --> 00:44:29.989
+Rebecca Oyetunji: Okay, I was
+
+280
+00:44:30.230 --> 00:44:42.210
+Stanley Omeike: okay. So uh. The reason why you might not get a feedback immediately is because, regardless of which truck you are in data, science, machine learning, or that you're all going through the Um,
+
+281
+00:44:42.220 --> 00:45:01.710
+Stanley Omeike: all going through data Visualization Academy together after detail, Visualization Academy together after detail visualization. I can everybody paths with to get a real struck, you understand? So the question you're asking about. So which track you should go to ask that question again was the end of the visualization Academy. Okay,
+
+282
+00:45:01.950 --> 00:45:06.849
+Rebecca Oyetunji: alright, uh, at Abc.
+
+283
+00:45:07.280 --> 00:45:08.849
+Stanley Omeike: Do you have a question?
+
+284
+00:45:10.190 --> 00:45:23.700
+Adebisi Enochoghene: Yes, I have a question. I I want to know how um committed. We are to this six week uh six week schedule that you have at night for us, because
+
+285
+00:45:23.710 --> 00:45:42.669
+Adebisi Enochoghene: I I I didn't feel good. That's the initial that's by tone and training it it took for him, and it almost will never mean so before. So people begin to cook up reasons why you should extend the reasons why I I feel that I should. There. Is that any?
+
+286
+00:45:43.060 --> 00:45:50.420
+Stanley Omeike: Yeah, Okay. So So that's an important question, and it is not six weeks. It's more than six weeks. Okay, He's probably like ten weeks from now.
+
+287
+00:45:50.470 --> 00:46:07.670
+Stanley Omeike: Okay, it's. It's more than six weeks, because, like I said, we'll wrap this up by first week of um January, and then you do your capstone project and then move on. So it's It's feasible, but it lot depends on their simulation rate of uh our students. And
+
+288
+00:46:07.680 --> 00:46:14.760
+Stanley Omeike: let me just highlight something here, because I've been. I've heard this. I've had this before from a number of students.
+
+289
+00:46:15.730 --> 00:46:29.300
+Stanley Omeike: You guys are in the
+
+290
+00:46:29.310 --> 00:46:39.279
+Stanley Omeike: okay. If for any reason you feel you're in a hurry and you want to just go at cloud speed and finish your program. You can actually apply to the world campus, fast track
+
+291
+00:46:39.290 --> 00:46:59.390
+Stanley Omeike: uh data science, Ml: and data analytics program that one finishes in about, you know, three months in three months you are done. What happens is there's a lecturer who talks to you for about an hour. Take questions for thirty minutes, that's all. And then you're loaded with materials and work to do, and it goes at clock speed.
+
+292
+00:47:00.190 --> 00:47:12.970
+Stanley Omeike: Yeah, it's not time to hand. Hold anybody who is struggling at that point. You need to be to talk with your peers, or do a lot of studies, or meet your professor or instructor if they are available. But that's a fast track
+
+293
+00:47:12.980 --> 00:47:24.819
+Stanley Omeike: in the Gothic program. Our first understanding is that nobody here has ever heard anything about python or data science. Therefore, if we prioritize or we must finish in six weeks,
+
+294
+00:47:24.850 --> 00:47:33.429
+Stanley Omeike: it helps nobody. If we finish in six weeks unless I have the class on the I. I don't know if you guys can relate to that.
+
+295
+00:47:55.610 --> 00:48:10.030
+Adebisi Enochoghene: Okay, It's just the reason I had. I said, six weeks because of the schedule you sent to our emails. You know you. We are supposed to have a a zoom session every two weeks. So that's what I actually meant by
+
+296
+00:48:10.040 --> 00:48:29.969
+Adebisi Enochoghene: six weeks. Not that I I meant six weeks in reality, which which that's supposed to be like twelve weeks. I'm only asking that are we going to follow that so, because we we can't just keep going random. And the other one you mentioned. I would like to know about it, because I don't have a lot of time
+
+297
+00:48:30.050 --> 00:48:34.269
+Adebisi Enochoghene: on hand to just keep dancing around.
+
+298
+00:48:34.750 --> 00:48:40.600
+Stella Okenu: Okay, uh, uh, I did. You see? I will just take a J. To the exception to some of the words you use.
+
+299
+00:48:40.770 --> 00:48:59.549
+Stanley Omeike: Nobody here is dancing around uh Number Two people who come here are here to learn. I understand that your priorities are probably a bit different. I'm pressed for time than if you are that person. But, uh, we don't dance around here. We try to make sure we carry everybody forward.
+
+300
+00:48:59.560 --> 00:49:03.789
+Stanley Omeike: Um if you are interested in the fast track. Um
+
+301
+00:49:03.930 --> 00:49:29.299
+Stanley Omeike: um alternative to the program, which is not a gutsy program, it's actually all you need to be is right on campus, and they would, you know, direct you there? Ninety paid for program. It's not got to be console, understand? At that point. If you pay for the training and you get it Training? Um, you know, tied to whatever timelines we have. But here, honestly, we are more into mentoring students to learn
+
+302
+00:49:29.310 --> 00:49:44.950
+Stanley Omeike: than just trying to make a certain timeline on my own. Okay. So if this does not fit your learning style, or your any requirements, I can understand that. Uh, but don't think that people here uh dancing around. Okay,
+
+303
+00:49:51.570 --> 00:49:54.569
+Stanley Omeike: All right. Uh, i'm glad you've moderated that.
+
+304
+00:50:01.880 --> 00:50:06.670
+Stanley Omeike: All right. Uh Samson. Uh, you have a question. Thanks.
+
+305
+00:50:17.890 --> 00:50:31.270
+Samson Ikuenayo: Alright, So I i'm getting new response from Samsung. Now, what I need you guys to do. Okay, Go on something. Yes, I Just what is a echo in the when your voice, which makes it a hard to here.
+
+306
+00:50:44.290 --> 00:50:46.419
+Stanley Omeike: Uh! Is this the echoing, now?
+
+307
+00:51:02.550 --> 00:51:05.880
+CJay - Chijioke Nnabueze: Is there any better?
+
+308
+00:51:07.370 --> 00:51:09.529
+Stanley Omeike: I'm not here in any echo.
+
+309
+00:51:21.820 --> 00:51:39.330
+Stanley Omeike: I'm pleased to you to stay muted. Uh, we're gonna get started today uh by giving you a gentle introduction to how to uh bring in Jupiter notebook Uh: bring in plan does on your and then get started. So the start of your environment,
+
+310
+00:51:41.450 --> 00:51:44.129
+Stanley Omeike: my anak that environment
+
+311
+00:51:46.740 --> 00:51:49.059
+Stanley Omeike: i'll be
+
+312
+00:51:57.830 --> 00:51:59.700
+Stanley Omeike: so uh
+
+313
+00:52:00.090 --> 00:52:03.029
+Stanley Omeike: Um, mine is coming up, I think.
+
+314
+00:52:18.920 --> 00:52:19.979
+Stanley Omeike: Yes,
+
+315
+00:52:20.250 --> 00:52:36.269
+Enoch Olorundare: yes, I I also want to. Sorry for the to this. Um,
+
+316
+00:52:38.120 --> 00:52:43.950
+Stanley Omeike: Okay. So uh i'm in documents i'm trying to find my world, because that's my workspace.
+
+317
+00:52:44.600 --> 00:52:47.860
+Stanley Omeike: Um, So it's in the books.
+
+318
+00:52:48.340 --> 00:52:50.690
+Stanley Omeike: And then starting in a group
+
+319
+00:52:50.930 --> 00:53:10.230
+Stanley Omeike: uh python kind of okay. So today's what Thursday you should get these recordings. Um, let us by tomorrow. Please note that you are getting it on the World Academy Portal, because I hear that you trying to go to Google, That and uh you, we can get it on your world. I can. Then you both are okay.
+
+320
+00:53:10.580 --> 00:53:20.840
+Stanley Omeike: Okay. So the platform is a bit different from what we used to know. How are we going to?
+
+321
+00:53:21.410 --> 00:53:32.579
+Stanley Omeike: Okay? I will spend some time shooting how to access the platform we are today, But for now let's see uh focus on the class. Um uh proceedings. Okay,
+
+322
+00:53:32.860 --> 00:54:02.320
+Stanley Omeike: Thank you very much. Now, the first we want to do is we want to import pandas. All right, like I said. Pandas is the data around link to We use it for loading data on to Jupiter a book. We use it for access and time series data and matrix shift data to do. We're going to work with both the matrix and times. We use data. We're not going to do any serious
+
+323
+00:54:02.330 --> 00:54:06.510
+Stanley Omeike: right. So you write your in both.
+
+324
+00:54:07.790 --> 00:54:09.719
+Stanley Omeike: That's the first thing you want to write
+
+325
+00:54:09.890 --> 00:54:22.540
+Stanley Omeike: when you run it.
+
+326
+00:54:22.580 --> 00:54:31.110
+Stanley Omeike: Okay, you're on the impose it meant. And tell me if you get an error or not, you don't get an arrow after you're on that. So it means uh, and that's is looted.
+
+327
+00:54:31.240 --> 00:54:32.470
+Stanley Omeike: Um,
+
+328
+00:54:47.030 --> 00:54:48.819
+Stanley Omeike: you're seeing excel screen.
+
+329
+00:54:57.070 --> 00:55:00.410
+Stanley Omeike: Okay. So when I close up on my
+
+330
+00:55:00.440 --> 00:55:03.689
+Stanley Omeike: let's go to screen one.
+
+331
+00:55:07.030 --> 00:55:10.339
+Joshua Abiodun: Yeah,
+
+332
+00:55:10.600 --> 00:55:14.890
+Imaikop Bassey: I've changed. So I launched
+
+333
+00:55:15.880 --> 00:55:25.139
+Stanley Omeike: and I've written an import statement for Pandas in my first, so I want you to go ahead and write that. Let's see. It works for you
+
+334
+00:55:45.100 --> 00:55:46.229
+with us.
+
+335
+00:55:48.130 --> 00:55:49.689
+Rex Onwudinjo: I was on that, sir.
+
+336
+00:55:49.780 --> 00:55:50.830
+Stanley Omeike: Okay,
+
+337
+00:56:04.590 --> 00:56:05.430
+right.
+
+338
+00:56:11.290 --> 00:56:18.929
+Stanley Omeike: Okay. So if you've done that, that means it won't for you. So now we can use fund us uh in any work we're trying to do.
+
+339
+00:56:18.980 --> 00:56:32.100
+Stanley Omeike: Um. I wanted to see if I can pick if I I give you guys both uh, if you not to avoid that we in our time, I'm going to import on our library. That allows us to access small data sets easily, so i'm going to import
+
+340
+00:56:32.260 --> 00:56:34.499
+Stanley Omeike: see bonnies on our library,
+
+341
+00:56:36.790 --> 00:56:45.039
+Stanley Omeike: for example, I'll run it.
+
+342
+00:57:18.770 --> 00:57:22.080
+Stanley Omeike: We'll do it later. But for now I just want to explain something.
+
+343
+00:57:22.510 --> 00:57:24.850
+Stanley Omeike: All right. So
+
+344
+00:57:25.710 --> 00:57:28.909
+Stanley Omeike: have you guys been able to import all went well.
+
+345
+00:57:35.100 --> 00:57:48.290
+Stanley Omeike: C. Bond. I just give it an acronym, so that when I want to work with it, it's easy for with reference, I don't you type. You go what see born each time I want to refer to it. So I just present it with a new name, if you like,
+
+346
+00:57:48.300 --> 00:57:56.790
+Stanley Omeike: and and I called it so any time I want to reference it. I just call S. And I I do. You guys understand that
+
+347
+00:57:56.800 --> 00:58:11.280
+Stanley Omeike: now se born is a library for visualization. So you, you're going to work in those with Seaborn, and some of the libraries like is in your next executive. But for today. We are interested in it because it also who some small data sets we can work with
+
+348
+00:58:15.700 --> 00:58:17.180
+Stanley Omeike: that gets.
+
+349
+00:58:17.870 --> 00:58:25.350
+Stanley Omeike: I know that Smd are refers to. Uh, all right. Okay, that's a set. I think names.
+
+350
+00:58:26.430 --> 00:58:27.930
+If I run that
+
+351
+00:58:28.670 --> 00:58:32.220
+Stanley Omeike: it will be all the data.
+
+352
+00:58:38.360 --> 00:58:42.899
+Stanley Omeike: All right. Now, the using Why, i'm working you. Sometimes you want to practice.
+
+353
+00:58:50.210 --> 00:58:52.150
+Stanley Omeike: So that's what we're going to do today.
+
+354
+00:59:02.490 --> 00:59:03.330
+Yeah,
+
+355
+00:59:04.020 --> 00:59:17.080
+Raji Azeez: Lang:
+
+356
+00:59:24.290 --> 00:59:40.780
+Stanley Omeike: Okay. So what I've done is I've called this functional. I see one to tell me what kind of data that you want. Have I just assumed all these data? All right. These are all data uh data tables in seibo for today. We're going to work with the I Re. States.
+
+357
+00:59:41.480 --> 00:59:49.229
+Stanley Omeike: Alright, So i'm going to show you how to get the I these data from, and then use that to do your um to do the work we're trying to do today.
+
+358
+00:59:50.460 --> 00:59:52.779
+Stanley Omeike: So for that we're going to see
+
+359
+00:59:53.080 --> 00:59:54.500
+Stanley Omeike: s and
+
+360
+00:59:58.360 --> 01:00:00.620
+Stanley Omeike: data sets. I'm sorry.
+
+361
+01:00:08.970 --> 01:00:11.189
+Stanley Omeike: Something is what we might type in today.
+
+362
+01:00:14.530 --> 01:00:19.029
+Stanley Omeike: Okay. So this is going to help us load our Ir data sets.
+
+363
+01:00:26.470 --> 01:00:28.099
+Stanley Omeike: If I run this.
+
+364
+01:00:29.920 --> 01:00:31.420
+Stanley Omeike: Thank you,
+
+365
+01:00:33.130 --> 01:00:34.689
+Stanley Omeike: it gives me
+
+366
+01:00:34.990 --> 01:00:36.379
+Joshua Abiodun: Jesus.
+
+367
+01:00:36.520 --> 01:00:39.040
+MUIZZ ADIO: What did you say?
+
+368
+01:00:42.490 --> 01:00:51.569
+Stanley Omeike: Okay. So it gives us a small data that contains a hundred and fifty records. Okay, not not very large, but good enough for us to practice whatever I want to practice.
+
+369
+01:00:51.800 --> 01:00:55.890
+Stanley Omeike: All right. So let me see, lose the.
+
+370
+01:01:04.800 --> 01:01:14.630
+Stanley Omeike: Now, this type of data in is referred to as the matrix data. It's matrix because it consists of
+
+371
+01:01:14.940 --> 01:01:17.209
+MUIZZ ADIO: and rules.
+
+372
+01:01:17.540 --> 01:01:30.250
+Stanley Omeike: I want to. If you are using excel, or maybe S to do colleagues, my quality to. But in in data, science, the quality matrix, alright, or it detail free
+
+373
+01:01:35.230 --> 01:01:49.460
+Stanley Omeike: each of these headers you have here, and I I hope you guys are paying wrapped attention. As I try to explain these concepts, each of these headers you have which represent Callums. We refer to them as
+
+374
+01:01:50.480 --> 01:01:53.559
+Stanley Omeike: features. All right, so.
+
+375
+01:01:53.830 --> 01:02:00.830
+Stanley Omeike: And maybe I need to explain what this details about. So this data is about printing what type of flower,
+
+376
+01:02:00.910 --> 01:02:02.370
+Stanley Omeike: what you see
+
+377
+01:02:03.120 --> 01:02:22.219
+Stanley Omeike: just based on the size of the uh and the of the the the the the the. On the basis of this dimensions of the petals and the of the flower, we can predict what type of flower it is
+
+378
+01:02:27.970 --> 01:02:31.940
+Stanley Omeike: which is a class variable. How much is the regular variable
+
+379
+01:02:37.070 --> 01:02:39.250
+Stanley Omeike: David
+
+380
+01:02:39.420 --> 01:02:56.149
+David Kwenev: Lang?
+
+381
+01:02:57.080 --> 01:03:21.379
+Stanley Omeike: Well, the order, one, two, four, four, are the Uh independent features. It's not very correct. So the species call you in case uh, and all these colleagues put together are the input variables, the practical variables. Okay, the independent variables, or whatever name you want.
+
+382
+01:03:21.390 --> 01:03:24.349
+Stanley Omeike: All right. So that's what we have here. Now,
+
+383
+01:03:30.090 --> 01:03:32.840
+Stanley Omeike: we didn't do the time on data,
+
+384
+01:03:38.760 --> 01:03:39.779
+Stanley Omeike: Ludin.
+
+385
+01:03:46.160 --> 01:03:47.080
+Mhm
+
+386
+01:03:47.240 --> 01:03:50.819
+Stanley Omeike: So that's going to be S. And the blue
+
+387
+01:03:52.330 --> 01:03:55.879
+Stanley Omeike: in bracket. I put the name of the data. I want to lose.
+
+388
+01:04:02.040 --> 01:04:02.919
+Boniface Abutu: No,
+
+389
+01:04:06.310 --> 01:04:10.150
+Stanley Omeike: yes. So if I run this. Now.
+
+390
+01:04:12.940 --> 01:04:13.970
+Okay,
+
+391
+01:04:15.430 --> 01:04:16.990
+Boniface Abutu: it works movement.
+
+392
+01:04:17.020 --> 01:04:21.660
+Stanley Omeike: I don't want it to work for me to. I just trying to figure out why it's. Let me see born how
+
+393
+01:04:21.890 --> 01:04:26.660
+Stanley Omeike: uh data, also in good details. That is my aeroc.
+
+394
+01:04:27.790 --> 01:04:29.179
+Okay,
+
+395
+01:04:30.830 --> 01:04:32.139
+Raji Azeez: that makes sense.
+
+396
+01:04:37.800 --> 01:04:39.680
+Raji Azeez: No?
+
+397
+01:04:42.350 --> 01:04:45.099
+Stanley Omeike: Okay. So you can see that this data has loaded,
+
+398
+01:04:50.660 --> 01:04:53.250
+Stanley Omeike: all right.
+
+399
+01:05:08.930 --> 01:05:17.339
+Stanley Omeike: Yes, I don't want to read in your group Chat. You have somebody. You see. How can I get data? How can I get data? Because now you know how to get data
+
+400
+01:05:17.590 --> 01:05:25.330
+Gavin Abiamuwe: all right, and you have access to more than ten different. You guys.
+
+401
+01:05:28.880 --> 01:05:43.589
+Stanley Omeike: Okay? So you have access to more than twenty different data sets here that you can use to do uh most of your practices. So i'm just going to take you both on some questions before we start using one particular
+
+402
+01:05:48.220 --> 01:05:51.099
+Rex Onwudinjo: this um i'm having issue.
+
+403
+01:05:51.370 --> 01:05:54.169
+Rex Onwudinjo: I'm getting my own seat on here.
+
+404
+01:05:54.250 --> 01:06:14.149
+Rex Onwudinjo: It's because you made mention of that. You know how to that download. It is. Is there any way I can download it, because mine is telling me when I run this importantly se board as as then. When I run this. It was telling me that these building the phones catch it may take some moment something on nature, so it didn't show those
+
+405
+01:06:14.160 --> 01:06:15.410
+Busola Adedoyin: names in.
+
+406
+01:06:15.610 --> 01:06:17.000
+Got it,
+
+407
+01:06:17.400 --> 01:06:21.220
+Stanley Omeike: did you, did you?
+
+408
+01:06:21.270 --> 01:06:22.350
+Rex Onwudinjo: Yes.
+
+409
+01:06:22.370 --> 01:06:24.359
+Stanley Omeike: Did you get an error when you run it?
+
+410
+01:06:24.980 --> 01:06:25.990
+Yeah.
+
+411
+01:06:26.420 --> 01:06:29.150
+Dexter Emmanuel: So I guess it's not connected to the Internet?
+
+412
+01:06:30.430 --> 01:06:45.000
+Stanley Omeike: Yeah, I think, connect to you. You need to be connected to the Internet. You, at least for the first time when you're trying to import it. Actually, you're not supposed you don't need to be connected to the Internet. Um, if you, if you are using an acunda, if you already have pre installed with your anaconda,
+
+413
+01:06:47.740 --> 01:06:48.870
+Stanley Omeike: all right,
+
+414
+01:06:49.860 --> 01:06:57.649
+Stanley Omeike: lang
+
+415
+01:06:59.570 --> 01:07:00.450
+it's.
+
+416
+01:07:00.960 --> 01:07:15.659
+Stanley Omeike: Yeah, just it's still with me. You will get the solution. Okay. So we go ahead and run this next slide. So we go ahead and run this next slide.
+
+417
+01:07:21.500 --> 01:07:28.960
+Stanley Omeike: All right. Now for those of you. We're going to be working today with um, which did us actually use thef. Now let's use.
+
+418
+01:07:33.180 --> 01:07:46.820
+Stanley Omeike: I think we should work with. We should work with the demons data set. So i'm going to see this demo data set to disk and they shape it, you guys right here so that those of you who don't have it can at least do it on use.
+
+419
+01:07:46.940 --> 01:07:53.760
+Stanley Omeike: Now, this is an important skill for all of you how to receive a data frame
+
+420
+01:07:55.830 --> 01:07:57.590
+Stanley Omeike: Zoom Csv:
+
+421
+01:07:58.550 --> 01:08:00.020
+on your computer.
+
+422
+01:08:03.260 --> 01:08:13.990
+Stanley Omeike: So now we have this different frame called uh developments in order to save it as a data frame or my computer. I first need to assign the that we variable.
+
+423
+01:08:14.120 --> 01:08:25.129
+Stanley Omeike: So i'm going to copy that and then create a new variable. I'll call that variable data from Df: Most times when you read this data science text, you can see them referring to data sets out there.
+
+424
+01:08:29.920 --> 01:08:31.229
+MUIZZ ADIO: That's what you
+
+425
+01:08:31.620 --> 01:08:34.229
+Stanley Omeike: df means data free.
+
+426
+01:08:34.279 --> 01:08:42.539
+Stanley Omeike: So df these people and you can't give it any name you want. In fact, I can call this
+
+427
+01:08:42.640 --> 01:08:53.089
+Stanley Omeike: all right. It is to work just so that you guys can see if I run it. Now that data has been assigned to, so I can now use it for my work. I can see prints.
+
+428
+01:08:53.430 --> 01:08:54.479
+Stanley Omeike: Got it
+
+429
+01:08:55.510 --> 01:08:57.140
+Stanley Omeike: all right. If I run that
+
+430
+01:08:57.180 --> 01:08:58.580
+Stanley Omeike: I get my data.
+
+431
+01:08:59.270 --> 01:09:00.999
+Stanley Omeike: Are you guys with me so far?
+
+432
+01:09:04.210 --> 01:09:06.649
+Gavin Abiamuwe: Yes, somebody lost me somehow.
+
+433
+01:09:06.939 --> 01:09:20.799
+Gavin Abiamuwe: Okay, Gavin, because I use your name. No, no, no, no, no, because you use my name. I I went, I I I lost my so I didn't even know I didn't get to see everything. Okay. But when you, when we try to know that data,
+
+434
+01:09:20.810 --> 01:09:34.120
+Stanley Omeike: no, just from the beginning, from where you say, import Uh, my. So in the beginning we imported pandas, and we also import this call and give it an acronym. S. And
+
+435
+01:09:45.220 --> 01:09:46.899
+Stanley Omeike: uh, important.
+
+436
+01:10:07.630 --> 01:10:09.010
+Stanley Omeike: Okay. So
+
+437
+01:10:09.500 --> 01:10:27.679
+Stanley Omeike: just be able to have access to some in It's library. Okay. So now that we've imported it, I've run it pretty here just to show you all the data sets in the library. You can see there are many yeah, probably more than twenty. I've never accounted before, but it's probably up to twenty right now that we have this
+
+438
+01:10:27.690 --> 01:10:39.879
+Stanley Omeike: data access to this data because of your for that, C One which okay, let's display one of the dates are the That's this data here, this, this, this this data, and I give you code to.
+
+439
+01:11:02.200 --> 01:11:18.179
+Stanley Omeike: So now that we have it, had it, some people said it could not run se ball right? Some people didn't have access to se board, I said. Okay, I can download this data. Save it type of file. I'll share it with you guys here immediately. So that's what i'm trying to do next.
+
+440
+01:11:27.870 --> 01:11:31.240
+Stanley Omeike: And I said it doesn't matter what name you keep it available.
+
+441
+01:11:31.250 --> 01:11:52.609
+Stanley Omeike: He can be governed. He can be Stanley. He can be God's time. He can be Jude. You can be you, Michael, whatever it is. Okay. So what we went ahead with Govern right? Because we loved that in so much. So we use Gavin as the variable name to load the data. So I run this cell now.
+
+442
+01:11:52.620 --> 01:11:54.469
+Stanley Omeike: So what I see in French company.
+
+443
+01:12:29.920 --> 01:12:32.550
+MUIZZ ADIO: We're going to use the
+
+444
+01:12:37.490 --> 01:12:39.270
+Stanley Omeike: all right. That's what we're going to use.
+
+445
+01:12:40.030 --> 01:12:46.670
+Stanley Omeike: Now, this is very good to see all using pandas for the first time. Alright, we're going to be using Pandas for the first time to see.
+
+446
+01:12:46.870 --> 01:12:49.829
+Stanley Omeike: So i'm going to see.
+
+447
+01:12:50.120 --> 01:12:51.010
+Yeah,
+
+448
+01:12:52.720 --> 01:12:54.870
+Stanley Omeike: uh that'll be tf
+
+449
+01:12:58.570 --> 01:12:59.679
+Stanley Omeike: that's
+
+450
+01:13:15.410 --> 01:13:16.580
+MUIZZ ADIO: cool on.
+
+451
+01:13:18.920 --> 01:13:22.330
+Stanley Omeike: Um. I think he's all four of us. Um
+
+452
+01:13:23.320 --> 01:13:25.190
+Stanley Omeike: uh walks, please.
+
+453
+01:13:25.290 --> 01:13:26.130
+Okay,
+
+454
+01:13:47.680 --> 01:13:50.160
+Stanley Omeike: that you want to identify us.
+
+455
+01:13:51.240 --> 01:13:54.329
+Stanley Omeike: These documents is going to be saved
+
+456
+01:13:55.020 --> 01:13:58.419
+Stanley Omeike: in whatever
+
+457
+01:13:58.480 --> 01:14:00.170
+Stanley Omeike: are we all together so far?
+
+458
+01:14:00.500 --> 01:14:18.560
+Stanley Omeike: Yes, okay. But I want it to be somewhere that I can go ahead and check for. So i'm going to put that. So that's the path he's going to see me in my drive, c. In the fuller code workspace in, and they need that food. I just call it that one. Let me go, and for that for you guys.
+
+459
+01:14:31.080 --> 01:14:32.450
+Stanley Omeike: Um.
+
+460
+01:14:32.560 --> 01:14:35.600
+Stanley Omeike: So if I bring this to view here,
+
+461
+01:14:35.670 --> 01:14:42.470
+Stanley Omeike: I do very tiny when it comes. But hopefully you'll be able to see. I'll be full of call. Works this my my drive, c.
+
+462
+01:14:42.520 --> 01:14:44.800
+Right now
+
+463
+01:14:55.730 --> 01:14:57.379
+Stanley Omeike: and they around this.
+
+464
+01:14:58.370 --> 01:15:01.850
+Stanley Omeike: Okay, I've run it now. So let me bring back my.
+
+465
+01:15:05.670 --> 01:15:07.439
+Stanley Omeike: They bring about the um.
+
+466
+01:15:16.470 --> 01:15:28.200
+Stanley Omeike: I have an error. Let me see. Data frame object has No, and that's okay. So let's move on. That's because I've already
+
+467
+01:15:28.500 --> 01:15:29.679
+Stanley Omeike: Rhonda:
+
+468
+01:15:33.770 --> 01:15:35.770
+Stanley Omeike: No, I can see the demons there.
+
+469
+01:15:47.750 --> 01:15:50.880
+Stanley Omeike: Uh: it's coming. I hope.
+
+470
+01:15:51.290 --> 01:16:03.650
+Stanley Omeike: Yeah, that's it. So I have Kara's course. Color, clarity depths uh table price all the way to my the all the features we have in the data,
+
+471
+01:16:04.970 --> 01:16:12.810
+Stanley Omeike: but one That's My, I added, the index for you this zero one, two, three you're seeing here is this: Let's go back here and look at it.
+
+472
+01:16:14.130 --> 01:16:15.070
+Well,
+
+473
+01:16:22.340 --> 01:16:25.550
+Stanley Omeike: that's what
+
+474
+01:16:41.060 --> 01:16:42.040
+let's see
+
+475
+01:16:45.060 --> 01:16:46.820
+Stanley Omeike: they give me x.
+
+476
+01:16:47.610 --> 01:16:53.919
+Stanley Omeike: So this x is the range starting from zero to fifty, three thousand nine hundred and forty,
+
+477
+01:17:06.270 --> 01:17:14.439
+Stanley Omeike: so that is it fifty-three thousand nine hundred and forty. One Um! It's forty. You just already had a
+
+478
+01:17:14.630 --> 01:17:23.669
+Stanley Omeike: so I've saved it. But I don't want this index calling any data, but I don't want it. I'm going to receive it at the index.
+
+479
+01:17:24.660 --> 01:17:26.420
+Stanley Omeike: It was the fall
+
+480
+01:17:33.140 --> 01:17:34.570
+Stanley Omeike: uh one.
+
+481
+01:17:38.110 --> 01:17:40.409
+Stanley Omeike: I've comment here for some of you
+
+482
+01:17:40.810 --> 01:17:41.910
+Stanley Omeike: uh the
+
+483
+01:17:42.410 --> 01:17:43.690
+Stanley Omeike: index.
+
+484
+01:17:43.830 --> 01:17:45.580
+Stanley Omeike: It was the false,
+
+485
+01:17:48.900 --> 01:17:49.779
+all right.
+
+486
+01:18:02.900 --> 01:18:07.839
+Stanley Omeike: So that was index.
+
+487
+01:18:08.030 --> 01:18:16.250
+Stanley Omeike: So i'm going to run this now. Uh, I think I should down this in a difference. So for those of you who might want it.
+
+488
+01:18:16.340 --> 01:18:17.929
+Stanley Omeike: So that's
+
+489
+01:18:29.470 --> 01:18:32.110
+Stanley Omeike: what I do is just grab yourself
+
+490
+01:18:32.830 --> 01:18:33.689
+No problem.
+
+491
+01:18:34.430 --> 01:18:35.629
+Stanley Omeike: I'm. Probably
+
+492
+01:18:38.930 --> 01:18:39.990
+you, too,
+
+493
+01:18:40.490 --> 01:18:42.959
+Stanley Omeike: and I will remove all of this
+
+494
+01:18:47.830 --> 01:18:54.220
+Stanley Omeike: alright, I just, you know this is this
+
+495
+01:18:54.390 --> 01:18:57.439
+Stanley Omeike: also saves
+
+496
+01:18:58.100 --> 01:18:59.500
+Stanley Omeike: the index.
+
+497
+01:19:05.600 --> 01:19:07.920
+Stanley Omeike: Okay. So this will be the second record.
+
+498
+01:19:14.490 --> 01:19:16.149
+Stanley Omeike: Oh, the index,
+
+499
+01:19:18.310 --> 01:19:20.609
+Stanley Omeike: all right.
+
+500
+01:19:20.690 --> 01:19:22.690
+Stanley Omeike: So if I run this now.
+
+501
+01:19:23.190 --> 01:19:24.099
+MUIZZ ADIO: Well,
+
+502
+01:19:41.690 --> 01:19:46.710
+Stanley Omeike: so this is that month's one. You can see the index. I only have Karat, as you guys call you,
+
+503
+01:19:46.880 --> 01:19:55.940
+Stanley Omeike: got Call up clarity, you know, and all the rest. If I bring up the original one, which is just that you will see the difference
+
+504
+01:19:55.980 --> 01:19:58.289
+Stanley Omeike: for that once we have.
+
+505
+01:20:04.900 --> 01:20:13.519
+Stanley Omeike: You can see that we had the in this call. It was added. There's an index, call it. We don't want this, because
+
+506
+01:20:14.530 --> 01:20:17.319
+do do you all understand what i'm doing so far.
+
+507
+01:20:20.230 --> 01:20:21.639
+Stella Okenu: Yes.
+
+508
+01:20:21.700 --> 01:20:37.020
+Stanley Omeike: Now I'm going to share this. I appreciate it. I'm gonna share these documents in the chat window about class. Uh, if you have problems trying to download uh trying to access um
+
+509
+01:20:39.010 --> 01:20:45.630
+Stanley Omeike: right to access uh see bonds uh data, Then I suggest you use
+
+510
+01:20:45.860 --> 01:20:49.269
+use it. So Here we go,
+
+511
+01:20:52.720 --> 01:20:54.129
+Stanley Omeike: There it is. Now
+
+512
+01:20:57.970 --> 01:20:59.800
+Stanley Omeike: there's an error.
+
+513
+01:21:17.680 --> 01:21:22.760
+Stanley Omeike: Okay, it says it's currently. You sorry, my my my fault. Let me close it
+
+514
+01:21:28.110 --> 01:21:30.229
+Stanley Omeike: all right. So hopefully to go now.
+
+515
+01:21:34.450 --> 01:21:36.050
+Raji Azeez: Yes, it does not
+
+516
+01:21:36.120 --> 01:21:53.480
+Stanley Omeike: so please. Uh check the chat window. Now you will see the file. Two point five megabytes. Please download it, and that's for those who are having issues with. But for the rest of you it's fine. So in this short spell you guys have learned how to save the data frame to disk,
+
+517
+01:21:53.550 --> 01:22:13.440
+Stanley Omeike: even though it's not part of the lesson for today. What! This you plans to show you how to save um. You've got to see it as excel. So you can do that. Just change Csv to excel X Uh. E. X. Cl: Okay, I need to save it for so make sure to change the extension to the Xls
+
+518
+01:22:13.450 --> 01:22:14.859
+when you this evening.
+
+519
+01:22:15.500 --> 01:22:21.579
+Stanley Omeike: So let's come back to now that we have our, which is the um,
+
+520
+01:22:21.800 --> 01:22:26.640
+Stanley Omeike: which is the uh demons data. But let's not proceed with
+
+521
+01:22:27.350 --> 01:22:29.830
+Stanley Omeike: you guys. Um! At this point
+
+522
+01:22:30.330 --> 01:22:33.969
+Stanley Omeike: uh it might get it to be technical. So please stick with me. Okay.
+
+523
+01:22:38.190 --> 01:22:44.889
+Stanley Omeike: So step one is, how do we load that data that I just created? I'm: going to show you how to load data.
+
+524
+01:22:45.260 --> 01:22:46.400
+Stanley Omeike: Oh,
+
+525
+01:23:20.400 --> 01:23:21.320
+okay,
+
+526
+01:23:39.180 --> 01:23:40.969
+Stanley Omeike: which one is.
+
+527
+01:23:41.960 --> 01:23:47.910
+Oluwaseun Bamgbose: Um.
+
+528
+01:23:49.230 --> 01:23:56.190
+Oluwaseun Bamgbose: So this is
+
+529
+01:23:56.440 --> 01:24:02.710
+Stanley Omeike: then. After that you have
+
+530
+01:24:02.770 --> 01:24:06.910
+Stanley Omeike: Okay, so please make sure you run lines. This could
+
+531
+01:24:07.070 --> 01:24:09.969
+Stanley Omeike: to save the file to your desk.
+
+532
+01:24:10.100 --> 01:24:14.110
+Stanley Omeike: I don't have a way to see because we need it back.
+
+533
+01:24:14.230 --> 01:24:17.449
+Stanley Omeike: Uh, Bunny, face up with two. Do you have a question?
+
+534
+01:24:17.700 --> 01:24:20.030
+Boniface Abutu: Yes,
+
+535
+01:24:20.050 --> 01:24:22.900
+Boniface Abutu: our covenant and error message
+
+536
+01:24:28.750 --> 01:24:29.969
+Boniface Abutu: details it.
+
+537
+01:24:31.870 --> 01:24:38.990
+Boniface Abutu: Um. I don't know What's the arrow you have to.
+
+538
+01:24:44.480 --> 01:24:47.020
+Boniface Abutu: Okay, Okay, Thank you for
+
+539
+01:24:47.110 --> 01:24:52.089
+Stanley Omeike: alright. Okay. And also uh James Tppa:
+
+540
+01:24:54.740 --> 01:24:55.630
+Bola Jacob: please.
+
+541
+01:24:55.730 --> 01:25:15.370
+James Ekpa: Hello, Bro: Yeah, So I was trying to save my uh, my files. Everything worked out. I was trying to seventy-five what it was I think I I got on. I was saying that uh my uh data firm is not too fine. I think i'm missing out something uh you more than missing our first of all you need to have assigned
+
+542
+01:25:15.380 --> 01:25:24.049
+Stanley Omeike: the uh That's bracket down on. We did a free of the year. Did you draw on this? Oh, okay, okay, Oh, No, no, thank you very much.
+
+543
+01:25:24.390 --> 01:25:27.240
+Stanley Omeike: If you have not assigned it, you can save it.
+
+544
+01:26:05.610 --> 01:26:08.349
+Stanley Omeike: Um! It was soon finished again.
+
+545
+01:26:25.200 --> 01:26:30.109
+Stanley Omeike: All right. So now let's look at how to load uh data sets
+
+546
+01:26:32.570 --> 01:26:36.870
+Stanley Omeike: from file onto the Jupiter
+
+547
+01:26:40.150 --> 01:26:43.910
+Stanley Omeike: Alright, to be able to do that. We use
+
+548
+01:26:45.080 --> 01:26:46.670
+Stanley Omeike: the pan does
+
+549
+01:26:52.420 --> 01:26:54.080
+Stanley Omeike: Csv:
+
+550
+01:26:54.560 --> 01:26:56.769
+Stanley Omeike: the Csv files
+
+551
+01:26:56.960 --> 01:26:59.519
+Stanley Omeike: for Csv files.
+
+552
+01:27:00.460 --> 01:27:01.700
+Stanley Omeike: Okay. So
+
+553
+01:27:04.690 --> 01:27:07.209
+Stanley Omeike: so we use that for Csv files
+
+554
+01:27:07.480 --> 01:27:08.900
+Stanley Omeike: we use
+
+555
+01:27:10.020 --> 01:27:12.769
+Stanley Omeike: read on this call,
+
+556
+01:27:12.870 --> 01:27:14.210
+Stanley Omeike: Excel
+
+557
+01:27:15.730 --> 01:27:17.379
+Stanley Omeike: for excel
+
+558
+01:27:19.640 --> 01:27:21.280
+Stanley Omeike: excel files.
+
+559
+01:27:26.150 --> 01:27:28.389
+Stanley Omeike: Okay, we use
+
+560
+01:27:29.390 --> 01:27:33.290
+Stanley Omeike: read on this call Jason.
+
+561
+01:27:33.710 --> 01:27:34.700
+Stanley Omeike: Okay,
+
+562
+01:27:34.780 --> 01:27:37.019
+Stanley Omeike: for the Jason files.
+
+563
+01:27:46.930 --> 01:27:49.219
+Stanley Omeike: So we're going to learn how to do that,
+
+564
+01:27:49.370 --> 01:27:51.800
+Stanley Omeike: to be able to load any data
+
+565
+01:27:51.920 --> 01:27:53.950
+Stanley Omeike: from your uh
+
+566
+01:27:54.610 --> 01:27:58.610
+Busola Adedoyin: on file the step one is imports
+
+567
+01:27:58.960 --> 01:28:00.160
+Stanley Omeike: on us
+
+568
+01:28:00.680 --> 01:28:16.589
+Stanley Omeike: right now. We are using Pd. As an acronym for. Because let's visit when you, when you start working as we did a scientist. So you did our engineer. You can be typing lines and lines of um uh statements of code.
+
+569
+01:28:16.650 --> 01:28:27.909
+Stanley Omeike: Anything that seems you key stroke is a very useful uh thing. So Pd. Is going to be the alias we're going to use. Refer to partners whenever I want to call any of these functions.
+
+570
+01:28:27.950 --> 01:28:33.840
+Stanley Omeike: So once you've done that, next thing you want to declare is the file name you want to import
+
+571
+01:28:36.600 --> 01:28:41.200
+Stanley Omeike: my name you want to.
+
+572
+01:28:42.130 --> 01:28:44.919
+Stanley Omeike: Mine is that once one dot Csv:
+
+573
+01:28:46.100 --> 01:28:49.909
+Stanley Omeike: right. Next thing you want is the path five parts.
+
+574
+01:28:50.830 --> 01:28:52.860
+Stanley Omeike: That's where the fight is to,
+
+575
+01:28:53.320 --> 01:29:05.160
+Stanley Omeike: because to you have to go figure away it is, but I I can get it from how I save the file. Right. I see the file in C workspace. So this is my path, so i'll copy this.
+
+576
+01:29:06.270 --> 01:29:07.670
+Stanley Omeike: How good it here!
+
+577
+01:29:08.560 --> 01:29:18.770
+Stanley Omeike: So that's my half. That's where That's why it's already been located in my computer, and your only might be a different place, but always make sure you end with the for slash.
+
+578
+01:29:18.830 --> 01:29:20.099
+Stanley Omeike: Alright,
+
+579
+01:29:23.440 --> 01:29:24.769
+Stanley Omeike: So now
+
+580
+01:29:24.820 --> 01:29:26.830
+Stanley Omeike: to import the file.
+
+581
+01:29:26.940 --> 01:29:30.409
+Stanley Omeike: I'll see food. But now this one going this step.
+
+582
+01:29:42.250 --> 01:29:44.860
+Stanley Omeike: It goes to five paths
+
+583
+01:29:46.590 --> 01:29:49.080
+Stanley Omeike: lost.
+
+584
+01:29:50.900 --> 01:29:53.509
+Stanley Omeike: Alright, See if I see it
+
+585
+01:29:55.150 --> 01:29:56.290
+Stanley Omeike: cool.
+
+586
+01:29:57.100 --> 01:29:58.250
+Wow!
+
+587
+01:29:59.150 --> 01:30:04.559
+Stanley Omeike: And I around this. This is where my five is located. You recognize that this
+
+588
+01:30:05.550 --> 01:30:06.870
+Stanley Omeike: string
+
+589
+01:30:07.120 --> 01:30:11.099
+Stanley Omeike: is actually the same thing as this.
+
+590
+01:30:11.580 --> 01:30:13.309
+Stanley Omeike: Are you guys in agreement?
+
+591
+01:30:16.770 --> 01:30:18.199
+Bola Jacob: Yes, hello, guys.
+
+592
+01:30:18.930 --> 01:30:30.479
+Stanley Omeike: Yes. But what I've done is try to help you see the the components, There is the name of the file, and there is directly to be full that where it is located
+
+593
+01:30:37.040 --> 01:30:38.849
+Stanley Omeike: the down on this file
+
+594
+01:30:40.620 --> 01:30:41.750
+Stanley Omeike: that we,
+
+595
+01:30:41.810 --> 01:30:43.250
+Stanley Omeike: i'll give you the
+
+596
+01:31:00.630 --> 01:31:04.990
+Stanley Omeike: in that bracket. I'm going to put the full pop to where the file is,
+
+597
+01:31:05.270 --> 01:31:08.680
+Stanley Omeike: so for that i'll be using my full path,
+
+598
+01:31:10.450 --> 01:31:11.370
+Stanley Omeike: all right,
+
+599
+01:31:13.650 --> 01:31:15.169
+Stanley Omeike: if I run that
+
+600
+01:31:15.670 --> 01:31:18.710
+Stanley Omeike: no error which means that that data has come in.
+
+601
+01:31:18.970 --> 01:31:21.880
+Stanley Omeike: So now I can see it.
+
+602
+01:32:01.350 --> 01:32:09.279
+Jude: Yeah, I tried loading mine. Um, they have to say and put an arrow. It says, name the it's not defined
+
+603
+01:32:09.830 --> 01:32:10.940
+Stanley Omeike: there.
+
+604
+01:32:13.670 --> 01:32:17.760
+Jude: Yeah, that when I want to load like when I want to save it. So Csv:
+
+605
+01:32:27.970 --> 01:32:34.480
+Stanley Omeike: Oh, oh, oh, you have to have the very good D of food in the file first before you try to save it.
+
+606
+01:32:35.340 --> 01:32:41.450
+Jude: Okay? So
+
+607
+01:32:41.600 --> 01:32:43.510
+Daniel Ameh: we asked it.
+
+608
+01:32:50.840 --> 01:32:52.800
+Stanley Omeike: Yeah,
+
+609
+01:32:52.900 --> 01:32:55.340
+Daniel Ameh: Yeah, thank you very much. Bye bye,
+
+610
+01:32:55.440 --> 01:32:57.690
+Gavin Abiamuwe: I my seabo. No working.
+
+611
+01:32:58.040 --> 01:33:16.819
+Gavin Abiamuwe: If you see what it's, because I I know what the problem is. My is no working. No, no, no! What is it saying to you now? I'm not working. Doesn't. Provide any information. Okay, If I, after after writing a report, see Bone and I run this code.
+
+612
+01:34:02.880 --> 01:34:09.329
+Gavin Abiamuwe: That was what I It does it on. That's called
+
+613
+01:34:24.600 --> 01:34:38.389
+Stanley Omeike: because I think, Lorenz uh somebody. Somebody was trying to speak Laureate out. All right. I still there. Okay, Okay,
+
+614
+01:34:39.950 --> 01:34:47.680
+Stanley Omeike: Okay, Loretta, If you are in trouble, please. Nico. Uh Raji. Do you have any issues
+
+615
+01:34:48.370 --> 01:34:49.340
+Raji Azeez: nice.
+
+616
+01:34:51.130 --> 01:34:53.350
+Raji Azeez: Uh, is there a name, Aero?
+
+617
+01:34:58.380 --> 01:35:00.340
+Raji Azeez: He's given me? Name, arrow,
+
+618
+01:35:00.420 --> 01:35:04.550
+Raji Azeez: name, aero, the amount that most one is not defined,
+
+619
+01:35:05.000 --> 01:35:21.960
+Stanley Omeike: and so then parallel would be a function of How did What name did you call if I? You say, don't just use the good I sent you remove one from it. Maybe it does that amount right?
+
+620
+01:35:22.140 --> 01:35:23.759
+Raji Azeez: So Csv:
+
+621
+01:35:25.050 --> 01:35:28.610
+Jude: So check this penny because my spending might be different from your. So
+
+622
+01:35:35.800 --> 01:35:48.700
+Stanley Omeike: okay, let me take you guys to be on the safe side. Go to that script where you saved it. You see that like where you deceiving, just copy it, control copy
+
+623
+01:35:48.770 --> 01:35:50.599
+Stanley Omeike: and bring it down here.
+
+624
+01:35:50.870 --> 01:35:56.160
+Stanley Omeike: Okay, and use the if you remove all of this. Now, I put it here.
+
+625
+01:35:56.250 --> 01:36:08.469
+Raji Azeez: Uh, I make sure It's all in quotation marks. All right. I'm going to put all of them.
+
+626
+01:36:13.280 --> 01:36:30.099
+Raji Azeez: That's why they do exactly what I just asked you to do. Go and let me know. That's why they do exactly what I just asked you to do. Go, and before then you let me know that you guys are thanks, for we saved it. They must be forward slashes
+
+627
+01:36:30.110 --> 01:36:34.370
+Stanley Omeike: and then go and use it to impose it back if you work. Okay,
+
+628
+01:36:35.230 --> 01:36:39.300
+Stanley Omeike: but let me change because this is going to everybody.
+
+629
+01:36:40.010 --> 01:36:47.769
+Stanley Omeike: Alright, So I I need to. I need to get some speed guys. So you now have lunch. How to load data. All right. Let me just clean this up
+
+630
+01:36:48.070 --> 01:36:55.759
+Stanley Omeike: uh You've learned how to do data and like I was trying to explain to you. Each calling here represents a feature in our data.
+
+631
+01:37:17.550 --> 01:37:19.649
+Stanley Omeike: So I have sample zero
+
+632
+01:37:19.890 --> 01:37:21.480
+Stanley Omeike: sample, one
+
+633
+01:37:22.130 --> 01:37:23.790
+Stanley Omeike: sample two
+
+634
+01:37:24.070 --> 01:37:26.900
+Stanley Omeike: all the way to sample. And in my data,
+
+635
+01:37:27.690 --> 01:37:33.590
+Stanley Omeike: right? So let me just make that note here for you guys. Uh, did the frames?
+
+636
+01:37:34.650 --> 01:37:36.430
+Stanley Omeike: Hi matrices
+
+637
+01:37:41.480 --> 01:37:42.460
+Raji Azeez: as well?
+
+638
+01:37:43.280 --> 01:37:44.139
+Raji Azeez: That
+
+639
+01:37:55.550 --> 01:37:57.160
+Um,
+
+640
+01:37:57.900 --> 01:37:58.809
+Raji Azeez: it? Okay.
+
+641
+01:38:00.180 --> 01:38:01.359
+Stanley Omeike: Thanks.
+
+642
+01:38:02.060 --> 01:38:04.000
+Stanley Omeike: Okay.
+
+643
+01:38:08.050 --> 01:38:09.290
+Stanley Omeike: It calls
+
+644
+01:38:10.240 --> 01:38:11.450
+Stanley Omeike: features
+
+645
+01:38:13.630 --> 01:38:14.740
+and
+
+646
+01:38:15.150 --> 01:38:16.809
+Stanley Omeike: data rules,
+
+647
+01:38:18.940 --> 01:38:20.099
+Stanley Omeike: calls
+
+648
+01:38:21.470 --> 01:38:22.870
+sound tools.
+
+649
+01:38:23.220 --> 01:38:35.230
+Stanley Omeike: Alright, So you guys should keep that in mind as the structure of I did after now, to find out the shape of your data free, for example, how many callumes? How many rules do I have in the days that you use if function in Pandas
+
+650
+01:38:35.500 --> 01:38:38.019
+Stanley Omeike: to get the shape
+
+651
+01:38:38.810 --> 01:38:41.090
+Stanley Omeike: of the data sets
+
+652
+01:38:42.010 --> 01:38:43.279
+Stanley Omeike: number
+
+653
+01:38:43.590 --> 01:38:45.710
+Stanley Omeike: all features
+
+654
+01:38:46.910 --> 01:38:48.500
+Stanley Omeike: uh samples.
+
+655
+01:38:49.180 --> 01:38:52.719
+Stanley Omeike: Okay. So for that we're going to use the functional code
+
+656
+01:39:01.570 --> 01:39:02.760
+that she
+
+657
+01:39:05.900 --> 01:39:15.190
+Stanley Omeike: alright So you just call data sheep. He tells you very clearly how many samples and how many features are in your data right now. Are you guys seeing my screen
+
+658
+01:39:56.500 --> 01:39:58.210
+Stanley Omeike: of the features?
+
+659
+01:40:18.390 --> 01:40:19.840
+Francisca: Yes, pro
+
+660
+01:40:42.410 --> 01:40:44.559
+Stanley Omeike: it just said, calling
+
+661
+01:40:45.620 --> 01:40:47.309
+Stanley Omeike: to a list.
+
+662
+01:40:48.310 --> 01:40:50.030
+Imaikop Bassey: So this will be
+
+663
+01:40:50.330 --> 01:40:52.920
+Stanley Omeike: uh calls i'll call It calls
+
+664
+01:40:53.550 --> 01:40:55.139
+Stanley Omeike: it close to
+
+665
+01:40:55.480 --> 01:40:58.010
+Stanley Omeike: list in brackets.
+
+666
+01:41:02.080 --> 01:41:11.669
+Stanley Omeike: Alright, So now, if I call Prince, you will see that it's going to be different calls If I run this Now I see the presentation is now different from this other one.
+
+667
+01:41:11.820 --> 01:41:13.070
+Godwin Ubogun: Yes, please,
+
+668
+01:41:14.010 --> 01:41:28.700
+Stanley Omeike: and so I can. It's read to it. This is in index position, Zero. This is in one. This is in two two. This is the three all the way to add, All right, so I can just quickly write it for you for
+
+669
+01:41:32.070 --> 01:41:33.120
+cool.
+
+670
+01:41:33.500 --> 01:41:35.130
+Stanley Omeike: All right. If I do that,
+
+671
+01:41:35.360 --> 01:41:38.879
+Stanley Omeike: I get that. So this you that I can do through it right?
+
+672
+01:41:39.310 --> 01:41:40.530
+Yes, Pro,
+
+673
+01:41:40.560 --> 01:41:43.780
+Stanley Omeike: I can see
+
+674
+01:41:49.190 --> 01:42:04.579
+Stanley Omeike: that's good. I'm happy for you. Alright, So basically now, i'm, i'm going to really top and bring all of you back again, just so that we're on the same page uh to this class is very good concerns uh, so that you can follow.
+
+675
+01:42:04.720 --> 01:42:08.030
+Stanley Omeike: When we started class today we talked about.
+
+676
+01:42:57.020 --> 01:43:10.319
+Stanley Omeike: We're also going to have uh classes on Sto. You're going to learn how to create Sql: data sets unexstruct things, using the next statements. We have losses, you know. And
+
+677
+01:43:11.520 --> 01:43:24.059
+Stanley Omeike: and then, once we learn all of these, we're going to use that to. Now carry out data clean. We'll go end to end same data. That is very dirty. I'll walk through the process to clean the data.
+
+678
+01:43:35.100 --> 01:43:40.640
+Stanley Omeike: Okay, you will be forgiven if you don't know all five times. All you know is that Csv:
+
+679
+01:43:40.780 --> 01:43:52.960
+Stanley Omeike: nobody will, you know. Uh? Query your knowledge. If you don't know Sql: you still survive as a data scientist or an engineer. I don't use sql in all my
+
+680
+01:43:52.970 --> 01:44:01.639
+Stanley Omeike: who work as a data sciences. I don't use sql, but we're teaching you because there is a lot of them versus on being able to create those data sets.
+
+681
+01:44:12.290 --> 01:44:21.650
+Stanley Omeike: Okay, So this introduction to five spark library for data processing is just the of everything You've learned from one to three.
+
+682
+01:44:22.970 --> 01:44:23.950
+Stanley Omeike: Okay.
+
+683
+01:44:23.960 --> 01:44:50.180
+Stanley Omeike: So that's what we said. We're going to cover. And we started. Illustrating things about data by you know, taking an example of you working in a company, and the Md. Or your manager is to want to build a model that will predict which employees or set of employees are likely to resign from our company in the next couple of years. So do the model that this is the probability, index, or any given employee uh,
+
+684
+01:44:50.190 --> 01:44:52.900
+Stanley Omeike: you know, dropping off the deployment of our business.
+
+685
+01:44:53.600 --> 01:45:02.400
+Stanley Omeike: Uh, you and I follow us. You have Breakstone to say, Okay, what kind of data do we need to make that kind of prediction. And you guys were very uh
+
+686
+01:45:02.480 --> 01:45:08.720
+Stanley Omeike: uh you a You came up with all of these uh data types that we need,
+
+687
+01:45:33.120 --> 01:45:43.869
+Stanley Omeike: and I give you names for each of them for the outcome variable. If there are names we can use to refer to them target variable outcome. Very,
+
+688
+01:45:58.890 --> 01:46:18.339
+Stanley Omeike: you know. Somebody give us a planetary variable. That's fine Uh: features. Are them predictable variables. Okay, So that's where we're coming from. Having understood the nature of the task that it takes around the Academy is asking about which is lend the skills required to decide which features
+
+689
+01:46:18.350 --> 01:46:23.410
+Stanley Omeike: I can be used, or should be useful during any given model.
+
+690
+01:46:35.390 --> 01:46:51.929
+Stanley Omeike: Um, we said, the two, we need the primary to we need for the that's not too called, not by or not depending on You ask. Okay, uh, if you ask uh, if Britain, if it breaks, is going to tell you, is not the if you ask that you don't buy so,
+
+691
+01:46:52.380 --> 01:47:06.479
+Stanley Omeike: but we're not ready for that, because that's that one is for Ariz. All right, a raise and um vectors when all ready for that one to the primary two we're going to be using is conduct. So we what they found us, and that's the coolest to be.
+
+692
+01:47:15.730 --> 01:47:35.419
+Stanley Omeike: So we bought that C. Bond just to be able to access. It's data data titles. And I gave you code to query to see all these data types. It has. So it is tested that get on the score data set on the small name brackets, and that will give you it to speed out all the data tables that see one is holding for you.
+
+693
+01:47:44.670 --> 01:47:46.480
+Stanley Omeike: I'll make sure you put it, does it string,
+
+694
+01:47:46.640 --> 01:47:48.670
+Stanley Omeike: and that's it to load it for you
+
+695
+01:48:41.380 --> 01:48:47.820
+Stanley Omeike: in brackets. You put the full path to where the file is going to be saved. In my case it was the seat right.
+
+696
+01:48:53.130 --> 01:48:56.120
+Stanley Omeike: But when you see your details this week,
+
+697
+01:48:56.800 --> 01:49:12.010
+Stanley Omeike: what fun does does is convex the index call. You see this index for you. That is not part of the data, but that's the index calling to call you in the day Time saves it for you sometimes. That's a lot of news that you don't want it, unless the index means something to you
+
+698
+01:49:18.500 --> 01:49:30.039
+Stanley Omeike: from the Directory to we have the and that's index. It goes to faults, capital that not small app indexing go to phones that we went on. That saves that data
+
+699
+01:49:52.440 --> 01:50:06.360
+Stanley Omeike: lesson Number one for you guys is learn how to load uh a Csv file from your full that onto your to be able to do that. The function we're going to use is the read on that called Csv Function
+
+700
+01:50:06.450 --> 01:50:08.540
+Stanley Omeike: of Pandas.
+
+701
+01:50:10.040 --> 01:50:13.800
+Stanley Omeike: Get a two moving paths. You need to have to be able to load any file.
+
+702
+01:50:14.460 --> 01:50:17.959
+Stanley Omeike: One is the full name of the file with its extension.
+
+703
+01:50:24.940 --> 01:50:27.259
+Stanley Omeike: So the two moving parts you need to know
+
+704
+01:50:28.000 --> 01:50:29.940
+Stanley Omeike: the name of the file
+
+705
+01:50:45.540 --> 01:50:51.739
+Stanley Omeike: to get the full. But if you are using windows eleven, the problem is for you already. Just right. Click the file
+
+706
+01:50:52.640 --> 01:50:54.919
+Stanley Omeike: and take copy as part,
+
+707
+01:50:55.000 --> 01:51:02.809
+Stanley Omeike: please. This is only if you're using windows. Eleven. If you are windows ten have to do it by not work like that. I'll show you how to do that one. Take copy as path.
+
+708
+01:51:12.450 --> 01:51:16.020
+Stanley Omeike: It copied everything for me. Give me the full pass,
+
+709
+01:51:16.150 --> 01:51:20.130
+Stanley Omeike: but I need to not change this to four slash,
+
+710
+01:51:20.540 --> 01:51:22.639
+Stanley Omeike: or if I can use it,
+
+711
+01:51:35.450 --> 01:51:49.270
+Stanley Omeike: and I'm just going to move down on this other brackets. Yeah, okay. So if I run this now, if you need my data straight. I run that now. I have Df to ask my data. I mean that down here and run it. You see, I have the data,
+
+712
+01:51:50.040 --> 01:51:52.790
+Stanley Omeike: so that
+
+713
+01:52:05.130 --> 01:52:08.290
+Stanley Omeike: that click on properties, anything,
+
+714
+01:52:08.760 --> 01:52:11.789
+Stanley Omeike: click on properties. The window will open
+
+715
+01:52:12.300 --> 01:52:13.639
+Stanley Omeike: this window.
+
+716
+01:52:14.950 --> 01:52:16.620
+Stanley Omeike: In that window
+
+717
+01:52:16.720 --> 01:52:19.169
+Stanley Omeike: there is an entry called Location
+
+718
+01:52:19.940 --> 01:52:23.489
+Stanley Omeike: Location gives you where the file is. Thought You see this.
+
+719
+01:52:24.100 --> 01:52:25.970
+Stanley Omeike: That's where the finally starts
+
+720
+01:52:28.020 --> 01:52:31.280
+Stanley Omeike: right. If you go to details, you also see it.
+
+721
+01:52:45.680 --> 01:52:49.620
+Stanley Omeike: I'll go to my.
+
+722
+01:52:50.650 --> 01:52:52.840
+Stanley Omeike: It's supposed to that.
+
+723
+01:52:53.180 --> 01:52:56.920
+Stanley Omeike: All right now. I have to put it in bracket, because it will be a stream,
+
+724
+01:52:56.990 --> 01:53:00.689
+Stanley Omeike: and I need to change the best backwards last before slash
+
+725
+01:53:01.280 --> 01:53:03.759
+Stanley Omeike: and add the four slash in the end.
+
+726
+01:53:04.670 --> 01:53:08.270
+Stanley Omeike: That's what I need to do. Then I go back again to
+
+727
+01:53:21.740 --> 01:53:23.130
+Stanley Omeike: come back here.
+
+728
+01:53:23.310 --> 01:53:25.620
+Stanley Omeike: I'll see file
+
+729
+01:53:54.120 --> 01:53:55.340
+Stanley Omeike: to those
+
+730
+01:53:55.470 --> 01:53:56.580
+Stanley Omeike: Finally,
+
+731
+01:53:58.820 --> 01:54:00.960
+Stanley Omeike: All right, if I run that.
+
+732
+01:54:11.570 --> 01:54:23.139
+Stanley Omeike: Uh: okay. This is because I've not run this. I'm: I think we've experienced this problem in a lot of we're doing, python, if you don't run this, so we you declare the variable before you use it. What if I don't say to you?
+
+733
+01:54:24.670 --> 01:54:32.680
+Stanley Omeike: Not just fine, not the fine, So most I see that I do only sell somewhere, so i'll go back and run this. So
+
+734
+01:54:33.040 --> 01:54:38.499
+Stanley Omeike: now, if I run it not defined as well. But now I can think this, I'll bring it out.
+
+735
+01:54:48.770 --> 01:54:59.849
+Stanley Omeike: So this represents this. So now I can proceed with what that is we're talking about, we'll learn how to get the shape of our data. Okay, yes,
+
+736
+01:55:02.510 --> 01:55:03.930
+Stanley Omeike: that's visa,
+
+737
+01:55:06.440 --> 01:55:07.719
+Stanley Omeike: said she.
+
+738
+01:55:08.470 --> 01:55:10.749
+Stanley Omeike: Okay, which simply is number
+
+739
+01:55:11.350 --> 01:55:12.719
+Stanley Omeike: all features
+
+740
+01:55:13.690 --> 01:55:15.120
+Stanley Omeike: on samples.
+
+741
+01:55:16.680 --> 01:55:18.510
+Stanley Omeike: So this will be my
+
+742
+01:55:19.410 --> 01:55:28.180
+Stanley Omeike: I will see we just uh our procedure. It us sets. Where is it again? Our
+
+743
+01:55:31.560 --> 01:55:32.990
+Stanley Omeike: that she
+
+744
+01:55:35.320 --> 01:55:44.440
+Stanley Omeike: like? I said earlier. This tells me. I have ten people or ten columns and fifty-three thousand one hundred and forty samples or rules in the data.
+
+745
+01:55:55.440 --> 01:55:56.580
+Imaikop Bassey: Okay,
+
+746
+01:55:57.120 --> 01:55:58.819
+Stanley Omeike: so that will be detail sets
+
+747
+01:56:02.670 --> 01:56:03.800
+Stanley Omeike: uh
+
+748
+01:56:06.540 --> 01:56:08.719
+my data,
+
+749
+01:56:27.790 --> 01:56:29.009
+Dot call you
+
+750
+01:56:30.340 --> 01:56:33.809
+Stanley Omeike: right? So at the end of this, if I say print calls,
+
+751
+01:56:34.190 --> 01:56:37.030
+Stanley Omeike: you see, I have the base. So this is where we were.
+
+752
+01:56:38.690 --> 01:56:43.629
+Stanley Omeike: Now that we got in this. Well, let us now see very simple ways of examining our data.
+
+753
+01:56:51.080 --> 01:56:53.340
+Stanley Omeike: Okay, let me.
+
+754
+01:56:53.570 --> 01:56:54.870
+It's correct
+
+755
+01:56:55.650 --> 01:56:57.680
+Stanley Omeike: the
+
+756
+01:56:58.930 --> 01:57:00.500
+Stanley Omeike: uh details right
+
+757
+01:57:01.640 --> 01:57:03.330
+Stanley Omeike: of the features
+
+758
+01:57:05.360 --> 01:57:07.980
+Stanley Omeike: data using
+
+759
+01:57:08.460 --> 01:57:10.030
+Stanley Omeike: dot info.
+
+760
+01:57:10.730 --> 01:57:22.900
+Stanley Omeike: Okay. So we're going to use that info to inspect the kind of properties of features our data to us, all right. So i'm going to write the code to be data set Dot in full.
+
+761
+01:57:25.120 --> 01:57:28.260
+Stanley Omeike: Okay, I missed.
+
+762
+01:57:28.550 --> 01:57:45.790
+Stanley Omeike: Now, this is the summary table of the properties of our data, and it's important that you guys learned to read this table. Right. Don't don't panic it's very easy. It's a like my friends from Zambia, which is for
+
+763
+01:57:46.110 --> 01:57:47.120
+Boniface Abutu: all right.
+
+764
+01:57:47.160 --> 01:57:57.590
+Stanley Omeike: Yeah, it is porridge for those of you in Nigeria. You will see it's my so let's let's examine these two.
+
+765
+01:58:09.850 --> 01:58:24.600
+Stanley Omeike: Okay, So in we have fifty-three thousand nine hundred and forty samples. In our data we have ten volumes in the data. Then what he then does proceed to do is, take each call you and give us the information about its contents.
+
+766
+01:58:46.070 --> 01:58:47.270
+MUIZZ ADIO: Are you guys with me?
+
+767
+01:58:47.750 --> 01:58:55.559
+Stanley Omeike: Yes, okay. So So if you are trying to find out if data is missing in any of the columns of your data,
+
+768
+01:58:55.610 --> 01:59:05.759
+Stanley Omeike: I think that again, because of all we're not listening. You were trying to find out. If there is any missing data in any of the volumes of your data sets,
+
+769
+01:59:09.210 --> 01:59:11.920
+Stanley Omeike: they check this particular quality, not all.
+
+770
+01:59:13.160 --> 01:59:16.300
+Stanley Omeike: If here is less than this.
+
+771
+01:59:21.510 --> 01:59:23.190
+Stanley Omeike: If this number,
+
+772
+01:59:31.460 --> 01:59:32.919
+Stanley Omeike: we understand that.
+
+773
+01:59:39.640 --> 01:59:46.080
+Stanley Omeike: Okay, it works together with this, not no, not which. Call you. How many columns have they in them?
+
+774
+01:59:46.720 --> 01:59:47.690
+Stanley Omeike: Okay?
+
+775
+01:59:48.040 --> 01:59:51.739
+Stanley Omeike: And Then the
+
+776
+01:59:51.940 --> 01:59:55.829
+he said to be a flute. You guys already know what it is.
+
+777
+01:59:55.870 --> 01:59:57.839
+Godwin Ubogun: Yes,
+
+778
+02:00:17.850 --> 02:00:18.959
+Stanley Omeike: thank you.
+
+779
+02:00:19.020 --> 02:00:22.959
+Stanley Omeike: Alright, If I go back to that, call you to check those three columns.
+
+780
+02:00:42.520 --> 02:00:43.590
+Okay,
+
+781
+02:00:49.410 --> 02:00:51.990
+Stanley Omeike: Okay. So we'll see
+
+782
+02:00:52.880 --> 02:00:54.679
+Stanley Omeike: these uh
+
+783
+02:00:55.360 --> 02:00:56.490
+Stanley Omeike: detail.
+
+784
+02:00:57.400 --> 02:00:58.689
+Stanley Omeike: Thanks.
+
+785
+02:00:59.100 --> 02:01:02.269
+Stanley Omeike: That's not numbers.
+
+786
+02:01:02.960 --> 02:01:03.809
+Stanley Omeike: Okay,
+
+787
+02:01:05.300 --> 02:01:06.670
+Stanley Omeike: for example,
+
+788
+02:01:09.340 --> 02:01:10.830
+Stanley Omeike: Um
+
+789
+02:01:11.060 --> 02:01:12.269
+Stanley Omeike: States
+
+790
+02:01:14.840 --> 02:01:16.690
+Stanley Omeike: um. Call up.
+
+791
+02:01:19.920 --> 02:01:21.099
+Stanley Omeike: What else?
+
+792
+02:01:21.440 --> 02:01:22.590
+Stanley Omeike: Agenda?
+
+793
+02:01:24.510 --> 02:01:26.409
+Stanley Omeike: It easy. But
+
+794
+02:01:27.830 --> 02:01:29.740
+Stanley Omeike: was that it?
+
+795
+02:01:31.370 --> 02:01:34.529
+Stanley Omeike: Okay, No. H.
+
+796
+02:01:44.070 --> 02:02:03.010
+Stanley Omeike: Cod is describing okay, located quality, if you like, of the diamonds ideal premium Good. So it's a categorical variable. Common. It's the same thing. Clarity is the same, so they are not numbers. They are category two variables, but the rest are numbers. Current is a flute, because it has to decimal places.
+
+797
+02:02:03.020 --> 02:02:08.130
+Stanley Omeike: That is, the flute table is the fluid prices. Price. Is that
+
+798
+02:02:08.480 --> 02:02:10.419
+Stanley Omeike: right? Price is that in Tj.
+
+799
+02:02:10.480 --> 02:02:13.879
+Stanley Omeike: X, y, and Z are flute. So let's go back and check.
+
+800
+02:02:16.480 --> 02:02:19.039
+Stanley Omeike: I see that price is on in the
+
+801
+02:02:20.900 --> 02:02:27.330
+Stanley Omeike: you see that is an in, but all the rest are fluid, with the exception of these three.
+
+802
+02:02:28.090 --> 02:02:42.410
+Stanley Omeike: Okay and uh, this ones are uh are like streams, so we call them categorical variables. So this is how you use this particular dot info. You have to see okay, what kind of types are in my colleagues,
+
+803
+02:02:42.420 --> 02:02:52.369
+Stanley Omeike: which fields are missing data and which ones are not missing data in my in my table. They is showing you how much memory they find you just do. That is ticket
+
+804
+02:02:52.740 --> 02:02:54.639
+Stanley Omeike: four point one megabytes.
+
+805
+02:02:55.900 --> 02:02:57.880
+Stanley Omeike: Now, here is the advice.
+
+806
+02:02:58.120 --> 02:03:00.489
+Stanley Omeike: Are you guys with me, Rebecca? Are you here?
+
+807
+02:03:00.640 --> 02:03:02.769
+MUIZZ ADIO: Yes, yes, uh,
+
+808
+02:03:02.980 --> 02:03:04.170
+Stanley Omeike: Rebecca.
+
+809
+02:03:04.190 --> 02:03:06.340
+Boniface Abutu: Yeah.
+
+810
+02:03:06.380 --> 02:03:08.220
+Stanley Omeike: Now you have a Rebecca. Now
+
+811
+02:03:12.850 --> 02:03:14.380
+CJay - Chijioke Nnabueze: he's
+
+812
+02:03:42.900 --> 02:03:44.250
+Stanley Omeike: because it
+
+813
+02:04:04.900 --> 02:04:06.349
+Stanley Omeike: using
+
+814
+02:04:06.390 --> 02:04:07.790
+Stanley Omeike: dot head
+
+815
+02:04:12.850 --> 02:04:13.809
+right
+
+816
+02:04:14.710 --> 02:04:20.889
+Stanley Omeike: that allows you to grab a few samples from the data. You don't need to see everything seeing it. Doesn't change everything.
+
+817
+02:04:20.950 --> 02:04:24.399
+Stanley Omeike: You just want to see a few samples. So the data sets
+
+818
+02:04:24.550 --> 02:04:25.940
+Stanley Omeike: dot head.
+
+819
+02:04:26.830 --> 02:04:34.090
+Stanley Omeike: Now, if you leave it without specifying how many rules or samples you want to you like, that is going to give you only five rules
+
+820
+02:04:35.280 --> 02:04:39.720
+Stanley Omeike: right? So he returns five rules. So this returns
+
+821
+02:04:40.760 --> 02:04:42.130
+Stanley Omeike: right. Rules
+
+822
+02:04:47.910 --> 02:04:49.420
+Stanley Omeike: specify
+
+823
+02:04:56.360 --> 02:05:02.460
+Stanley Omeike: all right. So this gives us five rules. However, If I want twenty rules I can see data sets
+
+824
+02:05:03.640 --> 02:05:04.949
+Stanley Omeike: Dot head,
+
+825
+02:05:06.840 --> 02:05:08.920
+Stanley Omeike: and i'll put twenty in that bracket
+
+826
+02:05:09.300 --> 02:05:11.349
+Stanley Omeike: all right, twenty.
+
+827
+02:05:11.460 --> 02:05:13.810
+Stanley Omeike: So this will return twenty years
+
+828
+02:05:17.490 --> 02:05:18.340
+Boniface Abutu: food
+
+829
+02:05:18.630 --> 02:05:20.990
+Stanley Omeike: right? So if I run it now, you can see,
+
+830
+02:05:21.220 --> 02:05:23.710
+Stanley Omeike: alright, returns twenty loose for me,
+
+831
+02:05:47.010 --> 02:05:48.370
+female,
+
+832
+02:05:49.270 --> 02:05:51.280
+Stanley Omeike: so you
+
+833
+02:05:51.530 --> 02:05:54.780
+CJay - Chijioke Nnabueze: he is
+
+834
+02:06:13.590 --> 02:06:15.459
+MUIZZ ADIO: the only past one. All you will.
+
+835
+02:06:16.520 --> 02:06:18.479
+Stanley Omeike: Uh, I think, he said, you have no question
+
+836
+02:06:20.230 --> 02:06:24.119
+MUIZZ ADIO: that. Why, you don't know I I have a small question.
+
+837
+02:06:24.350 --> 02:06:26.949
+Stanley Omeike: All right.
+
+838
+02:06:44.390 --> 02:06:46.950
+Stanley Omeike: Peak means. Can you
+
+839
+02:06:47.340 --> 02:06:51.219
+Stanley Omeike: look at the
+
+840
+02:07:00.360 --> 02:07:10.570
+Stanley Omeike: sometimes. You're not just interested in the you just want to look at a random return. So I can see data sets dot sample.
+
+841
+02:07:11.330 --> 02:07:12.320
+Stanley Omeike: Okay,
+
+842
+02:07:13.140 --> 02:07:16.679
+Stanley Omeike: the sample means randomly. Grab any data for me
+
+843
+02:07:16.990 --> 02:07:22.739
+Stanley Omeike: in detail, and you can't specify how many you want you to grab. All right. So let me specify
+
+844
+02:07:23.020 --> 02:07:24.559
+Stanley Omeike: uh ten.
+
+845
+02:07:29.600 --> 02:07:31.420
+Stanley Omeike: Are you guys with me so far?
+
+846
+02:07:31.780 --> 02:07:32.880
+Boniface Abutu: Yes, sir.
+
+847
+02:07:33.150 --> 02:07:35.190
+Stanley Omeike: Okay, yes. So
+
+848
+02:07:35.280 --> 02:07:40.750
+Stanley Omeike: So we are good at the level of being able to inspect our data.
+
+849
+02:07:46.540 --> 02:07:48.880
+Adebisi Enochoghene: Okay, Thank you, Doctor. Um
+
+850
+02:07:54.180 --> 02:08:00.290
+Adebisi Enochoghene: text or activities to practice onto the next boot camp.
+
+851
+02:08:00.720 --> 02:08:18.430
+Stanley Omeike: That's a good question. Yes, you will receive textbooks that you'll be working with uh next week is your self based learning? There' be material for you to study. Trust me, and of course there will also be a piece for you towards Thursday, Friday next week that you have to write.
+
+852
+02:08:18.440 --> 02:08:27.570
+Stanley Omeike: Um. So that's how we track your performance across the program. You do yourself. We study from Monday to Wednesday by Thursday morning,
+
+853
+02:08:38.270 --> 02:08:41.639
+Stanley Omeike: and then you have a whole day to at least
+
+854
+02:08:42.880 --> 02:08:46.709
+Stanley Omeike: so Yes,
+
+855
+02:08:47.480 --> 02:08:49.129
+uh, Louise,
+
+856
+02:08:49.790 --> 02:08:50.889
+Stanley Omeike: how do you?
+
+857
+02:09:09.300 --> 02:09:13.549
+Stanley Omeike: Um? Which is not the beginning? So let's please. I'm not hearing if you're speaking. Sorry
+
+858
+02:09:15.240 --> 02:09:16.559
+MUIZZ ADIO: Exactly.
+
+859
+02:09:19.390 --> 02:09:21.480
+Stanley Omeike: Uh: we. I still can't hear you.
+
+860
+02:09:22.180 --> 02:09:25.419
+MUIZZ ADIO: Hello. So yeah, we
+
+861
+02:09:26.090 --> 02:09:27.199
+Okay. So
+
+862
+02:09:29.060 --> 02:09:30.550
+Boniface Abutu: muted himself.
+
+863
+02:09:33.430 --> 02:09:35.409
+Stanley Omeike: All right.
+
+864
+02:09:36.170 --> 02:09:37.980
+Bola Jacob: Thank you very much.
+
+865
+02:09:38.180 --> 02:09:41.740
+Stanley Omeike: Okay? Well, I But uh, please hold on. Let's see if we can speak. Now.
+
+866
+02:09:41.870 --> 02:09:43.690
+Alright,
+
+867
+02:09:43.920 --> 02:09:48.270
+MUIZZ ADIO: my question is that and a zoom room we are we mixing
+
+868
+02:09:54.920 --> 02:09:56.570
+Bola Jacob: as we? You have what
+
+869
+02:09:57.200 --> 02:10:06.409
+MUIZZ ADIO: it makes zoom value. It means maybe it makes you a value from one of our
+
+870
+02:10:06.530 --> 02:10:09.620
+Stanley Omeike: okay. How would you do the with me in values.
+
+871
+02:10:15.290 --> 02:10:34.420
+Stanley Omeike: So it is, for right now Carlos has no missing values costs. You see, the the the sales are all full. So any any line. We are the number here That is not the same thing as this. Study simply means that they are missing values. Yeah, and and that's the name of the call it that. Uh, Tibo price.
+
+872
+02:10:39.710 --> 02:10:40.639
+Stanley Omeike: Okay,
+
+873
+02:10:43.480 --> 02:10:46.480
+CJay - Chijioke Nnabueze: So so basically, this data looks.
+
+874
+02:10:57.820 --> 02:11:05.670
+Stanley Omeike: So if I do something like this, and this is not for today's class, but you know just so that you guys can have something to choose. Uh.
+
+875
+02:11:06.830 --> 02:11:08.940
+Stanley Omeike: Okay, if I see data sets,
+
+876
+02:11:09.580 --> 02:11:11.820
+Stanley Omeike: does he any?
+
+877
+02:11:13.380 --> 02:11:14.639
+Stanley Omeike: That's not.
+
+878
+02:11:16.060 --> 02:11:22.239
+Stanley Omeike: And I run this. This tells me, which call you, has me in values, and which one doesn't
+
+879
+02:11:24.870 --> 02:11:26.539
+Stanley Omeike: Are you guys with me so far?
+
+880
+02:11:27.080 --> 02:11:30.060
+CJay - Chijioke Nnabueze: Yeah, yeah,
+
+881
+02:11:30.900 --> 02:11:37.010
+Stanley Omeike: alright, but this is that we're going to come to it later. So this is just checking. She's a good Jesus,
+
+882
+02:11:40.830 --> 02:11:42.610
+Stanley Omeike: you know these are.
+
+883
+02:11:57.070 --> 02:11:58.370
+Raji Azeez: Yes,
+
+884
+02:12:03.080 --> 02:12:04.360
+Rex Onwudinjo: but please
+
+885
+02:12:05.430 --> 02:12:14.980
+Bola Jacob: do I have your permission to use fifty more minutes or the
+
+886
+02:12:15.480 --> 02:12:33.310
+Bola Jacob: so? Yeah, The The question I wanted to add was actually what the other person that's about uh, maybe missing values. Um, uh, maybe missing spaces and so on. I think he's talking about the tracking, and I believe we still get there. But My
+
+887
+02:12:33.320 --> 02:12:41.540
+Bola Jacob: my question is, I want to make an appeal like for the Python Academy that we've done?
+
+888
+02:12:41.740 --> 02:12:56.480
+Bola Jacob: Is it possible for the school That's institutions to just be giving us meaning to you for a personal practice development on weekly basis on that python, so that we don't just
+
+889
+02:12:56.490 --> 02:13:11.400
+Bola Jacob: uh forget everything we go. If we don't constantly use it for me. I'm talking past now for myself, or if I don't completely use those. Okay? Well, I understand. Understand what you'll see. The the the beautiful thing is we are,
+
+890
+02:13:11.750 --> 02:13:23.739
+Stanley Omeike: so you'll find that all the I don't ski you you you're about to use it. Just watch the next ten minutes and see what happens. Okay, you're not going to worry me anything, I promise you that.
+
+891
+02:13:35.110 --> 02:13:43.390
+Stanley Omeike: So remember that if we look at our data set and i'm just going to change its name. I don't want to be writing data set. I'll just say, here is the post to
+
+892
+02:13:52.800 --> 02:13:55.709
+Stanley Omeike: it. Doesn't complete with any of the data we have before.
+
+893
+02:13:56.400 --> 02:13:59.459
+Stanley Omeike: So I run this. So now I have my Dfs:
+
+894
+02:14:00.100 --> 02:14:02.019
+Stanley Omeike: If I want to get
+
+895
+02:14:02.080 --> 02:14:09.110
+Stanley Omeike: uh, look at my data sets. I can you to a lot of things from my details very easily. So let's see if you are. You
+
+896
+02:14:11.380 --> 02:14:14.080
+Stanley Omeike: uh sorry Uh, You're sorry.
+
+897
+02:14:23.930 --> 02:14:25.320
+Stanley Omeike: One calling.
+
+898
+02:14:35.140 --> 02:14:37.140
+Stanley Omeike: Okay. If I call calls
+
+899
+02:14:45.940 --> 02:14:48.320
+Stanley Omeike: it's only
+
+900
+02:14:49.070 --> 02:14:50.480
+Stanley Omeike: the current
+
+901
+02:14:50.700 --> 02:14:51.610
+Stanley Omeike: got it,
+
+902
+02:15:07.180 --> 02:15:08.410
+Stanley Omeike: call you
+
+903
+02:15:08.590 --> 02:15:16.900
+Stanley Omeike: if it was to that, so I can't run that now. I have access to just that calling. I can do this. That's my
+
+904
+02:15:17.180 --> 02:15:18.070
+right,
+
+905
+02:15:27.880 --> 02:15:29.789
+Stanley Omeike: and changes to.
+
+906
+02:15:39.310 --> 02:15:41.130
+Stanley Omeike: So if I run that,
+
+907
+02:15:47.000 --> 02:15:59.199
+Stanley Omeike: are you guys with me? So far, So now I can determine how many unique labels I have in that call you. Each of these entries are labels. So let's say it gets uniquely bills
+
+908
+02:16:00.410 --> 02:16:02.129
+that's unique.
+
+909
+02:16:02.780 --> 02:16:03.889
+Stanley Omeike: Number
+
+910
+02:16:04.320 --> 02:16:05.929
+Stanley Omeike: of the bills
+
+911
+02:16:06.600 --> 02:16:09.279
+Stanley Omeike: and the calls calling.
+
+912
+02:16:10.240 --> 02:16:11.630
+Stanley Omeike: That will be.
+
+913
+02:16:19.710 --> 02:16:21.330
+Stanley Omeike: That's unique.
+
+914
+02:16:26.770 --> 02:16:28.569
+Stanley Omeike: All right. If I run that,
+
+915
+02:16:29.700 --> 02:16:33.130
+Stanley Omeike: I see that. How many uniquely bills we have in that calling
+
+916
+02:16:34.799 --> 02:16:39.680
+Bola Jacob: three, four, five, five, five,
+
+917
+02:16:39.709 --> 02:16:52.180
+Stanley Omeike: so very easy. I can see that there are five. Now, this technique is always important, because it kind of you see where there are arrows in the names, because I might see premium and see under a premium spell differently sometimes in the data
+
+918
+02:17:18.219 --> 02:17:19.350
+costs.
+
+919
+02:17:20.620 --> 02:17:22.660
+Stanley Omeike: Okay, that's unique.
+
+920
+02:17:26.760 --> 02:17:28.699
+Stanley Omeike: I'm still getting the same thing Right?
+
+921
+02:17:30.270 --> 02:17:33.689
+Boniface Abutu: Yes, correct. So it's either. I reference
+
+922
+02:17:42.280 --> 02:17:44.129
+Stanley Omeike: Any of the methods will work,
+
+923
+02:17:48.950 --> 02:17:51.789
+Stanley Omeike: for example. Very good, you see. Very good.
+
+924
+02:17:51.930 --> 02:18:06.410
+Stanley Omeike: So No, very good. There's nothing for the name. Let's go back and check. We don't have the calling name that has the two words in it, so we can't illustrate that. So your Cp. That is always to use the second method, because, regardless of how the name is it to rob?
+
+925
+02:18:06.990 --> 02:18:07.879
+Stanley Omeike: All right.
+
+926
+02:18:18.660 --> 02:18:20.469
+Stanley Omeike: So let's say challenge,
+
+927
+02:18:25.969 --> 02:18:29.349
+Stanley Omeike: Get all the samples. Okay,
+
+928
+02:18:37.010 --> 02:18:39.139
+Stanley Omeike: he's. Oh,
+
+929
+02:18:39.340 --> 02:18:40.549
+Stanley Omeike: they bill
+
+930
+02:18:41.070 --> 02:18:42.100
+premium.
+
+931
+02:18:44.180 --> 02:18:47.730
+Stanley Omeike: Now, this is going to be a little bit tricky. So um.
+
+932
+02:18:53.680 --> 02:18:55.490
+Stanley Omeike: So this is getting
+
+933
+02:18:56.420 --> 02:18:58.850
+Stanley Omeike: all samples,
+
+934
+02:18:59.219 --> 02:19:00.809
+Stanley Omeike: all that one
+
+935
+02:19:02.049 --> 02:19:03.480
+Stanley Omeike: samples.
+
+936
+02:19:03.639 --> 02:19:05.090
+That's our premium.
+
+937
+02:19:08.400 --> 02:19:09.829
+Stanley Omeike: This will be
+
+938
+02:19:09.980 --> 02:19:11.779
+Stanley Omeike: that's got a premium
+
+939
+02:19:13.910 --> 02:19:15.520
+Stanley Omeike: email samples
+
+940
+02:19:16.760 --> 02:19:19.500
+Stanley Omeike: as it was through the
+
+941
+02:19:26.719 --> 02:19:28.420
+Stanley Omeike: square brackets.
+
+942
+02:19:34.629 --> 02:19:41.560
+Stanley Omeike: Uh what is it again. I have X square brackets. I want to feel tab. Id called. Call you all right,
+
+943
+02:19:41.990 --> 02:19:46.319
+Stanley Omeike: and this will be where I call you. Is It goes to premium.
+
+944
+02:19:48.059 --> 02:19:51.740
+Stanley Omeike: Right again. Let me explain the good before I run it.
+
+945
+02:19:53.440 --> 02:19:59.960
+Stanley Omeike: I want to extract from our data and see this, our data here that has all kinds of um. Where is it again?
+
+946
+02:20:32.430 --> 02:20:34.890
+Stanley Omeike: So, my conditional with Dfx.
+
+947
+02:20:41.150 --> 02:20:51.330
+Stanley Omeike: It does run so. Now, if I take premium and try to print it out, you will see that a premium should only contain samples that are,
+
+948
+02:20:51.540 --> 02:20:53.979
+Stanley Omeike: I think, my spending of female is wrong.
+
+949
+02:21:01.640 --> 02:21:12.570
+Stanley Omeike: So we run it. Now you can see that these are all premiums and all together. I have thirteen thousand seven hundred and ninety one sample.
+
+950
+02:21:13.410 --> 02:21:19.370
+Stanley Omeike: Now, who can run future out for all the examples that are very good.
+
+951
+02:21:19.960 --> 02:21:22.640
+Stanley Omeike: Who can have those righty goods? Oh, yeah,
+
+952
+02:21:32.340 --> 02:21:33.610
+Stanley Omeike: Oh,
+
+953
+02:21:34.970 --> 02:21:37.800
+Stanley Omeike: is the only place, and we
+
+954
+02:21:38.170 --> 02:21:43.759
+Stanley Omeike: I have Google. How many students in this last today. Have sixty-three. Um:
+
+955
+02:21:50.110 --> 02:21:51.460
+Oluwaseun Bamgbose: Okay. So
+
+956
+02:21:52.750 --> 02:21:59.610
+Oluwaseun Bamgbose: okay. So we'll go with um. Very good,
+
+957
+02:21:59.890 --> 02:22:02.929
+Oluwaseun Bamgbose: very good. Samples.
+
+958
+02:22:03.700 --> 02:22:07.310
+Oluwaseun Bamgbose: Very good. Samples is it. Called Zoo.
+
+959
+02:22:08.670 --> 02:22:15.639
+Oluwaseun Bamgbose: Yeah, very good. Samples and um. Df: X: Yeah, that's
+
+960
+02:22:15.950 --> 02:22:17.260
+Oluwaseun Bamgbose: those.
+
+961
+02:22:33.910 --> 02:22:40.350
+Oluwaseun Bamgbose: Yes, and then
+
+962
+02:22:40.470 --> 02:22:42.490
+Oluwaseun Bamgbose: and um
+
+963
+02:22:58.240 --> 02:23:03.979
+MUIZZ ADIO: it's called
+
+964
+02:23:04.590 --> 02:23:06.020
+it four, six.
+
+965
+02:23:06.220 --> 02:23:24.710
+Stanley Omeike: Okay, hold on. That equals No. Okay. So that's good. Don't: So for this class, when you any python class is okay to say W. In this class. Now, whenever I want to use this
+
+966
+02:23:25.530 --> 02:23:30.680
+Oluwaseun Bamgbose: okay or identical to
+
+967
+02:23:30.870 --> 02:23:50.360
+Oluwaseun Bamgbose: all right. So what do you want to put now?
+
+968
+02:23:50.370 --> 02:24:04.320
+Stanley Omeike: And he run without an error? So that's pretty tough. So very good. You did. Well, you see now You' to be able to fill it up for us. We are,
+
+969
+02:24:05.550 --> 02:24:11.090
+Stanley Omeike: you know, all the items in this table where the price is greater than three hundred dollars.
+
+970
+02:24:20.860 --> 02:24:22.229
+Boniface Abutu: My aunt is a
+
+971
+02:24:31.870 --> 02:24:32.840
+Boniface Abutu: alright,
+
+972
+02:24:33.710 --> 02:24:35.110
+Boniface Abutu: Oh,
+
+973
+02:24:36.940 --> 02:24:42.369
+Boniface Abutu: okay, I'll give it. I'll give you I'll I'll give you. I'll give you. I'll give the available name to be uh
+
+974
+02:24:46.500 --> 02:24:47.900
+Stanley Omeike: okay, price
+
+975
+02:24:50.030 --> 02:24:54.020
+Boniface Abutu: or price below on uh three hundred,
+
+976
+02:24:54.320 --> 02:24:56.619
+you know. Three hundred. Okay,
+
+977
+02:24:58.140 --> 02:24:59.580
+This equals to
+
+978
+02:25:01.950 --> 02:25:03.110
+Boniface Abutu: Dfx:
+
+979
+02:25:03.550 --> 02:25:04.810
+Stanley Omeike: Dfx:
+
+980
+02:25:12.530 --> 02:25:13.810
+Boniface Abutu: Hello.
+
+981
+02:25:18.350 --> 02:25:19.670
+Boniface Abutu: Square bracket.
+
+982
+02:25:19.920 --> 02:25:20.980
+Stanley Omeike: Okay,
+
+983
+02:25:22.030 --> 02:25:23.190
+Boniface Abutu: Yeah. Fix.
+
+984
+02:25:37.510 --> 02:25:40.450
+Boniface Abutu: Then the columns is price,
+
+985
+02:25:43.450 --> 02:25:44.420
+I think.
+
+986
+02:25:47.330 --> 02:25:48.390
+Boniface Abutu: Okay,
+
+987
+02:25:48.430 --> 02:25:53.190
+Boniface Abutu: alright. Your square minimum Les down.
+
+988
+02:25:55.460 --> 02:25:59.410
+Stanley Omeike: You really have a problem right now. But let's continue.
+
+989
+02:26:00.790 --> 02:26:01.910
+Boniface Abutu: Listen.
+
+990
+02:26:12.830 --> 02:26:15.809
+CJay - Chijioke Nnabueze: No, no, no. Don't price to a string.
+
+991
+02:26:17.080 --> 02:26:18.999
+Stanley Omeike: So what do you think is the problem?
+
+992
+02:26:20.120 --> 02:26:23.739
+Boniface Abutu: Price is three.
+
+993
+02:26:23.770 --> 02:26:29.980
+Stanley Omeike: So if we check now, let's see how many.
+
+994
+02:26:39.350 --> 02:26:41.300
+Stanley Omeike: Let's see. Uh,
+
+995
+02:26:41.890 --> 02:26:45.709
+Stanley Omeike: let's see. Uh three.
+
+996
+02:26:47.990 --> 02:26:53.879
+Boniface Abutu: Oh, we have. Let's put like um, maybe five phone right now.
+
+997
+02:26:59.570 --> 02:27:00.420
+Okay,
+
+998
+02:27:00.710 --> 02:27:03.690
+Stanley Omeike: Okay. So we have something here. Yes.
+
+999
+02:27:06.760 --> 02:27:13.379
+Stanley Omeike: Oh, you see, we got just two hundred, four, two, two, four, seven.
+
+1000
+02:27:13.910 --> 02:27:15.000
+Okay,
+
+1001
+02:27:23.810 --> 02:27:25.360
+Stanley Omeike: not love you
+
+1002
+02:27:26.720 --> 02:27:29.570
+of the
+
+1003
+02:27:32.770 --> 02:27:35.729
+Stanley Omeike: So this will be Df: the price
+
+1004
+02:27:41.600 --> 02:27:44.039
+Stanley Omeike: alright, So that's my maximum value.
+
+1005
+02:27:45.070 --> 02:27:46.720
+Stanley Omeike: I got it so far.
+
+1006
+02:27:47.320 --> 02:27:48.269
+Boniface Abutu: That's right.
+
+1007
+02:27:54.800 --> 02:27:55.800
+I'm sorry
+
+1008
+02:27:56.450 --> 02:27:59.040
+Stanley Omeike: if the prize does mean,
+
+1009
+02:28:21.300 --> 02:28:23.149
+Stanley Omeike: but not to good speed today
+
+1010
+02:28:23.200 --> 02:28:29.459
+Stanley Omeike: uh what we've done today is give you what I thought was a gentle introduction, but I think it got a little bit uh
+
+1011
+02:28:29.510 --> 02:28:48.329
+Stanley Omeike: complex along the road. Uh, but we give you a gently reduction to Pandas today, and the lessons we've learned today uh one how to load data and how to save data. Okay, to drive, we lunch that one we where is saved, and we do that back.
+
+1012
+02:28:54.380 --> 02:29:09.290
+Stanley Omeike: Once we do that. They We went ahead to start carrying out some inspections of the data. They have some bonuses we had around the way like how to. You see, on to access sample data. So i'm not going to count that as part of our call. I mean, It's just a bonus uh lesson.
+
+1013
+02:29:21.100 --> 02:29:29.039
+Stanley Omeike: So, but she helps us understand the dimensions of our data, so that we know what we're dealing with, and the size of the data. This is quite a bit.
+
+1014
+02:29:30.110 --> 02:29:37.340
+Stanley Omeike: We also learned how to extract the names of the columns of the data. I put it in the list. So tomorrow, if I tell you uh,
+
+1015
+02:29:55.270 --> 02:30:00.840
+Stanley Omeike: then we uh learned how to um slice our data.
+
+1016
+02:30:01.120 --> 02:30:09.360
+Stanley Omeike: Okay, by slicing data, i'm talking about being able. Okay, before we learn about license, we let out to use that info to inspect
+
+1017
+02:30:09.370 --> 02:30:27.840
+Stanley Omeike: the properties of our data. For example, the data types, and if they are missing values in our data. We launched out. I also told us another cool way to determine missing values in the data using Dot is a dot. So so you guys love that. And then what I understand learning how to uh extract collum in the data.
+
+1018
+02:30:41.770 --> 02:31:01.279
+Stanley Omeike: So after that, I, just with the total, how to get the maximum. I mean more values, because when we're trying to feel that we have any problem determining what was your reach of the time that call you. So whenever you run into that problem where you're trying to determine what it's, it's the email Max on the recording that will give it to you
+
+1019
+02:31:01.290 --> 02:31:14.990
+Stanley Omeike: now that you don't need cool, and and this is just something you should practice. I'm not going to explain it. I'm going to run it and um at the end of class I will spend probably five minutes listening to anybody who wants to ask the question. So i'll see. Calls
+
+1020
+02:31:15.720 --> 02:31:18.480
+Stanley Omeike: is equal to Dfx.
+
+1021
+02:31:25.720 --> 02:31:27.489
+Stanley Omeike: That's two of these
+
+1022
+02:31:31.430 --> 02:31:32.920
+Stanley Omeike: for calls.
+
+1023
+02:31:33.610 --> 02:31:34.750
+Oh, cool
+
+1024
+02:31:35.700 --> 02:31:37.130
+calls.
+
+1025
+02:31:39.180 --> 02:31:40.920
+I must be here, then.
+
+1026
+02:31:41.680 --> 02:31:43.909
+Stanley Omeike: Uh detail,
+
+1027
+02:31:44.390 --> 02:31:45.440
+Then
+
+1028
+02:31:45.800 --> 02:31:47.370
+it's about to. Then,
+
+1029
+02:31:56.390 --> 02:32:00.589
+Stanley Omeike: if Len brackets Dfx
+
+1030
+02:32:00.640 --> 02:32:02.740
+Stanley Omeike: square bracket the call.
+
+1031
+02:32:04.060 --> 02:32:05.119
+Stanley Omeike: Okay,
+
+1032
+02:32:10.640 --> 02:32:12.280
+Stanley Omeike: he's less done.
+
+1033
+02:32:13.570 --> 02:32:15.090
+Stanley Omeike: That's all. In
+
+1034
+02:32:19.160 --> 02:32:20.110
+Stanley Omeike: this.
+
+1035
+02:32:21.020 --> 02:32:22.780
+Stanley Omeike: He's deposed to
+
+1036
+02:32:30.550 --> 02:32:32.880
+Stanley Omeike: the Is it? One to
+
+1037
+02:32:33.850 --> 02:32:35.150
+Stanley Omeike: That's all in
+
+1038
+02:32:40.170 --> 02:32:41.660
+Stanley Omeike: minus nine.
+
+1039
+02:32:43.200 --> 02:32:46.510
+Stanley Omeike: The fx square rocket call,
+
+1040
+02:32:47.750 --> 02:32:50.039
+Stanley Omeike: so i'll see uh Prince
+
+1041
+02:32:51.660 --> 02:32:52.949
+Stanley Omeike: records.
+
+1042
+02:33:00.780 --> 02:33:02.080
+Stanley Omeike: That's That's
+
+1043
+02:33:02.650 --> 02:33:04.220
+Stanley Omeike: it is missing
+
+1044
+02:33:07.270 --> 02:33:08.520
+Stanley Omeike: number.
+
+1045
+02:33:09.050 --> 02:33:09.949
+Oh,
+
+1046
+02:33:10.180 --> 02:33:11.460
+Stanley Omeike: samples.
+
+1047
+02:33:12.050 --> 02:33:13.130
+Stanley Omeike: Okay,
+
+1048
+02:33:18.360 --> 02:33:23.050
+Stanley Omeike: So let me run this good now. But if I run it i'm gonna say
+
+1049
+02:33:25.660 --> 02:33:26.880
+our call
+
+1050
+02:33:29.760 --> 02:33:33.420
+Stanley Omeike: uh this is F here because i'm using string for Martin.
+
+1051
+02:33:33.440 --> 02:33:35.820
+Stanley Omeike: He's missing this.
+
+1052
+02:33:38.330 --> 02:33:41.519
+Stanley Omeike: So that's it. So let me run this.
+
+1053
+02:33:44.590 --> 02:33:54.540
+Stanley Omeike: So this condition is, is not going to be Max, because, uh, they are not missing bodies. So let me add an L statement so that we can see else.
+
+1054
+02:33:55.740 --> 02:34:00.770
+Stanley Omeike: So you know, guys, let me illustrate this with a very simple example.
+
+1055
+02:34:00.910 --> 02:34:02.190
+Bye bye,
+
+1056
+02:34:17.270 --> 02:34:22.379
+Stanley Omeike: I don't want to
+
+1057
+02:34:22.570 --> 02:34:27.629
+Stanley Omeike: we out of time. So they do my data i'm going to.
+
+1058
+02:34:27.650 --> 02:34:28.910
+Stanley Omeike: Uh
+
+1059
+02:34:32.070 --> 02:34:33.439
+It's my two weeks,
+
+1060
+02:34:51.520 --> 02:34:57.839
+Stanley Omeike: all right. So let's go back. And so yeah, we're just going to import our data now.
+
+1061
+02:34:58.120 --> 02:35:15.130
+Stanley Omeike: So say Uh. The F. I. Is. People also Pd. To read on the of Csv in brackets is going to be in my drive, C Cool on forward slash uh workspace.
+
+1062
+02:35:15.160 --> 02:35:16.289
+Yes,
+
+1063
+02:35:16.390 --> 02:35:18.580
+Boniface Abutu: it's not that I was left.
+
+1064
+02:35:25.970 --> 02:35:26.940
+CJay - Chijioke Nnabueze: Hmm.
+
+1065
+02:35:27.240 --> 02:35:28.670
+Stanley Omeike: Yeah, I
+
+1066
+02:35:32.510 --> 02:35:33.770
+Dfi:
+
+1067
+02:35:34.480 --> 02:35:35.449
+All right.
+
+1068
+02:35:36.060 --> 02:35:39.769
+Stanley Omeike: So that's one That's: Yeah. So my
+
+1069
+02:35:40.080 --> 02:35:42.480
+Stanley Omeike: those block else
+
+1070
+02:35:42.930 --> 02:35:44.300
+Stanley Omeike: friends
+
+1071
+02:35:50.420 --> 02:35:52.110
+Boniface Abutu: print. No,
+
+1072
+02:35:53.670 --> 02:35:56.040
+Stanley Omeike: i'm just I was Russian.
+
+1073
+02:36:02.990 --> 02:36:03.970
+Stanley Omeike: Um,
+
+1074
+02:36:04.630 --> 02:36:09.340
+Stanley Omeike: So it's not finding any data just because we are using
+
+1075
+02:36:09.780 --> 02:36:10.650
+Stanley Omeike: uh
+
+1076
+02:36:11.920 --> 02:36:13.380
+Stanley Omeike: there.
+
+1077
+02:36:23.750 --> 02:36:26.890
+Stanley Omeike: Um, So let's do one thing here
+
+1078
+02:36:27.990 --> 02:36:29.430
+that once
+
+1079
+02:36:30.690 --> 02:36:32.490
+one. That's
+
+1080
+02:36:33.100 --> 02:36:34.689
+Stanley Omeike: It's an a
+
+1081
+02:36:35.420 --> 02:36:36.760
+that so,
+
+1082
+02:36:42.490 --> 02:36:45.390
+Stanley Omeike: or I do, if I
+
+1083
+02:36:46.840 --> 02:36:53.410
+Stanley Omeike: So this is the d thirty one. I just walked on. Okay, with me in data.
+
+1084
+02:37:00.770 --> 02:37:02.280
+Stanley Omeike: Let's see.
+
+1085
+02:37:03.330 --> 02:37:04.500
+Stanley Omeike: Let me see
+
+1086
+02:37:05.400 --> 02:37:06.449
+right
+
+1087
+02:37:06.620 --> 02:37:08.599
+Stanley Omeike: if it was to
+
+1088
+02:37:10.030 --> 02:37:12.219
+Stanley Omeike: D. F. I does
+
+1089
+02:37:13.310 --> 02:37:14.500
+It's
+
+1090
+02:37:17.580 --> 02:37:18.670
+that's all
+
+1091
+02:37:19.680 --> 02:37:21.780
+Stanley Omeike: all right. So i'm using this in like,
+
+1092
+02:37:23.290 --> 02:37:24.960
+Stanley Omeike: so for all
+
+1093
+02:37:25.470 --> 02:37:26.320
+Stanley Omeike: come up
+
+1094
+02:37:27.510 --> 02:37:28.699
+Stanley Omeike: right
+
+1095
+02:37:29.840 --> 02:37:30.900
+in Zoom.
+
+1096
+02:37:35.130 --> 02:37:36.000
+See?
+
+1097
+02:37:37.230 --> 02:37:38.650
+Stanley Omeike: Oh,
+
+1098
+02:37:52.380 --> 02:37:54.730
+Boniface Abutu: yes, sir.
+
+1099
+02:37:55.460 --> 02:37:57.049
+CJay - Chijioke Nnabueze: Yes, you
+
+1100
+02:37:57.380 --> 02:37:59.449
+Stanley Omeike: okay. So this will be Everett,
+
+1101
+02:38:06.620 --> 02:38:07.619
+Stanley Omeike: all right.
+
+1102
+02:38:10.200 --> 02:38:12.970
+Boniface Abutu: That that there is
+
+1103
+02:38:16.210 --> 02:38:17.849
+Boniface Abutu: it uh less down there?
+
+1104
+02:38:18.010 --> 02:38:28.350
+Stanley Omeike: It's great that we need not less than you. Right is, uh, Prince. Okay? Um,
+
+1105
+02:38:29.200 --> 02:38:30.539
+Stanley Omeike: This will be wreck.
+
+1106
+02:38:32.900 --> 02:38:34.539
+Stanley Omeike: Okay, So we're on that
+
+1107
+02:38:35.130 --> 02:38:38.329
+Stanley Omeike: good. So it's not what you guys see that?
+
+1108
+02:38:40.390 --> 02:38:51.710
+Stanley Omeike: Yes, sir, no clarity is missing uh this data that is missing that data that will be in that data. Now that this is working. I can reduce this to a function.
+
+1109
+02:38:52.190 --> 02:39:03.900
+Stanley Omeike: Remember, we thought you guys function so that you can see that everything you learn is still useful, so that next week at Thebc. Can be very busy.
+
+1110
+02:39:11.750 --> 02:39:13.250
+Stanley Omeike: Is that Abc. There?
+
+1111
+02:39:14.290 --> 02:39:15.590
+Stanley Omeike: So Us.
+
+1112
+02:39:34.810 --> 02:39:48.609
+Stanley Omeike: Alright, So i'm going to invent this in. So now the application function. Let me show you the functional. So we get the data sets. The first one to do is get the call into the data system. This is going to be data sets.
+
+1113
+02:39:56.600 --> 02:40:15.610
+Stanley Omeike: Alright So now I get that assigned to Dfi, I get the columns in the data. I complete missing values in the data. I get the length of the data which I right now do not need What? That's fine. Then I look through the columns and the records uh and find out what is missing.
+
+1114
+02:40:22.690 --> 02:40:25.719
+Stanley Omeike: So yeah, let's call this um
+
+1115
+02:40:26.460 --> 02:40:27.909
+Stanley Omeike: me seeing
+
+1116
+02:40:29.090 --> 02:40:31.090
+Stanley Omeike: uh reports.
+
+1117
+02:40:34.260 --> 02:40:38.550
+Stanley Omeike: So at this point i'll see if that is there uh missing
+
+1118
+02:40:38.830 --> 02:40:41.889
+Stanley Omeike: reports that appends
+
+1119
+02:40:42.310 --> 02:40:43.730
+Stanley Omeike: in brackets.
+
+1120
+02:40:44.140 --> 02:40:45.310
+Stanley Omeike: Um:
+
+1121
+02:40:48.740 --> 02:40:51.009
+This information control copy,
+
+1122
+02:40:57.390 --> 02:40:58.330
+Stanley Omeike: Okay,
+
+1123
+02:40:59.340 --> 02:41:01.710
+Stanley Omeike: and this. Now we can be seen, reports
+
+1124
+02:41:01.800 --> 02:41:03.720
+Stanley Omeike: those up, and
+
+1125
+02:41:04.860 --> 02:41:06.479
+Stanley Omeike: until the
+
+1126
+02:41:08.280 --> 02:41:11.329
+Stanley Omeike: brackets we all this information,
+
+1127
+02:41:12.060 --> 02:41:13.800
+Godwin Ubogun: the music report up.
+
+1128
+02:41:14.260 --> 02:41:16.949
+Godwin Ubogun: It's not complete.
+
+1129
+02:41:18.350 --> 02:41:19.550
+Stanley Omeike: Is it this one?
+
+1130
+02:41:22.490 --> 02:41:25.440
+Stanley Omeike: Yes, you could just do that. You don't have any
+
+1131
+02:41:25.690 --> 02:41:35.809
+Stanley Omeike: big English coming from this good one. We're on it. Okay. So this is fine. Now, at the end of the day, all I want Remember, we talk about it on statements. All I want is for this to return.
+
+1132
+02:41:36.400 --> 02:41:37.870
+Stanley Omeike: We see it
+
+1133
+02:41:38.340 --> 02:41:40.139
+Stanley Omeike: all right. Hey, Guys with me?
+
+1134
+02:41:40.700 --> 02:41:47.900
+Stanley Omeike: Yes. So let's run this and see if it works just by calling this function and pass into it Our data sets.
+
+1135
+02:41:49.230 --> 02:41:51.799
+Stanley Omeike: What's our data set? Um
+
+1136
+02:41:57.370 --> 02:41:58.530
+Stanley Omeike: run that.
+
+1137
+02:41:59.460 --> 02:42:00.530
+Stanley Omeike: See that?
+
+1138
+02:42:01.770 --> 02:42:05.129
+Stanley Omeike: Now, this printing i'm getting here. This line
+
+1139
+02:42:05.250 --> 02:42:09.150
+Stanley Omeike: is because of this print springs. So let me mute, different,
+
+1140
+02:42:11.160 --> 02:42:21.840
+Stanley Omeike: alright, So I mean that it brings out on that function again. Now, when I run the code. So now I have a very possible cool to check for missing values regardless of the
+
+1141
+02:42:21.900 --> 02:42:23.719
+Stanley Omeike: Are you guys with me so far?
+
+1142
+02:42:34.480 --> 02:42:50.789
+Stanley Omeike: So we're going to be letting a lot of how to do this. So by some way down with this Academy you'll be both data around the Us. All right. So classes Don't for today. I promise to make sure we have blue. These for you guys. Um, tonight, please. Tonight Is
+
+1143
+02:42:50.920 --> 02:42:57.329
+Stanley Omeike: that time? So don't go check ten Pm. You're like you guys are on the day. Okay,
+
+1144
+02:42:58.660 --> 02:43:03.540
+Stanley Omeike: alright, uh, thanks, guys. I hope to this class was useful for you guys.
+
+1145
+02:43:03.770 --> 02:43:21.580
+Stanley Omeike: Very well. So.
+
+1146
+02:43:21.590 --> 02:43:26.480
+Stanley Omeike: And you're reading material for next week.
+
+1147
+02:43:26.940 --> 02:43:29.689
+Azeez Raji: Thank you so much.
+
+1148
+02:43:34.880 --> 02:43:37.930
+Oluwaseun Bamgbose: Okay, Yeah. You go to all these lines.
+
+1149
+02:43:39.080 --> 02:43:41.629
+Stanley Omeike: It's not now that i'm talking about.
+
+1150
+02:43:44.780 --> 02:43:50.770
+Stanley Omeike: Okay. But let me say it again Friday for you guys. Friday next week you have increase right?
+
+1151
+02:44:02.130 --> 02:44:05.080
+Stanley Omeike: Oh, thanks again, guys. And um.
+
+1152
+02:44:35.920 --> 02:44:43.880
+Godstime Edet: So I want to. I want to find out. Are the data set. Are they pro proper data type? And if
+
+1153
+02:44:49.240 --> 02:44:50.150
+okay,
+
+1154
+02:44:51.500 --> 02:44:54.720
+Godstime Edet: So this is info. Yes, yes.
+
+1155
+02:44:54.830 --> 02:45:03.519
+Godstime Edet: Now, seeing this information about the data set. Now, I want to find out the data set. Are they in the proper data type?
+
+1156
+02:46:01.240 --> 02:46:04.470
+Stella Okenu: Okay,
+
+1157
+02:46:04.630 --> 02:46:06.669
+Stella Okenu: I appreciate you for
+
+1158
+02:46:07.040 --> 02:46:08.589
+Stella Okenu: what you are doing.
+
+1159
+02:46:08.660 --> 02:46:20.199
+Stella Okenu: You know I I was. I was so brushing around So this like, Oh, you are here. You are back to us, so you will never have to turn the the impact you're making.
+
+1160
+02:46:20.550 --> 02:46:23.630
+Stanley Omeike: I appreciate it. Thank you.
+
+1161
+02:46:23.710 --> 02:46:34.720
+CJay - Chijioke Nnabueze: Thanks so much for what you meant was that you need to say
+
+1162
+02:46:46.560 --> 02:46:47.740
+Simon Garba: our project,
+
+1163
+02:46:47.980 --> 02:46:49.209
+Stanley Omeike: You said
+
+1164
+02:46:50.610 --> 02:46:52.260
+Simon Garba: That is now a project,
+
+1165
+02:46:52.570 --> 02:46:54.820
+Stanley Omeike: I think, by year. What is it?
+
+1166
+02:46:55.530 --> 02:46:59.209
+Simon Garba: Phase one on our project?
+
+1167
+02:47:02.780 --> 02:47:04.010
+Simon Garba: Hello,
+
+1168
+02:47:35.850 --> 02:47:39.299
+Stanley Omeike: uh, uh, John and Mecca. Do you have a question?
+
+1169
+02:47:44.850 --> 02:47:46.170
+So
+
+1170
+02:47:47.880 --> 02:47:48.760
+so
+
+1171
+02:47:54.900 --> 02:47:56.000
+okay,
+
+1172
+02:47:58.500 --> 02:48:00.420
+Azeez Raji: music, your drinking specificity,
+
+1173
+02:48:00.530 --> 02:48:03.539
+Stanley Omeike: John and me. You You have a question.
+
+1174
+02:48:23.130 --> 02:48:25.959
+Stanley Omeike: You have a question.
+
+1175
+02:48:30.460 --> 02:48:31.740
+Odion Joel Okonofua: Yes,
+
+1176
+02:48:32.740 --> 02:48:33.960
+Azeez Raji: yes,
+
+1177
+02:48:36.890 --> 02:48:39.839
+Stanley Omeike: okay.
+
+1178
+02:48:40.130 --> 02:48:43.149
+Stanley Omeike: And where do you have a question?
+
+1179
+02:48:44.870 --> 02:48:46.570
+Azeez Raji: So
+
+1180
+02:48:46.720 --> 02:48:49.690
+eenwerem: I'm: sorry.
+
+1181
+02:48:50.070 --> 02:48:51.310
+JOHN EMEKA: Hello. This
+
+1182
+02:48:51.580 --> 02:48:55.699
+Stanley Omeike: i'm with you where i'm. Now just let me hear from you. Where else?
+
+1183
+02:48:56.840 --> 02:49:01.760
+eenwerem: Uh i'm previous I've got this um I haven't,
+
+1184
+02:49:02.030 --> 02:49:04.070
+eenwerem: but um I think
+
+1185
+02:49:04.710 --> 02:49:06.430
+eenwerem: I didn't understand
+
+1186
+02:49:06.530 --> 02:49:19.180
+eenwerem: what um that I mean, we we you will certified the grab. You run down some. I would want to study from that area. What? Actually
+
+1187
+02:49:28.250 --> 02:49:38.580
+Stanley Omeike: I I have I I don't. I don't i'm i'm assuming that what you see.
+
+1188
+02:49:38.700 --> 02:49:40.499
+Stanley Omeike: Oh,
+
+1189
+02:49:40.970 --> 02:49:56.820
+Stanley Omeike: what's that? Why, I switch was because it will get me to a topic that I didn't want to go into uh, you know, at that point. So I use it simpler way to go about it later. We would implement that code using a different method. So that's what I've done. Now, if you're seeing
+
+1190
+02:49:56.900 --> 02:50:06.829
+Stanley Omeike: your network affected, your ability to follow the class, please just watch the video. Um, you will get the same value all right. Uh, let's go with Joshua Olar in the
+
+1191
+02:50:07.990 --> 02:50:09.090
+Odion Joel Okonofua: so.
+
+1192
+02:50:11.590 --> 02:50:12.910
+Stanley Omeike: Yes, Joshua
+
+1193
+02:50:16.180 --> 02:50:19.600
+Joshua, I don't know what is it? The network. Or is it me?
+
+1194
+02:50:21.340 --> 02:50:22.230
+JOSHUA OLARINDE: Okay,
+
+1195
+02:50:23.070 --> 02:50:24.900
+Stanley Omeike: just right. Eight hundred and ninety-eight,
+
+1196
+02:50:28.770 --> 02:50:30.800
+Stanley Omeike: and go on speaking. Let me see,
+
+1197
+02:50:35.130 --> 02:50:52.880
+JOSHUA OLARINDE: alright. Sir. So I I have a question. Maudi put this submission by so um some, said the submitted alien; but if no got in the meal to join the deck in detail around me, I don't know if that is whole for the second name you would be some meals to be sent.
+
+1198
+02:50:53.730 --> 02:51:07.140
+Stanley Omeike: So these they have three things happening here. Meals have been sent to all those who submitted on this project. Some bills are bouncing back that because people's emails are not properly uh written.
+
+1199
+02:51:07.430 --> 02:51:22.330
+Stanley Omeike: Or maybe there is an overlude in our gateway. That's of pushing those males, because it's not just the me that they're not. Maybe it's doing what I call it. So. Maybe this Saba was, it was scheduled. Good people are watching it and taking care of it.
+
+1200
+02:51:53.140 --> 02:52:12.339
+Stanley Omeike: Okay, if any person believes these submitted projects uh, they have not received feedback on that project as in the way tools to fall back into our uh to go and join, an they can challenge that, you know just right and say, Well, I saw me take my project by by being asked to go somewhere else, and we will deal with that. Okay,
+
+1201
+02:52:13.400 --> 02:52:15.769
+JOSHUA OLARINDE: Okay, sir.
+
+1202
+02:52:16.110 --> 02:52:22.490
+Stanley Omeike: Alright, Okay, guys, uh, let's. This is the list. Lose at this point, John. You still want to ask your question.
+
+1203
+02:52:24.090 --> 02:52:25.050
+So
+
+1204
+02:52:25.240 --> 02:52:26.240
+good yourself.
+
+1205
+02:52:26.890 --> 02:52:29.409
+Stanley Omeike: Yeah, How are you?
+
+1206
+02:52:31.150 --> 02:52:32.170
+JOHN EMEKA: Hello?
+
+1207
+02:52:32.980 --> 02:52:34.260
+So
+
+1208
+02:52:44.270 --> 02:52:49.729
+JOHN EMEKA: So I said, I got the pay, the the email message for this.
+
+1209
+02:53:00.800 --> 02:53:08.450
+Stanley Omeike: Yeah, that's what we said. We said. The recordings for this class is going to be uploaded. I I made a commitment to make sure it's recorded uh,
+
+1210
+02:53:08.570 --> 02:53:26.309
+Stanley Omeike: uh, uh, today, no no matter how late. But I also put in a copy of that twelve midnight here is like five Pm. For most of you all seven am for some of you if you're in Ethiopia, so uh don't go to bed at ten Pm. In our.
+
+1211
+02:53:26.320 --> 02:53:28.940
+Just go to bed when you make up your seat. Okay,
+
+1212
+02:53:31.490 --> 02:53:45.430
+Stanley Omeike: alright, guys. Um, I got to do. I have Um! I stop at uh eleven. Here money is two minutes to that time. Okay. So thanks for coming. I hope you had a good time today, but please practice from this practice once you get your materials all right,
+
+1213
+02:53:45.530 --> 02:53:51.850
+Stanley Omeike: Lang.
+
+1214
+02:53:52.280 --> 02:54:04.619
+ogunlade tope: Thank you very much.
+
+1215
+02:54:12.040 --> 02:54:13.759
+Joshua Abiodun: Thank you. Bro:
+
+1216
+02:54:29.170 --> 02:54:30.160
+So.
+

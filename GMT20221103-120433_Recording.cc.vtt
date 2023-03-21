@@ -1,0 +1,2639 @@
+WEBVTT
+
+00:50:43.000 --> 00:50:47.000
+I also notice this. is this the echoing now?
+
+00:50:47.000 --> 00:51:07.000
+Yes, sir, yes, sir, is it any better thank you although i'm Not here?
+
+00:51:07.000 --> 00:51:27.000
+Any echo. so he's better Now so company's team you Ted we're gonna get started today.
+
+00:51:27.000 --> 00:51:32.000
+By giving you a gentle introduction to how to bring into Pita notebook.
+
+00:51:32.000 --> 00:51:39.000
+Bring in Pandas on your and Then get started so it's not of your environment.
+
+00:51:39.000 --> 00:51:47.000
+My Anakota environment
+
+00:51:47.000 --> 00:52:03.000
+I'll be enough for guys and how to do that I hope you know that's what so mine is coming up.
+
+00:52:03.000 --> 00:52:10.000
+I think, we go to get this recording up with it.
+
+00:52:10.000 --> 00:52:14.000
+Yeah, you then you recording, we usually send you your recordings.
+
+00:52:14.000 --> 00:52:24.000
+Yeah, Thank you. Yes, yes. I I also want to.
+
+00:52:24.000 --> 00:52:35.000
+Sorry for the weekly. do these I just want to relax when i'll be getting this record record of what you say.
+
+00:52:35.000 --> 00:52:45.000
+Okay, So i'm in documents I'm trying to find my world because that's my workspace.
+
+00:52:45.000 --> 00:52:55.000
+And then starting in the group python kind of okay.
+
+00:52:55.000 --> 00:52:59.000
+So today's what Thursday you should get these recordings letters by tomorrow.
+
+00:52:59.000 --> 00:53:04.000
+Please note that you are getting it on the World Academy, Portuguese.
+
+00:53:04.000 --> 00:53:09.000
+I hear a lot of you trying to go to Google and you'll be getting it on your world.
+
+00:53:09.000 --> 00:53:19.000
+I can any ports? Okay, Okay, yeah, platform is a bit different from what we used to know.
+
+00:53:19.000 --> 00:53:25.000
+How are we going to assess it? Okay, I will spend some time shooting out to us as a platform.
+
+00:53:25.000 --> 00:53:31.000
+What we are doing today. but for now let's see focus on the class.
+
+00:53:31.000 --> 00:53:43.000
+Proceedings. Okay, Thank you very much. Now, the first we want to do is we want to import pandas right like I said, Pundas is editor ranging to.
+
+00:53:43.000 --> 00:53:47.000
+We use it for loading data onto Jupiter book.
+
+00:53:47.000 --> 00:53:55.000
+We usage for accessing Time series data matrix shift data Today we're going to work with both the matrix and Time Series data.
+
+00:53:55.000 --> 00:54:09.000
+We're not going to do any series at the beginning today. but I'm going to introduce you sufficiently to know how to use bundles to get started right? so you write your import statements you both find us how's the best thing
+
+00:54:09.000 --> 00:54:23.000
+you want to write when you run it please raise your help
+
+00:54:23.000 --> 00:54:26.000
+Okay, you run the post statement and tell me if you get an error or not.
+
+00:54:26.000 --> 00:54:32.000
+We don't get an arrow after you run that so it means pandas is loaded.
+
+00:54:32.000 --> 00:54:48.000
+So we are not seeing your screen, sir, my screen So you can see your screen
+
+00:54:48.000 --> 00:55:07.000
+You've seen excel screen yeah Powerpoint okay, So when I close that problem this is screen, one just being one.
+
+00:55:07.000 --> 00:55:21.000
+How's it, James? Yeah. alright So I launched, and I have written an import statement for Pandas in my first.
+
+00:55:21.000 --> 00:55:50.000
+So I want you to go ahead and write that I was on that.
+
+00:55:50.000 --> 00:56:12.000
+Okay.
+
+00:56:12.000 --> 00:56:17.000
+Okay, So if you've done that that means it will for you so now we .
+
+00:56:17.000 --> 00:56:23.000
+I wanted to see if I can pick it file.
+
+00:56:23.000 --> 00:56:27.000
+I give you guys. But you know how to avoid that we see our time.
+
+00:56:27.000 --> 00:56:32.000
+I'm booting wasn't on our library that allows us to access small data sets.
+
+00:56:32.000 --> 00:56:42.000
+See bonus on our library keyboard, Sms.
+
+00:56:42.000 --> 00:56:49.000
+S. M. for example. Oh, right, Johnny Portsie Bonnet.
+
+00:56:49.000 --> 00:57:00.000
+See, you see, Bond gets in contact for you if he does,
+
+00:57:00.000 --> 00:57:09.000
+Providing bridges in Spanish screen, pro.
+
+00:57:09.000 --> 00:57:18.000
+I'm coming out explaining later, I want to go once there by the time.
+
+00:57:18.000 --> 00:57:23.000
+Alright, so we'll do it later. but for now I just want to explain something.
+
+00:57:23.000 --> 00:57:28.000
+Alright, have you guys been able to import cbone?
+
+00:57:28.000 --> 00:57:42.000
+All went well. Yes, so cbn I just give it an appointment, so that when I want to walk with it, it's easy to reference.
+
+00:57:42.000 --> 00:57:45.000
+I don't know if you type you who would see born each time I want to refer to it.
+
+00:57:45.000 --> 00:57:54.000
+So I just Kristen did with a new name, if you like, and I call it Sdn. So any amount of references are just called Sn.
+
+00:57:54.000 --> 00:58:00.000
+I will do. you guys understand that? Yes, now, cborn is a library for visualization.
+
+00:58:00.000 --> 00:58:06.000
+So you're gonna you're gonna walk a lot with seborn and some other libraries like he's in your next account.
+
+00:58:06.000 --> 00:58:11.000
+But for today we are interested in it because it also holds or small data sets.
+
+00:58:11.000 --> 00:58:18.000
+We can work with alright, so i'm gonna see sn that gets.
+
+00:58:18.000 --> 00:58:23.000
+I know that S. India refers to Cbn: All right.
+
+00:58:23.000 --> 00:58:33.000
+Okay, that has set. I think names. If I run that
+
+00:58:33.000 --> 00:58:37.000
+That allows me to walk right now.
+
+00:58:37.000 --> 00:58:45.000
+It has all these data inside this Okay, not using what i'm looking at Sometimes you want to practice you're.
+
+00:58:45.000 --> 00:58:49.000
+You're cool and you don't have any data to work with you can easily just import cbone and take any.
+
+00:58:49.000 --> 00:58:54.000
+So that's what we're going to do today now let me add 2.
+
+00:58:54.000 --> 00:59:05.000
+This, because nobody will read this and say what was the pro smoking when it was right in this
+
+00:59:05.000 --> 00:59:25.000
+That is what you see raji as he's you wanna meet while speaking
+
+00:59:25.000 --> 00:59:33.000
+Okay, So what I've done is i've called this function I see Bond to tell me what kind of data does he want up?
+
+00:59:33.000 --> 00:59:38.000
+I assume you all these data alright. these are all data data tables in C more for today.
+
+00:59:38.000 --> 00:59:48.000
+I didn't work with the irish data alright so i'm gonna show you how to get the irish data from sample, and then use that to do your to do the work.
+
+00:59:48.000 --> 00:59:54.000
+We're trying to do today, so for that we're gonna see S.
+
+00:59:54.000 --> 01:00:08.000
+N dot loot. They just said, Oh, sorry data sets, you know, and this time is Iris.
+
+01:00:08.000 --> 01:00:15.000
+Alright, something's wrong with my type in today
+
+01:00:15.000 --> 01:00:21.000
+Okay, So this is going to help us load our irs data sets.
+
+01:00:21.000 --> 01:00:37.000
+Once in ludes that then allows us to be able to walk. You know, with that if I run this, thanks to the time it gives me jeez.
+
+01:00:37.000 --> 01:00:43.000
+What did you say
+
+01:00:43.000 --> 01:00:48.000
+Okay, So it gives us a small detail that 150 records.
+
+01:00:48.000 --> 01:00:53.000
+Okay, not not very large, but good enough for us to practice whatever I want to practice. right.
+
+01:00:53.000 --> 01:01:01.000
+So let me see. Launch the Irish data set
+
+01:01:01.000 --> 01:01:12.000
+Right. So this loves the Irish data set for Now this type of data, hand Us is referred to as a matrix data.
+
+01:01:12.000 --> 01:01:19.000
+It's matrix because it consists of columns and rules.
+
+01:01:19.000 --> 01:01:23.000
+I want to get a you are using excel, or maybe sql do.
+
+01:01:23.000 --> 01:01:39.000
+Colleagues, my quality team in in data science with quality matrix, right, or it data free each of these headers you have here.
+
+01:01:39.000 --> 01:01:52.000
+And I I hope you guys are being wrapped up until, as I, they try to explain these concepts, each of these headers you have, which represent volumes, will refer to them as any features alright.
+
+01:01:52.000 --> 01:01:57.000
+So they are left. maybe I need to explain what this details about.
+
+01:01:57.000 --> 01:02:10.000
+So these data is about printing. What type of flower, what is seen just based on the size of the sepals and the best house of the Pla.
+
+01:02:10.000 --> 01:02:21.000
+On the basis of these dimensions of the beta, on the basis of these dimensions of the battal and
+
+01:02:21.000 --> 01:02:24.000
+the cells of the flaw, we can predict what type of flower it is.
+
+01:02:24.000 --> 01:02:30.000
+So right now, who can tell me which one is a class variable here, which is a class variable?
+
+01:02:30.000 --> 01:02:38.000
+I want you to see rectangle variable
+
+01:02:38.000 --> 01:02:52.000
+David's guinea issues especially they'd be good.
+
+01:02:52.000 --> 01:03:07.000
+Yeah. Why do order 1, 2, 3, 4, add a independent features, exactly, very correct.
+
+01:03:07.000 --> 01:03:12.000
+So we are very so the species called
+
+01:03:12.000 --> 01:03:16.000
+All these columns put together are the input variables.
+
+01:03:16.000 --> 01:03:24.000
+Okay, the independent variables, or whatever name you want alright.
+
+01:03:24.000 --> 01:03:33.000
+So that's what we have here. now. now let me do another data, just so that you guys No.
+
+01:03:33.000 --> 01:03:48.000
+Okay, So to load the demons data, looting
+
+01:03:48.000 --> 01:03:55.000
+So that's going to be S. n at a time in bracket.
+
+01:03:55.000 --> 01:04:04.000
+I put it in of the data I want to lose that one zoom No.
+
+01:04:04.000 --> 01:04:19.000
+I'm Yes, so if I run this now very new it works I don't really need to work for me, too.
+
+01:04:19.000 --> 01:04:24.000
+I'm just trying to figure why data.
+
+01:04:24.000 --> 01:04:31.000
+Oh, sorry! good,
+
+01:04:31.000 --> 01:04:39.000
+Okay, So he's trying to ,
+
+01:04:39.000 --> 01:04:46.000
+No addit. Okay, So you can see that this data has looted.
+
+01:04:46.000 --> 01:04:50.000
+Hey, guys, And this is quite This is quite a bit different.
+
+01:04:50.000 --> 01:04:58.000
+Right. yes, pro alright, yes, this is about 53,000 anytime.
+
+01:04:58.000 --> 01:05:04.000
+You finally learn how to do serial stuff with from Mono campus in terms of your modeling.
+
+01:05:04.000 --> 01:05:09.000
+Just you see one to dilute any data and to your work our practice. Are you guys?
+
+01:05:09.000 --> 01:05:15.000
+Okay, yes, So I don't want to read in your group chat just somebody's saying, How can I get data?
+
+01:05:15.000 --> 01:05:26.000
+How can I get data? Alright, And you have access to more than 10 different.
+
+01:05:26.000 --> 01:05:36.000
+Oh, baby, Okay. So you have access to more than 20 different data sets here that you can use to do most of your practices.
+
+01:05:36.000 --> 01:05:47.000
+So i'm just didn't think it was an ask some questions before we start using one patch rick please.
+
+01:05:47.000 --> 01:05:55.000
+I'm gonna have an issue get to my own cpu here.
+
+01:05:55.000 --> 01:05:59.000
+Please evaluate mention of the Regulators. how to download it.
+
+01:05:59.000 --> 01:06:06.000
+Is. Is there any work? I can download it because man is telling me when I run the cell important, the C. board at Sn.
+
+01:06:06.000 --> 01:06:12.000
+When I run the set. We're telling you that this building the phone patch, it may take some moment something on nature.
+
+01:06:12.000 --> 01:06:23.000
+So it issue did you? Did you run this impulse statement in both cbone as Sm: Yes.
+
+01:06:23.000 --> 01:06:31.000
+Did you guys yeah, this is not connected to the Internet.
+
+01:06:31.000 --> 01:06:35.000
+Yeah, I think connected You need to be connected to this.
+
+01:06:35.000 --> 01:06:40.000
+For the first time when you're trying to import this actually you are not supposed, you don't need to be connected to the Internet.
+
+01:06:40.000 --> 01:06:54.000
+If you if you're in anaconda if you already have pre installed with your ancestor right? let's go ahead.
+
+01:06:54.000 --> 01:07:02.000
+I don't know you're not going to see what happens because you might be walking in the background where you can stop it from New York
+
+01:07:02.000 --> 01:07:08.000
+Go ahead Yeah. just stay with me. You will get the solution.
+
+01:07:08.000 --> 01:07:16.000
+Okay, go ahead and run this next line alright.
+
+01:07:16.000 --> 01:07:33.000
+Now for those of you who are gonna be working today with which did us actually use Thefm that's used
+
+01:07:33.000 --> 01:07:39.000
+Hmm! I think we should walk with which is what we need downloads data sets.
+
+01:07:39.000 --> 01:07:50.000
+So i'm going to save this demo data sets, to disk and they shared with you guys right here, so that those of you who don't have it can at least load. it, and use no this is an important skill for all
+
+01:07:50.000 --> 01:07:59.000
+of you how to save a data frame. Zoom Csv.
+
+01:07:59.000 --> 01:08:04.000
+On your computer
+
+01:08:04.000 --> 01:08:08.000
+,
+
+01:08:08.000 --> 01:08:11.000
+In order to see me, does the data frame on my computer.
+
+01:08:11.000 --> 01:08:18.000
+I first need to assign the loaded data to available So I'm gonna copy that and then create a new variable.
+
+01:08:18.000 --> 01:08:23.000
+I'll call that we will dig up from df most times. Then you reach these data science stations.
+
+01:08:23.000 --> 01:08:32.000
+You can see them referring to data sets idea yeah He's just the that's good to you.
+
+01:08:32.000 --> 01:08:41.000
+Df means data free. So Df is people and you can't give it any name you want in fact, I can call this particular data about to do.
+
+01:08:41.000 --> 01:08:48.000
+Now, Gabby, I call it gabby, right? It just teamwork, just so that you guys can see if I run it.
+
+01:08:48.000 --> 01:08:52.000
+Now that data has been assigned to cabin, so I can now use it for my work.
+
+01:08:52.000 --> 01:09:00.000
+I can say print got me alright if I run that I give my detail.
+
+01:09:00.000 --> 01:09:05.000
+Are you guys with me so far
+
+01:09:05.000 --> 01:09:11.000
+Yes, somebody lost me somehow. Okay. Got me because I use your name.
+
+01:09:11.000 --> 01:09:14.000
+No, no, no, no, no, no! because you use my name. I I went.
+
+01:09:14.000 --> 01:09:21.000
+I love my tennis. so I gave a little I didn't get to see everything. Okay, But when you do when we try to load the data.
+
+01:09:21.000 --> 01:09:34.000
+No, just from the beginning, from where you say i'll give you an apple name.
+
+01:09:34.000 --> 01:09:41.000
+Sm: Why, we bought a C Bond it's not because we want to walk with Cpu is because we want to access the data in it.
+
+01:09:41.000 --> 01:09:51.000
+So let me put that annotation here we, important
+
+01:09:51.000 --> 01:10:08.000
+Nice.
+
+01:10:08.000 --> 01:10:17.000
+Okay, So just be able to have access to sample data sets in its library. Okay, So now that we've imported it.
+
+01:10:17.000 --> 01:10:21.000
+I've run it pretty here just to show you all the data sets in the library.
+
+01:10:21.000 --> 01:10:33.000
+You can see there are many. There are probably more than right now that we have this data access to these data, because you put that C one.
+
+01:10:33.000 --> 01:10:38.000
+With. Okay, let's display one of the data at the end, does this data here, This this link is data.
+
+01:10:38.000 --> 01:10:47.000
+And I give you code to loot the data Ssn: which is Ibn dot Lou
+
+01:10:47.000 --> 01:10:54.000
+That will let me give you access to that data that's the detail for Irish .
+
+01:10:54.000 --> 01:11:03.000
+Let's do the demo
+
+01:11:03.000 --> 01:11:08.000
+So now that we have it. had some people said they could not run cbo right right.
+
+01:11:08.000 --> 01:11:13.000
+Some people didn't have access to cbo I can download this data.
+
+01:11:13.000 --> 01:11:17.000
+I can download this data and share it with you guys, Yeah, immediately, that you all have access to it.
+
+01:11:17.000 --> 01:11:20.000
+So that's what i'm trying to do next .
+
+01:11:20.000 --> 01:11:32.000
+To do that. I need to assign the data that i'm getting from initiative and I said it doesn't matter what name you keep the variable.
+
+01:11:32.000 --> 01:11:36.000
+It can be governed. It can be stunnedly it can be God's time.
+
+01:11:36.000 --> 01:11:44.000
+It can be, Jude. you can be you might go. What about it is Okay, So what we went ahead with cabin right? because we love that in so much.
+
+01:11:44.000 --> 01:11:48.000
+So we use Garbin as the variable named looting data.
+
+01:11:48.000 --> 01:11:53.000
+So I run this cell Now, Gabby, as a variable, is now holding that data set.
+
+01:11:53.000 --> 01:11:59.000
+So what I see the fringe company that's that was do that?
+
+01:11:59.000 --> 01:12:04.000
+Do you get it so far? gathering? Yes, yes, yes.
+
+01:12:04.000 --> 01:12:15.000
+Okay, now that got me get it, i'm good go back and just change it from alright, ef means the Okay.
+
+01:12:15.000 --> 01:12:19.000
+So now we have it's a frame as a variable now to save it.
+
+01:12:19.000 --> 01:12:31.000
+To this.
+
+01:12:31.000 --> 01:12:41.000
+We're gonna use the Panda on desk 2 on that call. Csv function Alright, that's what we're going to use.
+
+01:12:41.000 --> 01:12:44.000
+Now, this is very good to see us using pandas for the first time.
+
+01:12:44.000 --> 01:12:48.000
+Alright, we're gonna be using pandas for the first night to see.
+
+01:12:48.000 --> 01:13:05.000
+So I'm gonna see yeah that'll be tf dot bandas doug so on that's called Csv in brackets. now in bracket.
+
+01:13:05.000 --> 01:13:10.000
+I do not put the path to where I want to save the file.
+
+01:13:10.000 --> 01:13:16.000
+He might.
+
+01:13:16.000 --> 01:13:30.000
+Hello, I think he's over lock space
+
+01:13:30.000 --> 01:13:33.000
+Slash. what name they want to call it? Is not that much?
+
+01:13:33.000 --> 01:13:46.000
+Their months. dot Csv: So you you see as the so you need to put your full path, or where you want to save the file.
+
+01:13:46.000 --> 01:13:56.000
+If you just put quality in name, hey? you want to seem to fire us, these don't need to be saved.
+
+01:13:56.000 --> 01:14:01.000
+In. What about food? I would? Are we going to get out so far?
+
+01:14:01.000 --> 01:14:06.000
+Yes, both. Okay, but I want it to be somewhere that I can go ahead check, for.
+
+01:14:06.000 --> 01:14:18.000
+So I'm gonna put that. so that's a path. it's good to see if you might drive C. Indy for the code workspace in, and then in that 4 days I was gonna call it that month, let me
+
+01:14:18.000 --> 01:14:31.000
+go. and for that for you guys, just so that you can see
+
+01:14:31.000 --> 01:14:38.000
+So if I bring this to view here, it might be very Tiny when it comes.
+
+01:14:38.000 --> 01:14:42.000
+But hopefully, you'll be able to see abby food that call works.
+
+01:14:42.000 --> 01:14:50.000
+This I might drive C by open that food right now. these are all the files I have yes, V. file.
+
+01:14:50.000 --> 01:14:55.000
+So when I run that cell I use that the new file will appear here.
+
+01:14:55.000 --> 01:15:01.000
+So let me minimize this, and they run this i've run it now.
+
+01:15:01.000 --> 01:15:07.000
+So let me bring back my
+
+01:15:07.000 --> 01:15:18.000
+Anything about the
+
+01:15:18.000 --> 01:15:34.000
+Okay, Df: dot, 2 run that
+
+01:15:34.000 --> 01:15:41.000
+No, I can see the demons there. So right now is 2 MB.
+
+01:15:41.000 --> 01:15:49.000
+I can put on it just so that you can see the contents i'm launching the it's coming.
+
+01:15:49.000 --> 01:16:05.000
+I hope, yeah, that's it. so I have current costs color clarity depths table price all the way to the only features we had any data.
+
+01:16:05.000 --> 01:16:12.000
+But Panda's mind adding the index column, this 0, 1, 2, 3, us seen here is this.
+
+01:16:12.000 --> 01:16:18.000
+Let's go back here and look at it if you go back to your table.
+
+01:16:18.000 --> 01:16:23.000
+You see these 0? 1, 2, 3, 4, 5 6 that we have on the table.
+
+01:16:23.000 --> 01:16:42.000
+That's what pandas is compassion we call this index calling taking this index call you
+
+01:16:42.000 --> 01:16:56.000
+Let's see I say Give me x so this text is a range starting from 0 to 53,940 records in my data.
+
+01:16:56.000 --> 01:17:02.000
+So it does work. Fun does is converting to a call in any data here.
+
+01:17:02.000 --> 01:17:07.000
+You can see starts from 0, and the last one should be 53,900 and something.
+
+01:17:07.000 --> 01:17:12.000
+So that is it? 53,941 he's 40.
+
+01:17:12.000 --> 01:17:19.000
+He just added the headache so i've saved It but I don't want this index calling me the data.
+
+01:17:19.000 --> 01:17:25.000
+I don't want it i'm going to receive it and see index.
+
+01:17:25.000 --> 01:17:42.000
+It was the false index it was the false will make it not adding, one, that one I have comment here for some of you.
+
+01:17:42.000 --> 01:18:04.000
+The index. It was the false
+
+01:18:04.000 --> 01:18:08.000
+So that was tough and that's from steve in the India.
+
+01:18:08.000 --> 01:18:14.000
+So i'm gonna run this now. I think I should have done this any difference.
+
+01:18:14.000 --> 01:18:30.000
+So for those of you who might want so that's
+
+01:18:30.000 --> 01:18:40.000
+What i'll do is just grab the cell probably
+
+01:18:40.000 --> 01:19:06.000
+And I will remove all of this alright, also sees
+
+01:19:06.000 --> 01:19:13.000
+Okay, So this will be the second method. Okay, So this would be to save the file as Csv.
+
+01:19:13.000 --> 01:19:31.000
+Without index, call him alright. So if I run this now, I can go back to that You can see I have that 1 one now.
+
+01:19:31.000 --> 01:19:42.000
+I will launch demons once you see the difference
+
+01:19:42.000 --> 01:19:45.000
+So these is the amounts one you can see. The index column is gone.
+
+01:19:45.000 --> 01:19:51.000
+I only have Kara, as we first call you, Hello, Clarity!
+
+01:19:51.000 --> 01:19:56.000
+You know, and all the rest. If I bring up the original one, which is just that once, you will see the difference.
+
+01:19:56.000 --> 01:20:05.000
+For that month we have school logic. Yeah.
+
+01:20:05.000 --> 01:20:09.000
+You can see that we had the index calling it was added there's an index calling.
+
+01:20:09.000 --> 01:20:15.000
+We don't want this because conduct automatically the index is the data.
+
+01:20:15.000 --> 01:20:22.000
+Do. Do you understand what i'm doing? so far Yes, ?
+
+01:20:22.000 --> 01:20:44.000
+Yes, sir, Now i'm going to share these documents in the chat window, if you have problems trying to download trying to access metal access sea bones.
+
+01:20:44.000 --> 01:20:49.000
+Data. Then I suggest you use use it So chapel and do.
+
+01:20:49.000 --> 01:21:05.000
+Here we go, There is No
+
+01:21:05.000 --> 01:21:10.000
+Alright.
+
+01:21:10.000 --> 01:21:17.000
+Alright it's not going I don't know why
+
+01:21:17.000 --> 01:21:27.000
+Okay, he says he's currently used sorry my my my fault let me close it.
+
+01:21:27.000 --> 01:21:35.000
+Information, alright, so hopefully to go Now
+
+01:21:35.000 --> 01:21:39.000
+Yes, she does. No. So please check the chat window.
+
+01:21:39.000 --> 01:21:43.000
+Now you will see the file * megabytes.
+
+01:21:43.000 --> 01:21:49.000
+Please download it, and that's what do those who are having issues with Cpon about for the rest of each 5.
+
+01:21:49.000 --> 01:21:52.000
+So in this short spell you guys have learned how to save it.
+
+01:21:52.000 --> 01:21:57.000
+You mean there is no part of the lesson for you.
+
+01:21:57.000 --> 01:22:03.000
+These 2 cells show you how to save You got to see it as excel to.
+
+01:22:03.000 --> 01:22:06.000
+You can do that. Just change Csv. to excel.
+
+01:22:06.000 --> 01:22:15.000
+X. Excel: Okay, I need to save it. so make sure to change the extension to the excels. .
+
+01:22:15.000 --> 01:22:25.000
+Yes, evening. So Let's come back to upon us now that we have our data, which is the which is the damage data.
+
+01:22:25.000 --> 01:22:31.000
+Let's now prove Steve hey? guys at this point.
+
+01:22:31.000 --> 01:22:35.000
+You might get you to be technical. So please stick with me.
+
+01:22:35.000 --> 01:22:39.000
+Okay.
+
+01:22:39.000 --> 01:22:46.000
+So step one is, how do we lose that data that I just created? I'm gonna show you how to do data.
+
+01:22:46.000 --> 01:22:52.000
+Oh, so loop now, the rest of you who are listening to me.
+
+01:22:52.000 --> 01:23:07.000
+If you are able to load cbone and download the data and get access to damage data. I want you to run this code and save the file to somewhere in your computer. But we're gonna learn to read it back is that important requirement.
+
+01:23:07.000 --> 01:23:19.000
+For this class today to be able to lose data from your computer to So run these sales, 14 or 19, that I have and see if your data.
+
+01:23:19.000 --> 01:23:33.000
+This is that month. Yes, that ones so not good. So
+
+01:23:33.000 --> 01:23:52.000
+Which one is initial good So this is S.
+
+01:23:52.000 --> 01:23:56.000
+N dot get the Yes, on the sort of name. Okay, Thank you.
+
+01:23:56.000 --> 01:24:04.000
+Then, after that you have asked them to lose data sets to Bluetooth, that you're interested in.
+
+01:24:04.000 --> 01:24:11.000
+Okay, so please make sure you run lines this code to save the file to your disc.
+
+01:24:11.000 --> 01:24:15.000
+I don't care where you see it but remember where you see, because we need it back.
+
+01:24:15.000 --> 01:24:18.000
+Bunny, face up with you. Do you have a question?
+
+01:24:18.000 --> 01:24:24.000
+Yes, pro bye bye, I was covenant and error message.
+
+01:24:24.000 --> 01:24:32.000
+When I wanted to remove the index position on the did awesome.
+
+01:24:32.000 --> 01:24:40.000
+I don't know what's the error you have to
+
+01:24:40.000 --> 01:24:45.000
+Do fine. you do type tip as a smaller F has to be capital.
+
+01:24:45.000 --> 01:24:55.000
+F: Okay, Okay, Thank you for Alright: Okay, ,
+
+01:24:55.000 --> 01:25:02.000
+Please. Hello, Bro: Yeah. James. Yeah. So I was trying to save my my files.
+
+01:25:02.000 --> 01:25:15.000
+Everything worked out last time to signify what it was I think I I got an era saying that my data frame is not defined. I think I'm just not something you must be missing out something first of all you need to have
+
+01:25:15.000 --> 01:25:22.000
+assigned Santa L. Blue Defenseets Bracket Diamond tweeted up from Df. Did you draw this?
+
+01:25:22.000 --> 01:25:28.000
+Oh, okay, okay. Oh, no, no, Thank you very much. If you have not assigned it, you can save it. .
+
+01:25:28.000 --> 01:25:37.000
+You guys have so many questions that I want to move on let's just go on with Paula Jaco.
+
+01:25:37.000 --> 01:25:46.000
+Okay, thank you, sir. sorry. So i've never been able to see this by you since that.
+
+01:25:46.000 --> 01:25:50.000
+Okay, let me resend it. But please just pay attention to the window.
+
+01:25:50.000 --> 01:26:16.000
+Now I I think it's exactly it was soon finished loading
+
+01:26:16.000 --> 01:26:19.000
+Okay, is there? Now, if you had any chat window, you should see.
+
+01:26:19.000 --> 01:26:22.000
+Oh, yeah, i'm not on your phone it's like your phone.
+
+01:26:22.000 --> 01:26:26.000
+You will see
+
+01:26:26.000 --> 01:26:40.000
+Alright. So now let's do that how to load data sets from file onto a jupiter
+
+01:26:40.000 --> 01:26:54.000
+Alright to be able to do that. We use the Pundas function, c.
+
+01:26:54.000 --> 01:26:59.000
+As the He has the files E. Sv.
+
+01:26:59.000 --> 01:27:08.000
+Files. Okay, So yeah. So we use that for Csv files.
+
+01:27:08.000 --> 01:27:20.000
+We use reads on desk, call, excel for excel.
+
+01:27:20.000 --> 01:27:27.000
+Think so. Files Thanks. Xl: S: as the extension.
+
+01:27:27.000 --> 01:27:39.000
+Okay, we use read on this call. Jason: Okay for the Jason files.
+
+01:27:39.000 --> 01:27:46.000
+Okay, I I keep going on on. but let's just talk that because we're only going to walk with one today, which is read on that call.
+
+01:27:46.000 --> 01:27:57.000
+Csv: So We're gonna learn how to do that it to be able to load any data from your profile.
+
+01:27:57.000 --> 01:28:04.000
+That's the point is imports on us ask pd right now we are using Pd.
+
+01:28:04.000 --> 01:28:11.000
+As an acronym for hundreds because let's visit when you when you start working as a data scientist.
+
+01:28:11.000 --> 01:28:21.000
+So you didn't know this webinar you're gonna be typing lines and lines of statements, or could everything that seems you key strokes is a very useful thing.
+
+01:28:21.000 --> 01:28:29.000
+So Pd is going to be the alias we're going to use referred to partners whenever we want to call any of these functions.
+
+01:28:29.000 --> 01:28:39.000
+So once you've done that next thing you want to declare is the file name you want to import by a name you want to report in our case.
+
+01:28:39.000 --> 01:28:47.000
+Our fire name is Demons 90 is that once one Dot Csv.
+
+01:28:47.000 --> 01:29:00.000
+Alright. next thing you want is the path 5 parts that's where the file is told equals to you have to go figure where it is, but I I can get it from how I steve the file right?
+
+01:29:00.000 --> 01:29:04.000
+I see the file in. See what this? So this is my path.
+
+01:29:04.000 --> 01:29:14.000
+So copy this absolutely. Yeah. So that's my puff that's we are that Friday is probably new located in my computer in your own.
+
+01:29:14.000 --> 01:29:20.000
+You might be a different place, but always make sure you end with t 4 slash.
+
+01:29:20.000 --> 01:29:25.000
+Alright bye
+
+01:29:25.000 --> 01:29:39.000
+So now to import the file. i'll see food paths now this one going this step, these baby steps. it's just like you understand how we structure things identity. i'll do it with just one line and i'll show you so
+
+01:29:39.000 --> 01:29:52.000
+full 5 plots. It goes to 5 5. Hello! Wow! name!
+
+01:29:52.000 --> 01:30:03.000
+See, I see Prince full wow, and I run this. this is we are.
+
+01:30:03.000 --> 01:30:12.000
+My fight is located. You recognize that this string he's actually the same thing as this.
+
+01:30:12.000 --> 01:30:17.000
+Are you guys? An accident
+
+01:30:17.000 --> 01:30:32.000
+Yes, hello, yes, But what i've done is try to help you see the the components that is the name of the file, and that is directly to the food of where in 5 is located.
+
+01:30:32.000 --> 01:30:37.000
+Okay, So not that build on the standards. I can now see.
+
+01:30:37.000 --> 01:30:46.000
+Loot the demo is file that will be i'll give the i'll be very, very good.
+
+01:30:46.000 --> 01:30:50.000
+I'll go to the file, so I can call it data sets instead of using data free again.
+
+01:30:50.000 --> 01:31:02.000
+It does it is go to pd no i'm calling pandas, but i'm using pd i'm not gonna write pandas in full pd read on that's go see as the brackets in that
+
+01:31:02.000 --> 01:31:12.000
+bracket i'm going to put the full pop to where the file is so for that i'll be using my full path.
+
+01:31:12.000 --> 01:31:20.000
+Alright if I run that no arrow, which means that that data has come in.
+
+01:31:20.000 --> 01:31:28.000
+So now I can see print data sets
+
+01:31:28.000 --> 01:31:32.000
+You see, volley, I have have my data now.
+
+01:31:32.000 --> 01:31:36.000
+So in this short step, you guys have learned how to load data.
+
+01:31:36.000 --> 01:31:41.000
+So please, if you don't understand this speak now i'm more than happy to go right again.
+
+01:31:41.000 --> 01:31:45.000
+So that we all understand how to load the account, to educate.
+
+01:31:45.000 --> 01:32:07.000
+Yeah. I tried loading mine. they have to say and put an arrow.
+
+01:32:07.000 --> 01:32:17.000
+It says, Name Dx is not defined. Yeah, Yeah, that when I want to load like when I want to save it.
+
+01:32:17.000 --> 01:32:21.000
+So, Cse: So if you are sending to Csv, you must have do that.
+
+01:32:21.000 --> 01:32:29.000
+You file us. Yeah, So I think this is line you Miss you don't have this line
+
+01:32:29.000 --> 01:32:37.000
+Oh, oh, you have to have the variable Df. food in the file first before you try to save it.
+
+01:32:37.000 --> 01:32:40.000
+Okay, So I'll do that thank you sir.
+
+01:32:40.000 --> 01:32:45.000
+Okay, so are we all comfortable, so far? Proof? We asked it.
+
+01:32:45.000 --> 01:32:54.000
+Please, can you go to the first line of good? Yeah. Okay.
+
+01:32:54.000 --> 01:33:09.000
+Thank you very much.
+
+01:33:09.000 --> 01:33:18.000
+Okay, if I see after I write it report cbone, I I run this code ascend or gets on the score.
+
+01:33:18.000 --> 01:33:29.000
+No, you're not lucky that the sea ball has No, I mean as long as the data sets or something
+
+01:33:29.000 --> 01:33:55.000
+Okay, they said Okay. So
+
+01:33:55.000 --> 01:34:03.000
+You get the government, it is. get on desk called data set, not gather.
+
+01:34:03.000 --> 01:34:33.000
+That was good. It does it on that's called Yeah, i'm lift you me out
+
+01:34:37.000 --> 01:34:44.000
+Okay, i'll be Laura if you have in trouble Please pick up.
+
+01:34:44.000 --> 01:34:53.000
+Raji, Do you have any issues? Yes, my is giving me name.
+
+01:34:53.000 --> 01:34:57.000
+Aero
+
+01:34:57.000 --> 01:35:03.000
+Ratio i'm not your name he's giving me name Arrow name Arrow.
+
+01:35:03.000 --> 01:35:10.000
+The month one is not defined and so name hello would be a function of how did what name did you call the file?
+
+01:35:10.000 --> 01:35:23.000
+You say, don't just use the good I sent you remove one from it right,
+
+01:35:23.000 --> 01:35:33.000
+We'll see as we so check this spelling because my studio Yeah. Check this planning.
+
+01:35:33.000 --> 01:35:36.000
+Go ahead and tell you that at the then the name is different from what you have see.
+
+01:35:36.000 --> 01:35:41.000
+Let me check you side, Raji, to be on the safe side.
+
+01:35:41.000 --> 01:35:51.000
+Go to that script when you steve this you see that like when you deceiving Yes, just copy it onto a copy I'm bringing down here.
+
+01:35:51.000 --> 01:35:56.000
+Okay, and using these optics, if you remove all of this.
+
+01:35:56.000 --> 01:36:00.000
+Now i'm putting here make sure it's all in traditional Max.
+
+01:36:00.000 --> 01:36:09.000
+All right. I'm gonna put all this
+
+01:36:09.000 --> 01:36:13.000
+Oh, no, please combat any bubbles last and forward slash.
+
+01:36:13.000 --> 01:36:21.000
+Very important is that. but i'll do that And and he's still shooting Samero.
+
+01:36:21.000 --> 01:36:30.000
+That's why they do exactly what I just asked you to do ,
+
+01:36:30.000 --> 01:36:34.000
+Copy it, and then do I use it to import it back?
+
+01:36:34.000 --> 01:36:41.000
+Issue So let me change, because this is going to everybody.
+
+01:36:41.000 --> 01:36:44.000
+Alright. so I I need to. I need to get some speak guys.
+
+01:36:44.000 --> 01:36:49.000
+So you now have learned how to lose data right let me just clean this up.
+
+01:36:49.000 --> 01:36:53.000
+You've learned how to do this and like I was trying to explain to you.
+
+01:36:53.000 --> 01:36:56.000
+Each call in here represents the feature in our data.
+
+01:36:56.000 --> 01:37:00.000
+To correct is a feature of this don't come back to morality.
+
+01:37:00.000 --> 01:37:06.000
+That colleagues, your language should be. That feature in my data, So current is a feature.
+
+01:37:06.000 --> 01:37:13.000
+One call. this feature to me cover is feature 3, for all the way to Z.
+
+01:37:13.000 --> 01:37:18.000
+On the table. Now each rule of the data represents a sample.
+
+01:37:18.000 --> 01:37:26.000
+So our sample 0 sample, one sample, 2 all the way to sample.
+
+01:37:26.000 --> 01:37:32.000
+And in my data, alright. So let me just make that note here for you guys.
+
+01:37:32.000 --> 01:37:56.000
+Data frames matrices.
+
+01:37:56.000 --> 01:38:11.000
+Okay, Thanks, Reggie. Okay, cause you know, data colleagues calls.
+
+01:38:11.000 --> 01:38:26.000
+He just, and it's our rules close. Samples Alright. So you guys should keep that in mind.
+
+01:38:26.000 --> 01:38:34.000
+The structure of auditory. Now, to find out the ship of your data free, for example, how many columns, How many rules do I have in the data you use?
+
+01:38:34.000 --> 01:38:49.000
+If functioning Pandas 2 gets the sheep. Oh, a data set Number V: just and samples.
+
+01:38:49.000 --> 01:38:54.000
+Okay, So for that we're gonna use the functional code Df: Dot ship.
+
+01:38:54.000 --> 01:39:07.000
+But right now the name of my data center is my data sets that she
+
+01:39:07.000 --> 01:39:14.000
+Alright, so you just call it She tells you very clearly how many samples are, How many features like your data right now.
+
+01:39:14.000 --> 01:39:22.000
+Are you guys? seeing my screen
+
+01:39:22.000 --> 01:39:31.000
+Yes, both, I see. Yes. Are you guys gonna see a screen
+
+01:39:31.000 --> 01:39:35.000
+Sample in this data, and 10 features in the sample.
+
+01:39:35.000 --> 01:39:42.000
+So that's what data does she does for you i'll teach you a few tricks going forward because these are tricks.
+
+01:39:42.000 --> 01:39:49.000
+You need to get Suppose I want to know what are the names of the columns in my data.
+
+01:39:49.000 --> 01:39:53.000
+I don't have to go on out to the table, and then start seeing the names of the colleagues.
+
+01:39:53.000 --> 01:40:03.000
+If I want to get the names, so it gets of the features
+
+01:40:03.000 --> 01:40:18.000
+Okay, So i'll just see detailsets or whatever name you call your data dot com, Alright, if I call those questions you give me an like you list of all the calling of the names of the colors in my data are you guys seeing
+
+01:40:18.000 --> 01:40:27.000
+that yes, Alright, I can also compat it to at least remember we thought you have to come back, you know a very good type.
+
+01:40:27.000 --> 01:40:29.000
+Do you remember when we did it in Python?
+
+01:40:29.000 --> 01:40:37.000
+Yes, yes, problem welcome. Now you apply this concept to .
+
+01:40:37.000 --> 01:40:47.000
+You can also see that all the things you mentioned, hey? just said, call him to.
+
+01:40:47.000 --> 01:40:59.000
+He lists. So so this will be calls are gonna call opposed to list in brackets.
+
+01:40:59.000 --> 01:41:07.000
+Dick, does it? alright? So now if I Call print you see that it's going to be different calls.
+
+01:41:07.000 --> 01:41:13.000
+The presentation is now different from this other one.
+
+01:41:13.000 --> 01:41:18.000
+Yes, and so I can each rate 3. This is in index of 0.
+
+01:41:18.000 --> 01:41:28.000
+This is a one. This is in 2 cases in 3, all the way to add, All right, so that can just be the right for you.
+
+01:41:28.000 --> 01:41:38.000
+Call right. If I do that, I get that. so just use that account.
+
+01:41:38.000 --> 01:41:48.000
+Yes, Paul, I can see raji's my name. that's good.
+
+01:41:48.000 --> 01:42:03.000
+I'm happy for you all right so basically now I'm having i'm going to recap. i'm being all of you back again, just so that we're all on the same page this class is
+
+01:42:03.000 --> 01:42:19.000
+very important when we started class today we talked about what we're going to provide this cost, and and I'm doing this for the stakeholders who are just joining we started by discussing
+
+01:42:19.000 --> 01:42:27.000
+what we're going to provide in this course if I can just find my call points
+
+01:42:27.000 --> 01:42:31.000
+So we said, we're going to cover data opposition and data cleaning.
+
+01:42:31.000 --> 01:42:43.000
+We started data position already. you guys know this we're going to call our data position and data data transformation feature selection of feature engineering, Then all types of files on how to do them.
+
+01:42:43.000 --> 01:42:48.000
+You know, into object under book things like the Csv.
+
+01:42:48.000 --> 01:42:53.000
+Which we are already working with. don't excel the Jason, the pickle, the packet.
+
+01:42:53.000 --> 01:42:58.000
+Okay, the text that's the txc we're gonna learn how to work with each of those 5 types.
+
+01:42:58.000 --> 01:43:07.000
+What's the going to have classes on sql you're gonna learn how to query sql data sets and extract things using select statements.
+
+01:43:07.000 --> 01:43:22.000
+We have losses, you know, and and then once we left all of these we're going to use that to now, carry out data cleaning Google and to end think data that is very dirty.
+
+01:43:22.000 --> 01:43:34.000
+What? through the process, to clean the data ready for either visualization or analytics. as a case, maybe remember the right that I said, If you learn nothing in this Academy, please focus on this first 3.
+
+01:43:34.000 --> 01:43:42.000
+I need to be well with you. Okay, you will be forgiven if you don't know all 5 types all you know is that Csv.
+
+01:43:42.000 --> 01:43:46.000
+Nobody will, you know. create your knowledge if you don't know Sql.
+
+01:43:46.000 --> 01:43:53.000
+You still survive as a data scientist I don't use Sql.
+
+01:43:53.000 --> 01:43:57.000
+In all my who work as a data scientist I don't use Sql.
+
+01:43:57.000 --> 01:44:04.000
+But we're teaching you because there is it's sort of emphasis on being able to create those data sets.
+
+01:44:04.000 --> 01:44:13.000
+And then mostly on this this is just end to end of items, one to 3.
+
+01:44:13.000 --> 01:44:20.000
+Okay. So this introduction to Vice Park and Psychi Library for data processing is just deep.
+
+01:44:20.000 --> 01:44:26.000
+Duringation of everything, you've learned from one to 3 so That's what we said.
+
+01:44:26.000 --> 01:44:33.000
+We're going to cover and we started he lost 15 things about data by taking our example of you walking in the ground, and the Md.
+
+01:44:33.000 --> 01:44:43.000
+Or your manager is to want to build a model that will predict which employees or set of employees are likely to resign from our company in the next couple of years.
+
+01:44:43.000 --> 01:44:50.000
+So do the model that this is the probability in index, or any given employee.
+
+01:44:50.000 --> 01:44:56.000
+Dropping off the employment of our business. you and I, all of us.
+
+01:44:56.000 --> 01:45:00.000
+You have great storm to say, Okay, what kind of data do we need to make that kind of prediction?
+
+01:45:00.000 --> 01:45:10.000
+And you guys were very you he ported it as you came up with all of these data types that we need.
+
+01:45:10.000 --> 01:45:15.000
+What I did was talk them together to show you the relationship between each of them and what we're trying to predict.
+
+01:45:15.000 --> 01:45:27.000
+So essentially in data, science is you are more than in your relationship between a new, variable and an outcome.
+
+01:45:27.000 --> 01:45:33.000
+To see if changes in the outcome are predicted by that equal variable.
+
+01:45:33.000 --> 01:45:38.000
+And I give you names for each of them for the outcome.
+
+01:45:38.000 --> 01:45:40.000
+Variable. There are names you can use to refer to them.
+
+01:45:40.000 --> 01:45:50.000
+Time we had dependent.
+
+01:45:50.000 --> 01:45:55.000
+Just put that back. So we have dependent variable. Okay?
+
+01:45:55.000 --> 01:46:00.000
+And then for the input variables we have independent, variable input, variable, you know.
+
+01:46:00.000 --> 01:46:06.000
+Somebody give us a planetary variable that's fine features are then predictable variables.
+
+01:46:06.000 --> 01:46:22.000
+Okay, So that's where we're coming from having understood the nature of the task that you did, and the Academy is asking for both, which is land the skills required to decide which features But I think that can be used or should
+
+01:46:22.000 --> 01:46:36.000
+be useful during any given model we know went back so he let us start with the process of learning how to launch data onto, because until you loop it out you've done a book you haven't started
+
+01:46:36.000 --> 01:46:45.000
+We said the 2, we need the primary 2 we need for this that's not true called not pipe or not depending on us.
+
+01:46:45.000 --> 01:47:01.000
+Okay, if you ask you britain if a great is gonna tell you it's not the but we're not ready for that, because that's that one is for arizona vectors we're not ready for that
+
+01:47:01.000 --> 01:47:08.000
+one. So the primary 2 we're gonna be using is pandas. So we put that on us, and that's the cool to be postponed us.
+
+01:47:08.000 --> 01:47:13.000
+But we need data to work with. So I mean it. detail the detail, or is it still good?
+
+01:47:13.000 --> 01:47:16.000
+Let us go to Cbn. because Simon, whose data we can work very easily.
+
+01:47:16.000 --> 01:47:20.000
+So we bought that Cbn: just be able to access this data.
+
+01:47:20.000 --> 01:47:25.000
+The dataight holes, and I give you code to query Cpon to see all the data types it has.
+
+01:47:25.000 --> 01:47:34.000
+So that will give you it to speed out all the data tables that c.
+
+01:47:34.000 --> 01:47:39.000
+One is voting for you to get any of these dates out of all.
+
+01:47:39.000 --> 01:47:43.000
+All you need to do is call Sn or loop on desktop data set.
+
+01:47:43.000 --> 01:47:50.000
+You know the name of the data, Let me show you and that's it to look it for you.
+
+01:47:50.000 --> 01:47:53.000
+But to be able to walk with the data once you look at.
+
+01:47:53.000 --> 01:47:59.000
+If you must assign this code to a variable cause, if they will need to go the data for you.
+
+01:47:59.000 --> 01:48:04.000
+So some of you are trying to save it but you couldn't sleep it because you hadn't assigned it.
+
+01:48:04.000 --> 01:48:09.000
+So that's where you need this particular line of code so create the variable name in this case, Df.
+
+01:48:09.000 --> 01:48:18.000
+And then assign it that data that you are doing. And this gives that one state that once you do that, then you can have access to Df: I see.
+
+01:48:18.000 --> 01:48:23.000
+Video, and you can do anything you want with this. So we included the detail.
+
+01:48:23.000 --> 01:48:39.000
+We have access to a demo data. Now, I will show you how to see any data frame or your dialogue back to file, and that's a good easy pandas good df dot 2, and that's called Csv if you're
+
+01:48:39.000 --> 01:48:41.000
+submitting a Csv. which is the Dx extension.
+
+01:48:41.000 --> 01:48:46.000
+Most Csv. in brackets. you put the full path to where the file is going to be received.
+
+01:48:46.000 --> 01:48:53.000
+In my case it was the C. drive inside, you see, drive workspace, folder and inside of food that you have my diamonds.
+
+01:48:53.000 --> 01:49:00.000
+Data. But when you see your data this week, what part does does this combat the index call?
+
+01:49:00.000 --> 01:49:05.000
+You see this index call you? That is not part of the data.
+
+01:49:05.000 --> 01:49:07.000
+Bandas combats The index calling to call him in the time saves it for you sometimes.
+
+01:49:07.000 --> 01:49:13.000
+That's a lot of news ads you don't want it, unless the index means something to you.
+
+01:49:13.000 --> 01:49:18.000
+So if you don't want the index to be seen just add another parameter to the save function.
+
+01:49:18.000 --> 01:49:24.000
+Put it comma from the Directory to we are invisible with the come out the set index.
+
+01:49:24.000 --> 01:49:30.000
+It was support capital f not small at index that we web on that sees that data.
+
+01:49:30.000 --> 01:49:36.000
+You're gonna get the data with the index called the Monics.
+
+01:49:36.000 --> 01:49:57.000
+So now that we've learned how to do that data, what we're now doing is learning how to load that data back to our Csv file, which is lesson number one for me lesson number one for you guys Then how to load Ecsv.
+
+01:49:58.000 --> 01:50:02.000
+file from your full deployment group to be able to do that.
+
+01:50:02.000 --> 01:50:05.000
+The function I'm. going to use is the read on That's.
+
+01:50:05.000 --> 01:50:15.000
+Called Csv. Function of Pandas. get 2 moving parts. You need to have to be able to load any file.
+
+01:50:15.000 --> 01:50:19.000
+One is the full name of the file, with its extension.
+
+01:50:19.000 --> 01:50:27.000
+Second is the full path or directory to the food that we are defined as part of the data to the 2 moving paths.
+
+01:50:27.000 --> 01:50:33.000
+You need to know the name of the file. the location of the file.
+
+01:50:33.000 --> 01:50:37.000
+Now let me teach you a trick for those of you who might be struggling with this bus.
+
+01:50:37.000 --> 01:50:40.000
+You'll be like pro you did this but we don't know what you did.
+
+01:50:40.000 --> 01:50:48.000
+If you go to the food, that where the file is located in this case I want to bring in that one's one to get you the full path.
+
+01:50:48.000 --> 01:50:51.000
+If you are using windows 11. the problem is so for you already.
+
+01:50:51.000 --> 01:50:58.000
+Just right. click the file and think copy us class please this is only if you're using windows 11.
+
+01:50:58.000 --> 01:51:13.000
+If you are windows, then i'll be doing by that, i'll show you how to do that one take copy as part when you've done that copy as path, just bring it back to your okay If you see what I listed
+
+01:51:13.000 --> 01:51:17.000
+now it copied everything for me. Give me the full path.
+
+01:51:17.000 --> 01:51:26.000
+But I need to now change this to forward slash what's that all slots we find that use it Now it's ready to work.
+
+01:51:26.000 --> 01:51:31.000
+So if I see let's see df 2 is opposed to Pd.
+
+01:51:31.000 --> 01:51:40.000
+The reads. Oh, that's called csv brackets move that one and put these other brackets here.
+
+01:51:40.000 --> 01:51:44.000
+Okay, So if I run this now it will load my data straight.
+
+01:51:44.000 --> 01:51:48.000
+I run that now. I have Df: 2 of my data grabbing that down.
+
+01:51:48.000 --> 01:51:58.000
+Yeah, i'll run it You see, I have the data. so that is one no, as you mean, you are using windows 10 below which most of you are starting.
+
+01:51:58.000 --> 01:52:04.000
+Are using What you want to do is write the If file once you get to the full data file is right.
+
+01:52:04.000 --> 01:52:11.000
+Click, the file, then click on properties click on practice.
+
+01:52:11.000 --> 01:52:21.000
+The window. We open this window. In that window there is an entry call location.
+
+01:52:21.000 --> 01:52:28.000
+Location gives you where the file is thought you see this that's where the file is told.
+
+01:52:28.000 --> 01:52:36.000
+Alright. if you go to details, you also see. So if you go easy to do yes, you see, probably.
+
+01:52:36.000 --> 01:52:44.000
+Look. what you want to do is just come back to General and then copy the path.
+
+01:52:44.000 --> 01:52:58.000
+This is the past. so i'm gonna copy this i'll go to my let's see is the walls that alright no I've put it in bracket, because supposed to be a string.
+
+01:52:58.000 --> 01:53:06.000
+And I need to change the best bubble slash I've e 4 slash in the end.
+
+01:53:06.000 --> 01:53:09.000
+That's what I give you that I go back again.
+
+01:53:09.000 --> 01:53:15.000
+To. I go back again and then get the file name CD file in here.
+
+01:53:15.000 --> 01:53:26.000
+Demo one. and you see that is that it both come back here, i'll see file.
+
+01:53:26.000 --> 01:53:40.000
+Okay, because the properties approach doesn't give you the extension and then make sure you put it in quotation.
+
+01:53:40.000 --> 01:53:45.000
+Max. So now i'm ready to read my file I can say D. F.
+
+01:53:45.000 --> 01:53:53.000
+3 is supposed to be the does read on that's called Csv team brackets at once.
+
+01:53:53.000 --> 01:54:10.000
+Huh plus file name. Alright, if I run that oh, my read is not so low, right?
+
+01:54:10.000 --> 01:54:19.000
+So that's right again. Okay, do you see it goes i'm, not around this. I think we've experienced this problem in love with being Python.
+
+01:54:19.000 --> 01:54:25.000
+If you don't run this okay, you declare the variable before using it. What if I don't say to you?
+
+01:54:25.000 --> 01:54:34.000
+Not be fine, not defined, so most I didn't run a sell somewhere, so i'll go back and run this cell.
+
+01:54:34.000 --> 01:54:40.000
+Not if I run it. No, I can't think this i'll bring it out.
+
+01:54:40.000 --> 01:55:00.000
+Several ways of loading data onto your So this represents this: Get the okay.
+
+01:55:00.000 --> 01:55:17.000
+Yes, said she. Okay, which simply is number. Oh, features ensembles.
+
+01:55:17.000 --> 01:55:36.000
+So this will be my how. you see, we just our position that she so like.
+
+01:55:36.000 --> 01:55:46.000
+I said earlier. This tells me I have what time columns and 53,000 now, and 40 samples or rules in the data.
+
+01:55:46.000 --> 01:55:50.000
+No, I can also get the names of the call new city data.
+
+01:55:50.000 --> 01:56:11.000
+I told you guys that just by saying, Okay, good Okay, so that'd be details, dot com my detail.
+
+01:56:11.000 --> 01:56:24.000
+I got combat. This to at least so I can walk with it if I need to. so i'll give it a name calls which means call use in my data is equals to list. i'm combating it to a list so I can access
+
+01:56:24.000 --> 01:56:31.000
+them by the end expositions i've seen these assets right.
+
+01:56:31.000 --> 01:56:36.000
+So at the end of these, if I say print calls, you see, I have these.
+
+01:56:36.000 --> 01:56:45.000
+So this was where we were now that we've got in this let us now see very simple ways of examining our data.
+
+01:56:45.000 --> 01:56:52.000
+Very simple ways of examining our data under our test we can't do on at least that you see data sets.
+
+01:56:52.000 --> 01:57:07.000
+Okay, let's let me annotate inspect the properties That's right of the features in the data.
+
+01:57:07.000 --> 01:57:18.000
+Use using dot info. Okay, So we're gonna use that info to inspect the kind of properties of features our data as alright.
+
+01:57:18.000 --> 01:57:26.000
+So I'm going to write the code the idea 6 dot info.
+
+01:57:26.000 --> 01:57:35.000
+Okay, at least obviously not info. Now, this is the summary table of the properties of our data.
+
+01:57:35.000 --> 01:57:43.000
+And it's important that you guys learn to read this table right don't stop panic. it's very easy.
+
+01:57:43.000 --> 01:57:47.000
+It's like my friends from Zambia which is porridge. right?
+
+01:57:47.000 --> 01:57:56.000
+Yeah, it is portrayed for those of you that you would say, is my mind It it is 5 1.
+
+01:57:56.000 --> 01:58:04.000
+So let's let's examine these 2 kitty study knows that the index reach which is the number of samples in our data.
+
+01:58:04.000 --> 01:58:10.000
+He's going from 0 to 5,339.
+
+01:58:10.000 --> 01:58:16.000
+Okay, So in essence, we have 53,940 samples in our data.
+
+01:58:16.000 --> 01:58:25.000
+We have 10 volumes Then what you did those proceeds to do is stick each for you and give us the information about its content.
+
+01:58:25.000 --> 01:58:29.000
+This is each call in the data that is taken he's taking the Colorado.
+
+01:58:29.000 --> 01:58:36.000
+He studied us. How many records, or how many fields in that volume are not empty?
+
+01:58:36.000 --> 01:58:47.000
+Okay, You see, 53,940 out on dollar means all the species in that call you is for nothing.
+
+01:58:47.000 --> 01:59:03.000
+How you guys? Yes, 2. So if you are trying to find out if data is missing in any of the volumes of your data, I think that again, because of all, when all this you were trying to find out if you guys any
+
+01:59:03.000 --> 01:59:14.000
+missing data in any of the volumes of your data sets They check this, but we are calling not at all.
+
+01:59:14.000 --> 01:59:22.000
+Here is less than this. You know that they tight missing in that particular question.
+
+01:59:22.000 --> 01:59:30.000
+If if this number is it simple as this number here for any of the columns, it means that that calling is okay.
+
+01:59:30.000 --> 01:59:38.000
+We understand that? Yes, yes, sir, so that's what non, not okay.
+
+01:59:38.000 --> 01:59:44.000
+He wants to get out with this. No, no, no, not Is that enough? Which volume?
+
+01:59:44.000 --> 01:59:54.000
+How many columns have they tying them? Okay, And then the did I, instead of the data type of the calling he said, to be flute.
+
+01:59:54.000 --> 01:59:59.000
+You guys already know what the flute is. Yes, cops.
+
+01:59:59.000 --> 02:00:09.000
+Color and clarity are declared as objects strings.
+
+02:00:09.000 --> 02:00:18.000
+Yes, So if I go back to that table let's go
+
+02:00:18.000 --> 02:00:26.000
+Thank you Alright, Evidently if I go back to that call to check this day columns so cops color and clarity.
+
+02:00:26.000 --> 02:00:35.000
+You can see they're not numbers. They are characters. they are Number They are not numerical, so we call them categorical variable is that category called variable.
+
+02:00:35.000 --> 02:00:41.000
+So now we may count that in you work that we need to work with. So let's think quickly.
+
+02:00:41.000 --> 02:00:50.000
+Define it as we go. Okay.
+
+02:00:50.000 --> 02:01:06.000
+Okay, So we'll see these dizza size that's not numbers.
+
+02:01:06.000 --> 02:01:16.000
+For example, States.
+
+02:01:16.000 --> 02:01:20.000
+Hello!
+
+02:01:20.000 --> 02:01:28.000
+What else? agenda
+
+02:01:28.000 --> 02:01:37.000
+Was that Okay, No. H. age, is it? No. number?
+
+02:01:37.000 --> 02:01:46.000
+Age is not an object. Alright, so. And if you look at these 3 columns code is describing.
+
+02:01:46.000 --> 02:01:51.000
+Okay, look at the quality, if you like, of the diamond ideal premium. Good.
+
+02:01:51.000 --> 02:01:55.000
+So it's a categorical variable the same thing.
+
+02:01:55.000 --> 02:02:03.000
+Clarity is so they are not numbers that category but the rest are numbers current is a flute, because it has 2 decimal places.
+
+02:02:03.000 --> 02:02:08.000
+That is, the flute table is the fluid pricing prices.
+
+02:02:08.000 --> 02:02:11.000
+I need to do that prices that in Tj.
+
+02:02:11.000 --> 02:02:20.000
+X. one Z flute So Let's go back and check I see that price Is that N.
+
+02:02:20.000 --> 02:02:25.000
+Tj: You see, that is that in but all the rest are fluid.
+
+02:02:25.000 --> 02:02:32.000
+We the exception of these 3? Okay, and this also.
+
+02:02:32.000 --> 02:02:36.000
+I like streams, so we call them categorical variables.
+
+02:02:36.000 --> 02:02:40.000
+So this is how you use this particular dot info. You have to see.
+
+02:02:40.000 --> 02:02:48.000
+Okay, what kind of types are in my colleagues which fields are missing data, and which was not missing data in my in my table?
+
+02:02:48.000 --> 02:02:57.000
+That is showing you how much memory they finally just do that he's taken 4.1 MB.
+
+02:02:57.000 --> 02:03:01.000
+No, here's the advice are you guys with me ric are you here.
+
+02:03:01.000 --> 02:03:09.000
+Yes, yes, Rebecca. Yeah, Aya Rica.
+
+02:03:09.000 --> 02:03:16.000
+Now Rebecca in class is room. Echo.
+
+02:03:16.000 --> 02:03:28.000
+Alright, I I Now here is a strong advice don't do.
+
+02:03:28.000 --> 02:03:30.000
+Don't try to loot your data directly if you did massive data.
+
+02:03:30.000 --> 02:03:38.000
+If you see any data that is like, 20 MB, a 100 MB, you know a 1 GB or whatever.
+
+02:03:38.000 --> 02:03:43.000
+Please don't go to something like this let me show you don't go see print.
+
+02:03:43.000 --> 02:03:48.000
+They does it
+
+02:03:48.000 --> 02:03:57.000
+Because instantly you do it all the memory. in your computer you can see that it's more file. We just do that is already in 4 MB of memory.
+
+02:03:57.000 --> 02:04:01.000
+So instead, the best way to load your data is, do what we call picking.
+
+02:04:01.000 --> 02:04:06.000
+Add the data
+
+02:04:06.000 --> 02:04:19.000
+Using dot head. And do you right? That allows you to drop a few samples from the data.
+
+02:04:19.000 --> 02:04:22.000
+You don't need to see everything seeing it doesn't change anything.
+
+02:04:22.000 --> 02:04:36.000
+You just want to see a few samples. So say data sets Now, if you need it, without specifying how many rules or samples you want to need to return like that is going to give you only 5 rules. right?
+
+02:04:36.000 --> 02:04:41.000
+So each returns 5 rooms. So this retails.
+
+02:04:41.000 --> 02:04:47.000
+Bye Roosevelt.
+
+02:04:47.000 --> 02:04:57.000
+Specify.
+
+02:04:57.000 --> 02:05:01.000
+Alright. So this gives us 5 rules. However, if I want 20 rules.
+
+02:05:01.000 --> 02:05:10.000
+I can see data sets go ahead and i'll put 20 in that bracket.
+
+02:05:10.000 --> 02:05:20.000
+Alright 20. So this will return 20 rovers
+
+02:05:20.000 --> 02:05:26.000
+Alright. so if I run it now, you can see, alright, 20 rules for me.
+
+02:05:26.000 --> 02:05:31.000
+So this will recall the press, 5 rules or the first 20 rules.
+
+02:05:31.000 --> 02:05:43.000
+Any data. Sometimes, for some reason you want to see the bottom part of the data, you want to see the lowest part of the data to see what is there for that user?
+
+02:05:43.000 --> 02:05:59.000
+Say, yeah, exactly. who said that? hey? mesa It's
+
+02:05:59.000 --> 02:06:13.000
+Go to you, returns the bottom rules
+
+02:06:13.000 --> 02:06:16.000
+And you can specify any number you want for the past one.
+
+02:06:16.000 --> 02:06:25.000
+All you will. I I have a small question.
+
+02:06:25.000 --> 02:06:34.000
+Alright.
+
+02:06:34.000 --> 02:06:39.000
+Okay, So again, you guys have lens how to peek at the data.
+
+02:06:39.000 --> 02:06:55.000
+So it's more when I see peak means can you Luke
+
+02:06:55.000 --> 02:07:08.000
+Now, sometimes as the data site sometimes you're not just interested in your personal life, you just want look at the random return.
+
+02:07:08.000 --> 02:07:22.000
+So I can see data sets the sample Okay, the sample means not only grab any data for me, and you can't specify how many you want you to drop alright.
+
+02:07:22.000 --> 02:07:29.000
+So let me specify 10 drop any 10 samples round only for me.
+
+02:07:29.000 --> 02:07:33.000
+That's what this is doing are you guys with me so far.
+
+02:07:33.000 --> 02:07:42.000
+Yes, sir, Okay, So we are good at the level of being able to inspect our data.
+
+02:07:42.000 --> 02:07:47.000
+Any questions so far. let's go with at abc before we move on.
+
+02:07:47.000 --> 02:08:02.000
+Okay, thank you, doctor. My question is, do we have some test groups, that awesome kind of text to activities, to prices under the nest boot camp?
+
+02:08:02.000 --> 02:08:10.000
+That's a good question Yes, you will receive textbooks that you'll be working with next week is your self-paced learning.
+
+02:08:10.000 --> 02:08:18.000
+There'll be material for you to study Trust me and of course, there will also be a piece for you towards Thursday, Friday next week.
+
+02:08:18.000 --> 02:08:23.000
+That you have to write so that's how we track your performance across the program.
+
+02:08:23.000 --> 02:08:29.000
+You do yourself this study from Monday to Wednesday by Thursday morning.
+
+02:08:29.000 --> 02:08:33.000
+He's done that time. so he's only calling your country, and then sees money in our subject.
+
+02:08:33.000 --> 02:08:43.000
+He does and then you have a whole day to at least get the wisdom.
+
+02:08:43.000 --> 02:09:10.000
+So? yes, Louis, How do you
+
+02:09:10.000 --> 02:09:20.000
+Which is not, begins to look
+
+02:09:20.000 --> 02:09:27.000
+With that still comes here Yeah. and we okay.
+
+02:09:27.000 --> 02:09:39.000
+So muted himself alright. Well, I think so. thank you very much.
+
+02:09:39.000 --> 02:09:44.000
+But please, who don't messy with is able to speak now alright.
+
+02:09:44.000 --> 02:09:49.000
+My question is that and assume you we are in mixing.
+
+02:09:49.000 --> 02:10:03.000
+Then how come we know the actual Go along? but as a as we do have what it makes them value, maybe a mixing and value from one of our Coulombs.
+
+02:10:03.000 --> 02:10:11.000
+Now
+
+02:10:11.000 --> 02:10:15.000
+Yes, yeah. So that's what the info does for you does infrastructure.
+
+02:10:15.000 --> 02:10:20.000
+Very glad. So is this for correct Right now Carl has no missing values costs.
+
+02:10:20.000 --> 02:10:25.000
+You see the the this sales are full, so any any line?
+
+02:10:25.000 --> 02:10:29.000
+We are the number here that is not the same thing as this.
+
+02:10:29.000 --> 02:10:35.000
+Study simply means that they are missing values and and that's name of they call it that Tpu price.
+
+02:10:35.000 --> 02:10:38.000
+So you can get it from here. Yeah, all that methods.
+
+02:10:38.000 --> 02:10:47.000
+But this is the Okay. So so basically this data looks through.
+
+02:10:47.000 --> 02:10:49.000
+Yeah, these data, as far as we see, values that concern.
+
+02:10:49.000 --> 02:10:55.000
+But I will use the work clean. as far as missing values that concern this data is complete.
+
+02:10:55.000 --> 02:11:05.000
+The are not missing values. So if I do something like this and this is not for today's class, But you know just so that you guys can have something to choose.
+
+02:11:05.000 --> 02:11:18.000
+Okay, if I see details that is any that's not and I run this.
+
+02:11:18.000 --> 02:11:27.000
+This tells me which column has missing values on which one doesn't are you guys with me So far?
+
+02:11:27.000 --> 02:11:35.000
+Yes, sir. Yeah, yeah. alright. but this is it is that We're going to go to later.
+
+02:11:35.000 --> 02:11:44.000
+So this is just checking so good to the in our data.
+
+02:11:44.000 --> 02:11:49.000
+Alright soon. Now we've we've we've learned we've learned how to do that later.
+
+02:11:49.000 --> 02:11:54.000
+Let's see now how to play around with the data okay i'm out of time.
+
+02:11:54.000 --> 02:11:58.000
+But I'm going to run * minutes. Do I have your permission to do that.
+
+02:11:58.000 --> 02:12:07.000
+Yes, yes, sir; but please do. you have your permission to use it?
+
+02:12:07.000 --> 02:12:20.000
+So yeah, do the the person on there to add to that.
+
+02:12:20.000 --> 02:12:25.000
+Tell me what the other person else about might be missing values.
+
+02:12:25.000 --> 02:12:30.000
+And maybe we see species, and so on I think he's talking about it.
+
+02:12:30.000 --> 02:12:48.000
+But my main question nice. I want to make an appeal like for the is it possible for the school dice institution to just?
+
+02:12:48.000 --> 02:13:01.000
+We're giving us meaning together with the people who don't constantly use it for me.
+
+02:13:01.000 --> 02:13:05.000
+I'm talking best now for myself. but I don't understand you use Okay?
+
+02:13:05.000 --> 02:13:19.000
+Well, that's I understand what You're saying the The beautiful thing is, we are quitting in python here, so everything So you'll find that you're about to use it.
+
+02:13:19.000 --> 02:13:25.000
+Just watch the next 10 min and see what happens Okay, you're not going to marry me. Anything I promise you that. now, please.
+
+02:13:25.000 --> 02:13:27.000
+I just bought 50 min from you guys. Let me use it.
+
+02:13:27.000 --> 02:13:31.000
+I see that So let me just use that 50 min, and then I come back to you.
+
+02:13:31.000 --> 02:13:36.000
+Now data frames can be sliced and dized very easily.
+
+02:13:36.000 --> 02:13:49.000
+So remember that if you look at that data set and i'm just going to change its name, because I don't want to be writing the i'll just what I'm. doing is assigning, whatever that data set is voting to
+
+02:13:49.000 --> 02:13:57.000
+Df: So that now it's easy for me let me add up X to it, just to that it doesn't complete any of the data we have before.
+
+02:13:57.000 --> 02:14:01.000
+So I run this. so now I have my Dfs.
+
+02:14:01.000 --> 02:14:05.000
+If I want to get look at my data sets.
+
+02:14:05.000 --> 02:14:08.000
+I can't do a lot of things for my data set very easy.
+
+02:14:08.000 --> 02:14:19.000
+So let's see filtering sorry
+
+02:14:19.000 --> 02:14:34.000
+Obtaining getting one call. you already know the names of my data data are calling right?
+
+02:14:34.000 --> 02:14:40.000
+So if I call calls here, Okay, my call calls. These are the names of my data.
+
+02:14:40.000 --> 02:14:48.000
+If I want to extract your this calling from my data good.
+
+02:14:48.000 --> 02:14:55.000
+Only the Kara got it. That would be the name of the data.
+
+02:14:55.000 --> 02:15:02.000
+Dfx. Square Brackets
+
+02:15:02.000 --> 02:15:08.000
+This will now be just that colleague I can Assign it to a variable let's say car up.
+
+02:15:08.000 --> 02:15:13.000
+Call him is. it was to that. So I can run that now.
+
+02:15:13.000 --> 02:15:17.000
+I have access to just that calling I can do this that's my cut off.
+
+02:15:17.000 --> 02:15:28.000
+Course you might not recognize that as a car call you but let's change it to color, so that we can now let's do a cost.
+
+02:15:28.000 --> 02:15:36.000
+I changes the cost, calling alright and changes to 2 costs just that you can see.
+
+02:15:36.000 --> 02:15:45.000
+So iron this cost. So if I run that am I right this can see that I've got to use the cost calling.
+
+02:15:45.000 --> 02:15:52.000
+Oh, my detail! Are you guys with me so far? Yes, sir. no.
+
+02:15:52.000 --> 02:15:59.000
+I can determine how many unique labels I have in that column each of these entries are labels, so let's say, get unique levels.
+
+02:15:59.000 --> 02:16:16.000
+So It's unique. Number of the bills and the calls calling That will be, and I'm going to use another route before you think so.
+
+02:16:16.000 --> 02:16:28.000
+That would be Df. x those costs that's unique
+
+02:16:28.000 --> 02:16:41.000
+If I run that, I see that how many uniquely bills we have in that colleague 3, 4, 5, oh, 5, bye, so very easy!
+
+02:16:41.000 --> 02:16:51.000
+I can see that there are 5. Now, this technique is always important, because if I have, you see me, there are arrows in the names, because I might see premium and see other premiums, though differently.
+
+02:16:51.000 --> 02:16:57.000
+Sometimes in the data. you guys are going to encounter as we begin to walk in your next room.
+
+02:16:57.000 --> 02:17:10.000
+Plus. this is the makeup class for you guys right who didn't know you guys you don't last next week? is your service study.
+
+02:17:10.000 --> 02:17:14.000
+So this is how you How do you implement this code using another record?
+
+02:17:14.000 --> 02:17:28.000
+This will not be dfx square brackets cost that's unique
+
+02:17:28.000 --> 02:17:37.000
+I'm still getting the same thing right Yes, pro so it's either I reference the callium v. is in the text position.
+
+02:17:37.000 --> 02:17:40.000
+That's what this is. This is by Index position.
+
+02:17:40.000 --> 02:17:51.000
+Oh, I reference it by its name. any other methods will work, But this method doesn't work, you guys is space in the name of the variable, for example, very good.
+
+02:17:51.000 --> 02:18:01.000
+You see? Very good. Oh, no, very good we don't have the recording name that has the 2 words in it, so we can illustrate that.
+
+02:18:01.000 --> 02:18:06.000
+So your cpus bet is always to use the second method, because, regardless of how the name is E.
+
+02:18:06.000 --> 02:18:13.000
+To rob Alright, So now let me ask you a question.
+
+02:18:13.000 --> 02:18:15.000
+Suppose I want to fill out all the records in this data.
+
+02:18:15.000 --> 02:18:19.000
+We have caught people go to premium how do I go about it.
+
+02:18:19.000 --> 02:18:27.000
+So let's see challenge
+
+02:18:27.000 --> 02:18:34.000
+Get all the samples. Okay.
+
+02:18:34.000 --> 02:18:51.000
+We have cops is. Oh, the bill premium Now this is going to be a little bit tricky, so he doesn't mean hard.
+
+02:18:51.000 --> 02:18:55.000
+It means you just have to get a little bit of attention.
+
+02:18:55.000 --> 02:19:09.000
+So this is get to Oh, samples! Oh, damon samples that's our premium
+
+02:19:09.000 --> 02:19:22.000
+This will be that's called a premium email samples it was through Df.
+
+02:19:22.000 --> 02:19:35.000
+X dot location. i'm going by location dot location square brackets it will be dfx.
+
+02:19:35.000 --> 02:19:43.000
+We're basically again, my fx square brackets I want to feel that by the cost call you all right.
+
+02:19:43.000 --> 02:19:50.000
+And this will be webcode volume is equal to email.
+
+02:19:50.000 --> 02:19:57.000
+Again, let me explain the code defiance I want to extract from our data.
+
+02:19:57.000 --> 02:20:02.000
+See these are data here that has all kinds of where's It again. yeah.
+
+02:20:02.000 --> 02:20:07.000
+These are our data where we have all kinds of demons, ideal premium, good and all of that.
+
+02:20:07.000 --> 02:20:11.000
+I want to filter out only the premium diamond.
+
+02:20:11.000 --> 02:20:15.000
+From this table of 53,000 or 59,000 samples.
+
+02:20:15.000 --> 02:20:24.000
+To do that I will use the function in python known as the location. sorry Pandas, known as the location of the Lc.
+
+02:20:24.000 --> 02:20:30.000
+So it would be the name of the data frame, which in my case is Dfx Dot location loc.
+
+02:20:30.000 --> 02:20:33.000
+Then in bracket, I could be conditioned for the first 3.
+
+02:20:33.000 --> 02:20:40.000
+So my conditional Vfx cool. Where about they call you? Is it both of premium?
+
+02:20:40.000 --> 02:20:46.000
+So let's run that 2,000 on so Now if I take premium and try to print it out.
+
+02:20:46.000 --> 02:20:53.000
+You will see that premium should only contain samples that are okay.
+
+02:20:53.000 --> 02:20:59.000
+I think my spending of Pm. is wrong do you think I'd be Yeah.
+
+02:20:59.000 --> 02:21:02.000
+So you couldn't feel that in anything so let's change the P.
+
+02:21:02.000 --> 02:21:08.000
+So we'll run it. Now you can see that these are all premiums, and all together.
+
+02:21:08.000 --> 02:21:14.000
+I have 13,791 samples.
+
+02:21:14.000 --> 02:21:21.000
+Now who can run to Alpha all the samples that are very good?
+
+02:21:21.000 --> 02:21:39.000
+Who got those Ridiculous is the only place with.
+
+02:21:39.000 --> 02:21:43.000
+How about the how many students in this last day? I have 63.
+
+02:21:43.000 --> 02:21:52.000
+Okay, let's go with okay.
+
+02:21:52.000 --> 02:22:04.000
+So okay, So we'll Go with very good very good samples.
+
+02:22:04.000 --> 02:22:13.000
+Very good samples is called zoom. Yeah. very good samples.
+
+02:22:13.000 --> 02:22:36.000
+Then Df: X Yeah. fx dogs Okay, Okay, that's efx.
+
+02:22:36.000 --> 02:22:49.000
+Yes, and then almost and
+
+02:22:49.000 --> 02:22:54.000
+What is it called up? no it's not very.
+
+02:22:54.000 --> 02:22:59.000
+It's not very good. The name of the calling That's All you need .
+
+02:22:59.000 --> 02:23:19.000
+Okay, Okay, So That's good, for this class. when you end your python class it's okay to say double post.
+
+02:23:19.000 --> 02:23:32.000
+In this class. Now, whenever I want to use this okay, All right, then, to go to Okay, alright.
+
+02:23:32.000 --> 02:23:36.000
+So what do you want to put now? So with how very good!
+
+02:23:36.000 --> 02:23:49.000
+The very good.
+
+02:23:49.000 --> 02:23:55.000
+Yeah, i'm running it for you and he run without an arrow so let's print it out.
+
+02:23:55.000 --> 02:24:03.000
+So very good. You did. Well, no, yes, it tricky to be able to build up for us.
+
+02:24:03.000 --> 02:24:09.000
+We are, you know, all the items in this table we are.
+
+02:24:09.000 --> 02:24:18.000
+The price is greater than $300
+
+02:24:18.000 --> 02:24:29.000
+Mandy. So okay, okay, body face let's go into you the cool one.
+
+02:24:29.000 --> 02:24:39.000
+Let's go ahead alright. Oh, okay, I will give it i'll give you.
+
+02:24:39.000 --> 02:24:57.000
+I'll give you i'll give the variable name to be fries It's done market price 300.
+
+02:24:57.000 --> 02:25:19.000
+Okay, Basic Question: Yeah, Thanks. Dfx: : Dot: Hello.
+
+02:25:19.000 --> 02:25:31.000
+Square brackets. Yep, Thanks.
+
+02:25:31.000 --> 02:25:38.000
+I'm about to help him
+
+02:25:38.000 --> 02:25:58.000
+Then the column is price. Okay, Okay, have a problem right now.
+
+02:25:58.000 --> 02:26:14.000
+But let's continue listen
+
+02:26:14.000 --> 02:26:21.000
+Don't know No, don't price to a string so what do you think is the problem?
+
+02:26:21.000 --> 02:26:33.000
+Price 2, 3. So if we check now let's see how many, yeah, it's nothing.
+
+02:26:33.000 --> 02:26:49.000
+Video 300 another rice let that's the let's see 3
+
+02:26:49.000 --> 02:27:01.000
+Oh, we have let's put like maybe 5 phone right down here
+
+02:27:01.000 --> 02:27:17.000
+Okay, So we have something here. Yes. Now, when you see, we got just 200, Okay.
+
+02:27:17.000 --> 02:27:21.000
+So now let me teach you a lot to get the maximum value.
+
+02:27:21.000 --> 02:27:34.000
+And now we did last lesson. We close
+
+02:27:34.000 --> 02:27:42.000
+So this will be df the price
+
+02:27:42.000 --> 02:27:48.000
+Right so that's my Maximum value you guys need so far.
+
+02:27:48.000 --> 02:28:09.000
+That's right, okay, i'm sorry if those prize does mean
+
+02:28:09.000 --> 02:28:13.000
+You can also get mean. you can get that mean if you want.
+
+02:28:13.000 --> 02:28:19.000
+Okay, so month. Okay, guys who've been summary today and i'm happy where we go to today.
+
+02:28:19.000 --> 02:28:32.000
+I think you guys have that's not the good speed what would we do today is give you what I thought was a gentle introduction, but I think you got a little bit But always.
+
+02:28:32.000 --> 02:28:37.000
+Say we give you gentle introduction to pandas today.
+
+02:28:37.000 --> 02:28:44.000
+The lessons we've learned today one how to load data and how to save data.
+
+02:28:44.000 --> 02:28:55.000
+Okay, to drive. We launched that one we went saved, and we do that back, included that data. Let me go to the very beginning of my screen.
+
+02:28:55.000 --> 02:29:01.000
+Once we do that it that we went ahead to start cutting out some inspections of the data.
+
+02:29:01.000 --> 02:29:06.000
+There are some buonosis we had around the way like How do you see bond to access sample data?
+
+02:29:06.000 --> 02:29:16.000
+So i'm not going to count that as part of our call It's just a good news lesson, but our call learning is we learned how to be able to load that data from file on save it but once we
+
+02:29:16.000 --> 02:29:22.000
+launched that went ahead to inspect the structure of our data by calling the ship so.
+
+02:29:22.000 --> 02:29:28.000
+But she helps us understand the dimensions of our data. So we know what we're dealing with, and the size of the data.
+
+02:29:28.000 --> 02:29:34.000
+This is quite a big data between 3,000 We also learned how to extract the names of the columns of the data.
+
+02:29:34.000 --> 02:29:41.000
+I put it in a list. so it's more if I Tell you you know, creating lists and look through the contents of each call.
+
+02:29:41.000 --> 02:29:45.000
+You might get the lens of the call you that's an Ecpc.
+
+02:29:45.000 --> 02:29:53.000
+Cool. i'm gonna write it just before we close but if I simply get the length of each calling in your data implement it small code to get the missing values.
+
+02:29:53.000 --> 02:30:01.000
+You should go to do that. Then we learned how to slice our data.
+
+02:30:01.000 --> 02:30:11.000
+Okay, and by slicing data i'm talking about being able, Okay, before we learn about license, we let out to use that info to inspect the properties of our data.
+
+02:30:11.000 --> 02:30:16.000
+For example, the data types, and if they are missing by using our data, we launch that.
+
+02:30:16.000 --> 02:30:22.000
+I also told those that are cool way to determine missing values in the data using dot com.
+
+02:30:22.000 --> 02:30:33.000
+So you guys love that, and Then what I don't say learning how to extract calling using the data how to get one calling without stops. how to get
+
+02:30:33.000 --> 02:30:43.000
+It's subset of the data or of the data based on some conditions, you learn how to do that, using the dialogue alright.
+
+02:30:43.000 --> 02:30:54.000
+After that I just we didn't taught us how to get it maximum. I mean more values because when we're trying to filter, we have any problem determining what was the range of the kind that calling So whenver you run into
+
+02:30:54.000 --> 02:31:06.000
+that pro that way you're trying to tell me what's the email maximum value that's call you just use the meeting on the call that will give it to you Now let me run it code, and this is just something you
+
+02:31:06.000 --> 02:31:14.000
+should practice. i'm not the next minute. i'm just going to run it and at the end of class today. I'll spend probably 5 min listening to anybody who wants to ask a question.
+
+02:31:14.000 --> 02:31:27.000
+So i'll see you calls is it goes to dfx calling
+
+02:31:27.000 --> 02:31:32.000
+No 2 at least.
+
+02:31:32.000 --> 02:31:45.000
+Phone calls. Oh, cool calls. I missed it here. then. detail.
+
+02:31:45.000 --> 02:31:52.000
+Len then Dfx. So that gives me the length of my data.
+
+02:31:52.000 --> 02:32:11.000
+So now I'm going to move through each column for calls Eve Lenn brackets Dfx Okay.
+
+02:32:11.000 --> 02:32:19.000
+He's less done that's all in
+
+02:32:19.000 --> 02:32:26.000
+If is equal to
+
+02:32:26.000 --> 02:32:41.000
+This is that's something the is important to
+
+02:32:41.000 --> 02:33:02.000
+Minus 9 the fx wherever I get call so i'll see Prince Brackets
+
+02:33:02.000 --> 02:33:08.000
+That's that's
+
+02:33:08.000 --> 02:33:15.000
+Number.
+
+02:33:15.000 --> 02:33:18.000
+Of course, we're gonna be getting 0 0 from this data when we're done.
+
+02:33:18.000 --> 02:33:22.000
+But that's fine. So let me run this good now but before I run it.
+
+02:33:22.000 --> 02:33:36.000
+I'm going to say call this is he's missing.
+
+02:33:36.000 --> 02:33:49.000
+Do So that's it. So let me run this so this conditional is is not going to be met.
+
+02:33:49.000 --> 02:33:57.000
+Because yeah, let me see same value. So let me add on L statement so that we can see else So you know.
+
+02:33:57.000 --> 02:34:02.000
+Okay, let me give us 3 days weeks. A very simple example.
+
+02:34:02.000 --> 02:34:09.000
+Bye, bye. Yes, that's what I wanted to quickly do. but I want to.
+
+02:34:09.000 --> 02:34:18.000
+I don't want anybody asking me who
+
+02:34:18.000 --> 02:34:20.000
+I don't want to have what you say Oh, please explain that Good!
+
+02:34:20.000 --> 02:34:27.000
+How did you run it? not today, we're out of time So they do my data.
+
+02:34:27.000 --> 02:34:32.000
+And those ,
+
+02:34:32.000 --> 02:34:45.000
+Okay, So
+
+02:34:45.000 --> 02:34:52.000
+Okay, so let me see if this is
+
+02:34:52.000 --> 02:35:05.000
+Alright. So Let's go back and so yeah we're just going to import our data now, so we'll see the fi is people also Pd.
+
+02:35:05.000 --> 02:35:11.000
+That reads on that's called csv in brackets is going to be in my drive C.
+
+02:35:11.000 --> 02:35:23.000
+Pull on forward slash workspace slash damn it was plus that's Csv. Alright.
+
+02:35:23.000 --> 02:35:35.000
+So this will not be Dfi Yeah, I Dfi.
+
+02:35:35.000 --> 02:35:57.000
+Alright, so that's why, that's yeah so my else look else. frames print not bring No, I don't just rushing.
+
+02:35:57.000 --> 02:36:03.000
+Thank you.
+
+02:36:03.000 --> 02:36:16.000
+So it's not finding any data is just because we are using there.
+
+02:36:16.000 --> 02:36:26.000
+So the code is working basically, but for some reason,
+
+02:36:26.000 --> 02:36:43.000
+So let's do one thing here that ones one that's it's an a that's fine
+
+02:36:43.000 --> 02:36:51.000
+Or Adefi. Yeah. So this is the .
+
+02:36:51.000 --> 02:37:08.000
+The one I just walked on. Okay with missing data. Okay, So let let me use the defense up, which then let's see. missing right?
+
+02:37:08.000 --> 02:37:21.000
+Dfi does it's that's all alright.
+
+02:37:21.000 --> 02:37:38.000
+So i'm using like so for call come on right and Zip
+
+02:37:38.000 --> 02:37:42.000
+Calls.
+
+02:37:42.000 --> 02:37:53.000
+Did you? Did you guys the function in python?
+
+02:37:53.000 --> 02:38:00.000
+Yes, sir. yes, okay, yes. You thought to yourself, Okay, So this will be.
+
+02:38:00.000 --> 02:38:07.000
+Evere is greater than 0. Now just get that up from 0
+
+02:38:07.000 --> 02:38:10.000
+Alright. we don't need a deep call them anymore.
+
+02:38:10.000 --> 02:38:17.000
+That there is
+
+02:38:17.000 --> 02:38:25.000
+Depot. let's done that you're right
+
+02:38:25.000 --> 02:38:36.000
+Prince. Okay. this will be wreck Okay, So run that good.
+
+02:38:36.000 --> 02:38:44.000
+So it's not working you guys, see that Yes, sir, so applied the is missing.
+
+02:38:44.000 --> 02:38:53.000
+This data that is missing that data that is within that data. Now that this is walking, I can reduce this to a function.
+
+02:38:53.000 --> 02:38:57.000
+Remember we taught you guys function so that you can see that everything in you land still useful.
+
+02:38:57.000 --> 02:39:03.000
+So this is just bonus, so that next week at Abc can be very busy.
+
+02:39:03.000 --> 02:39:12.000
+Yeah.
+
+02:39:12.000 --> 02:39:21.000
+Is that Abc: there? So bus
+
+02:39:21.000 --> 02:39:27.000
+Finally.
+
+02:39:27.000 --> 02:39:35.000
+Off your Michael this off your mic. We are in injury time of your mind.
+
+02:39:35.000 --> 02:39:45.000
+Alright. so i'm gonna in densities. in So now the application function, let me show you So we get the data sets.
+
+02:39:45.000 --> 02:39:53.000
+The first one to do is get the Okay. So now let me send it to you to Dfi.
+
+02:39:53.000 --> 02:40:01.000
+He's got your data set Alright. still no I get that assigned to Dfi.
+
+02:40:01.000 --> 02:40:06.000
+I get. according to the data, I compute the missing values in the data.
+
+02:40:06.000 --> 02:40:10.000
+I get it length of the data which I right now do not need for that's fine.
+
+02:40:10.000 --> 02:40:14.000
+Then I looks through the columns and the records.
+
+02:40:14.000 --> 02:40:19.000
+I find out what is missing Once that is done.
+
+02:40:19.000 --> 02:40:35.000
+I will see append so let's have the yourself yeah let's call this me seeing reports .
+
+02:40:35.000 --> 02:40:49.000
+So at this point i'll see if that is there missing don't append brackets
+
+02:40:49.000 --> 02:40:59.000
+Zoom, information.
+
+02:40:59.000 --> 02:41:13.000
+And this now, with missing reports that's append will be brackets need to be all this information.
+
+02:41:13.000 --> 02:41:24.000
+The user report up it's not complete is it this one yes, you just do that.
+
+02:41:24.000 --> 02:41:29.000
+You don't have any big English coming from this could run around it.
+
+02:41:29.000 --> 02:41:34.000
+Okay, So this is fine. Now, at the end of the day all I want remember we told you about it on statements.
+
+02:41:34.000 --> 02:41:41.000
+All I want is for this to return. Alright, are you guys with me?
+
+02:41:41.000 --> 02:41:52.000
+Yes, let's run this and see if it was just by calling this function passing into our data sets what's our data?
+
+02:41:52.000 --> 02:42:05.000
+Set dfi right so we're gonna pass dfi to this Dfi run that see that Now this printing I'm getting here.
+
+02:42:05.000 --> 02:42:12.000
+This line is because of this print spring. so let me mute the brings alright.
+
+02:42:12.000 --> 02:42:17.000
+So meet the brains out on that function again now when I run the code.
+
+02:42:17.000 --> 02:42:22.000
+So now I have you very possible tools to check for missing values, regardless of the data.
+
+02:42:22.000 --> 02:42:28.000
+Are you guys with me so far? Yes, both. So anytime anybody gives you data.
+
+02:42:28.000 --> 02:42:34.000
+You got pull out this your function wherever I keep It i'm, passing it out with outcomes.
+
+02:42:34.000 --> 02:42:38.000
+This interesting results. So we're going to be learning a lot of how to do this stuff right?
+
+02:42:38.000 --> 02:42:43.000
+I don't we're done with this academy you'll be robust data around us.
+
+02:42:43.000 --> 02:42:49.000
+All right. So class is done for today. I promise to make sure we upload this for you guys.
+
+02:42:49.000 --> 02:42:55.000
+Tonight, please. Tonight is Is that time so don't go check 10 Pm.
+
+02:42:55.000 --> 02:43:00.000
+You're like these guys I want to do this okay alright.
+
+02:43:00.000 --> 02:43:05.000
+Thanks, guys, I hope you this class was useful for you guys.
+
+02:43:05.000 --> 02:43:13.000
+Very well. Are you from the shopping
+
+02:43:13.000 --> 02:43:28.000
+Okay, So we would look material onto your
+
+02:43:28.000 --> 02:43:45.000
+Thank you so much.
+
+02:43:45.000 --> 02:43:49.000
+Okay, but let me see it again. for you guys.
+
+02:43:49.000 --> 02:44:04.000
+Friday next week, you have a Greece right It's not Steve to worry about really You will enjoy it when you see okay Thanks.
+
+02:44:04.000 --> 02:44:10.000
+Again, guys, and see you next next time when we support night.
+
+02:44:10.000 --> 02:44:19.000
+I thought you have a question. Yes, sir, I have a question okay I don't know.
+
+02:44:19.000 --> 02:44:28.000
+Maybe you can just help me out. Hello, sir. Can you hear me?
+
+02:44:28.000 --> 02:44:37.000
+Okay, So I I you can help me on Screw Hope where we are in the in the data set the info method.
+
+02:44:37.000 --> 02:44:41.000
+So I want to. I want to find out. Additives said I. did.
+
+02:44:41.000 --> 02:44:48.000
+Pro proper data type. And if okay, just have me on screw.
+
+02:44:48.000 --> 02:44:59.000
+Yeah, we have the Yes, yes. Now, seeing this information about the data set.
+
+02:44:59.000 --> 02:45:04.000
+Now want to find out the data set. Are they in the proper data type?
+
+02:45:04.000 --> 02:45:14.000
+What if the data are not or let's see a column? for example, we already have a 200 correct to be a flute?
+
+02:45:14.000 --> 02:45:18.000
+What if Karat is into into either, or in that, as an integer?
+
+02:45:18.000 --> 02:45:27.000
+Can it be converted to demands the the change in type when we get there.
+
+02:45:27.000 --> 02:45:33.000
+Okay, Okay, we'll get you how to change the data type.
+
+02:45:33.000 --> 02:45:39.000
+Once we start working we did it. there you can always change from floats to integer.
+
+02:45:39.000 --> 02:45:42.000
+Sometimes you might even use this stream, but meanwhile they are numbers.
+
+02:45:42.000 --> 02:45:50.000
+There are Okay, Okay, Alright, Thank you very much, sir.
+
+02:45:50.000 --> 02:45:56.000
+No problem. good time.
+
+02:45:56.000 --> 02:46:01.000
+If you need to go classes over, please.
+
+02:46:01.000 --> 02:46:11.000
+Stella. Okay, for about it's like a question I appreciate you for what you're doing, and I've I was.
+
+02:46:11.000 --> 02:46:16.000
+I was so like Oh, you are here, you know.
+
+02:46:16.000 --> 02:46:22.000
+But was so. You will never answer the in parts of making. I wish there.
+
+02:46:22.000 --> 02:46:30.000
+Thank you. Thanks so much for Oh, thanks, thanks. Thanks so much.
+
+02:46:30.000 --> 02:46:41.000
+,
+
+02:46:41.000 --> 02:47:07.000
+Nothing is too small. project. you said Okay, I think by here wait one ,
+
+02:47:07.000 --> 02:47:14.000
+I can hear you. Yeah, I said, I did format the name format of the file.
+
+02:47:14.000 --> 02:47:36.000
+We also meeting the Academic, but one company because I've already put in one composite, So I don't know if i'm wrong, you don't have a problem name will not be reason for any
+
+02:47:36.000 --> 02:47:52.000
+John and Mecca, do you have a question
+
+02:47:52.000 --> 02:47:59.000
+Yeah, ,
+
+02:47:59.000 --> 02:48:14.000
+Music you're doing is specific, John and Mccarthy, Do you have the Question let's move on from John
+
+02:48:14.000 --> 02:48:41.000
+Yes. So yes. okay.
+
+02:48:41.000 --> 02:48:47.000
+And where? do you have a question?
+
+02:48:47.000 --> 02:49:06.000
+Oh, please, i'm sorry. Hello, alright
+
+02:49:06.000 --> 02:49:18.000
+That is this. i'm questioning Okay, I will understand you come back here.
+
+02:49:18.000 --> 02:49:25.000
+Yeah.
+
+02:49:25.000 --> 02:49:29.000
+,
+
+02:49:29.000 --> 02:49:43.000
+I'm, assuming that? we Just see What's that?
+
+02:49:43.000 --> 02:49:48.000
+Why I switch was because it will get me to a topic that you want to go into.
+
+02:49:48.000 --> 02:49:52.000
+You know, at that point, so I use the simpler way to go about it later.
+
+02:49:52.000 --> 02:50:06.000
+Would you recommend that code using any different methods so that's what I've done Now, if you're seeing your network affected your ability to follow the class, please just watch the video you'll get the same value alright let's go with
+
+02:50:06.000 --> 02:50:17.000
+Joshua or Larry Day. So yes, Joshua
+
+02:50:17.000 --> 02:50:24.000
+Just right any kind. Yeah, I don't know what the city network basically
+
+02:50:24.000 --> 02:50:30.000
+Just so I need 98,
+
+02:50:30.000 --> 02:50:36.000
+And go on speaking. Let me see Oh, is it a lot better now?
+
+02:50:36.000 --> 02:50:39.000
+Yeah, alright. So how many questions might they put this submission?
+
+02:50:39.000 --> 02:50:48.000
+Right. so. some said the submitted aliab or did not go in the meal to join the dictator around me couldn't.
+
+02:50:48.000 --> 02:50:52.000
+I don't know if that is whole for this is name you would be.
+
+02:50:52.000 --> 02:50:58.000
+Some meals should be sent. So there are 3 things happening here.
+
+02:50:58.000 --> 02:51:02.000
+Meals have been sent to all those who submitted on this project.
+
+02:51:02.000 --> 02:51:08.000
+Some bills are bouncing back. did that Because because emails are not properly written.
+
+02:51:08.000 --> 02:51:15.000
+Oh, maybe yeah, guys are. overlude in our gateway in terms of pushing those males because it's not just that mute, as you know.
+
+02:51:15.000 --> 02:51:21.000
+Maybe it's going to work so maybe this summer was a value that I was shedding.
+
+02:51:21.000 --> 02:51:41.000
+People have what you need them, taking care of it.
+
+02:51:41.000 --> 02:51:45.000
+But we do want to keep holding you guys while all of these plays out.
+
+02:51:45.000 --> 02:51:52.000
+So since we already have, like 95 close to sense, people sorted out, we have to get you academic going.
+
+02:51:52.000 --> 02:52:09.000
+Okay, Okay, So any person believe this for me that project they have no receive feedback on that project as in the way tools to fall back into an they can't challenge that they're just right And say Well, I So we did my project
+
+02:52:09.000 --> 02:52:13.000
+Why have I been asked to go somewhere else, and we will deal with that.
+
+02:52:13.000 --> 02:52:19.000
+Okay, Okay, So thank you, sir. alright. Okay, guys let's.
+
+02:52:19.000 --> 02:52:25.000
+This is, let's lose at this point John you see wanted to ask your question.
+
+02:52:25.000 --> 02:52:41.000
+So Yeah. how are you? Hello, I Don't. is the top one?
+
+02:52:41.000 --> 02:52:52.000
+I can hear you, I said. I thought they'd be they they even missed this afternoon.
+
+02:52:52.000 --> 02:53:01.000
+I almost use the metro we see I don't know if I can get the recording of I thought of this natural.
+
+02:53:01.000 --> 02:53:05.000
+Yeah, that's what we said. We said you recordings for this class is gonna be uploaded.
+
+02:53:05.000 --> 02:53:12.000
+I I made the commitment to make sure it's recorded. at least today, no no matter how late.
+
+02:53:12.000 --> 02:53:17.000
+But I also put in a copy of that 12 midnight here is like 5 P. M.
+
+02:53:17.000 --> 02:53:21.000
+For most of you all 7 here for some of you, if you need you here.
+
+02:53:21.000 --> 02:53:28.000
+So. don't go to bed at 10 pmc in our prophet.
+
+02:53:28.000 --> 02:53:34.000
+Just go to bed when you make up your seats. Okay, hi, guys.
+
+02:53:34.000 --> 02:53:39.000
+I got a who I have have stop at 11 here, and it's 2 min to that time.
+
+02:53:39.000 --> 02:53:43.000
+Okay, So thanks for coming. I hope you had a good time today.
+
+02:53:43.000 --> 02:53:48.000
+But please practice this practice once you get your materials all right, trying to go to my problem.
+
+02:53:48.000 --> 02:54:00.000
+Thank you very much. Thank you. yeah, as these things.
+
+02:54:00.000 --> 02:54:10.000
+Yeah, Thank you. Thank you. Bro: Yeah. Thank you.
+
+02:54:10.000 --> 02:54:30.000
+Sandals.
+
